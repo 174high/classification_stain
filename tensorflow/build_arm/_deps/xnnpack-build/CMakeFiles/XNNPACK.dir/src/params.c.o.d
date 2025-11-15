@@ -1,0 +1,29 @@
+_deps/xnnpack-build/CMakeFiles/XNNPACK.dir/src/params.c.o: \
+ /root/tensorflow/build/xnnpack/src/params.c \
+ /usr/arm-linux-gnueabihf/include/stdc-predef.h \
+ /root/tensorflow/build/xnnpack/src/xnnpack/params.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabihf/11/include/stdbool.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabihf/11/include/stddef.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabihf/11/include/stdint.h \
+ /usr/arm-linux-gnueabihf/include/stdint.h \
+ /usr/arm-linux-gnueabihf/include/bits/libc-header-start.h \
+ /usr/arm-linux-gnueabihf/include/features.h \
+ /usr/arm-linux-gnueabihf/include/features-time64.h \
+ /usr/arm-linux-gnueabihf/include/bits/wordsize.h \
+ /usr/arm-linux-gnueabihf/include/bits/timesize.h \
+ /usr/arm-linux-gnueabihf/include/sys/cdefs.h \
+ /usr/arm-linux-gnueabihf/include/bits/long-double.h \
+ /usr/arm-linux-gnueabihf/include/gnu/stubs.h \
+ /usr/arm-linux-gnueabihf/include/gnu/stubs-hard.h \
+ /usr/arm-linux-gnueabihf/include/bits/types.h \
+ /usr/arm-linux-gnueabihf/include/bits/typesizes.h \
+ /usr/arm-linux-gnueabihf/include/bits/time64.h \
+ /usr/arm-linux-gnueabihf/include/bits/wchar.h \
+ /usr/arm-linux-gnueabihf/include/bits/stdint-intn.h \
+ /usr/arm-linux-gnueabihf/include/bits/stdint-uintn.h \
+ /root/tensorflow/build/xnnpack/include/xnnpack.h \
+ /root/tensorflow/build/pthreadpool-source/include/pthreadpool.h \
+ /root/tensorflow/build/xnnpack/src/xnnpack/common.h \
+ /root/tensorflow/build/xnnpack/src/xnnpack/microfnptr.h \
+ /root/tensorflow/build/xnnpack/src/xnnpack/microparams.h \
+ /root/tensorflow/build/xnnpack/src/xnnpack/config.h

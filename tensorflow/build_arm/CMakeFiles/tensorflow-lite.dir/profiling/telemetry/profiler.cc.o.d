@@ -1,0 +1,35 @@
+CMakeFiles/tensorflow-lite.dir/profiling/telemetry/profiler.cc.o: \
+ /root/tensorflow/tensorflow/lite/profiling/telemetry/profiler.cc \
+ /usr/arm-linux-gnueabihf/include/stdc-predef.h \
+ /root/tensorflow/tensorflow/lite/profiling/telemetry/profiler.h \
+ /usr/arm-linux-gnueabihf/include/c++/11/cstdint \
+ /usr/arm-linux-gnueabihf/include/c++/11/arm-linux-gnueabihf/bits/c++config.h \
+ /usr/arm-linux-gnueabihf/include/c++/11/arm-linux-gnueabihf/bits/os_defines.h \
+ /usr/arm-linux-gnueabihf/include/features.h \
+ /usr/arm-linux-gnueabihf/include/features-time64.h \
+ /usr/arm-linux-gnueabihf/include/bits/wordsize.h \
+ /usr/arm-linux-gnueabihf/include/bits/timesize.h \
+ /usr/arm-linux-gnueabihf/include/sys/cdefs.h \
+ /usr/arm-linux-gnueabihf/include/bits/long-double.h \
+ /usr/arm-linux-gnueabihf/include/gnu/stubs.h \
+ /usr/arm-linux-gnueabihf/include/gnu/stubs-hard.h \
+ /usr/arm-linux-gnueabihf/include/c++/11/arm-linux-gnueabihf/bits/cpu_defines.h \
+ /usr/arm-linux-gnueabihf/include/c++/11/pstl/pstl_config.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabihf/11/include/stdint.h \
+ /usr/arm-linux-gnueabihf/include/stdint.h \
+ /usr/arm-linux-gnueabihf/include/bits/libc-header-start.h \
+ /usr/arm-linux-gnueabihf/include/bits/types.h \
+ /usr/arm-linux-gnueabihf/include/bits/typesizes.h \
+ /usr/arm-linux-gnueabihf/include/bits/time64.h \
+ /usr/arm-linux-gnueabihf/include/bits/wchar.h \
+ /usr/arm-linux-gnueabihf/include/bits/stdint-intn.h \
+ /usr/arm-linux-gnueabihf/include/bits/stdint-uintn.h \
+ /root/tensorflow/tensorflow/lite/core/api/profiler.h \
+ /root/tensorflow/tensorflow/lite/profiling/telemetry/c/profiler.h \
+ /root/tensorflow/tensorflow/lite/profiling/telemetry/c/telemetry_setting.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabihf/11/include/stddef.h \
+ /root/tensorflow/tensorflow/lite/core/c/common.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabihf/11/include/stdarg.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabihf/11/include/stdbool.h \
+ /root/tensorflow/tensorflow/lite/core/c/c_api_types.h \
+ /root/tensorflow/tensorflow/lite/profiling/telemetry/telemetry_status.h

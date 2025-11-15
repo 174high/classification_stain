@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/root/tensorflow/build/FP16-download/CMakeFiles/fp16"
+		},
+		{
+			"file" : "/root/tensorflow/build/FP16-download/CMakeFiles/fp16.rule"
+		},
+		{
+			"file" : "/root/tensorflow/build/FP16-download/CMakeFiles/fp16-complete.rule"
+		},
+		{
+			"file" : "/root/tensorflow/build/FP16-download/fp16-prefix/src/fp16-stamp/fp16-build.rule"
+		},
+		{
+			"file" : "/root/tensorflow/build/FP16-download/fp16-prefix/src/fp16-stamp/fp16-configure.rule"
+		},
+		{
+			"file" : "/root/tensorflow/build/FP16-download/fp16-prefix/src/fp16-stamp/fp16-download.rule"
+		},
+		{
+			"file" : "/root/tensorflow/build/FP16-download/fp16-prefix/src/fp16-stamp/fp16-install.rule"
+		},
+		{
+			"file" : "/root/tensorflow/build/FP16-download/fp16-prefix/src/fp16-stamp/fp16-mkdir.rule"
+		},
+		{
+			"file" : "/root/tensorflow/build/FP16-download/fp16-prefix/src/fp16-stamp/fp16-patch.rule"
+		},
+		{
+			"file" : "/root/tensorflow/build/FP16-download/fp16-prefix/src/fp16-stamp/fp16-test.rule"
+		},
+		{
+			"file" : "/root/tensorflow/build/FP16-download/fp16-prefix/src/fp16-stamp/fp16-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"fp16"
+		],
+		"name" : "fp16"
+	}
+}

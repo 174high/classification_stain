@@ -1,0 +1,2 @@
+/usr/bin/arm-linux-gnueabihf-ar qc libfarmhash.a CMakeFiles/farmhash.dir/__/__/farmhash/src/farmhash.cc.o
+/usr/bin/arm-linux-gnueabihf-ranlib libfarmhash.a

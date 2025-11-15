@@ -1,0 +1,2 @@
+/usr/bin/arm-linux-gnueabihf-ar qc libabsl_log_severity.a CMakeFiles/absl_log_severity.dir/log_severity.cc.o
+/usr/bin/arm-linux-gnueabihf-ranlib libabsl_log_severity.a

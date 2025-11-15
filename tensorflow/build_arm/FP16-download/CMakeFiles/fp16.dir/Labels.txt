@@ -1,0 +1,14 @@
+# Target labels
+ fp16
+# Source files and their labels
+/root/tensorflow/build/FP16-download/CMakeFiles/fp16
+/root/tensorflow/build/FP16-download/CMakeFiles/fp16.rule
+/root/tensorflow/build/FP16-download/CMakeFiles/fp16-complete.rule
+/root/tensorflow/build/FP16-download/fp16-prefix/src/fp16-stamp/fp16-build.rule
+/root/tensorflow/build/FP16-download/fp16-prefix/src/fp16-stamp/fp16-configure.rule
+/root/tensorflow/build/FP16-download/fp16-prefix/src/fp16-stamp/fp16-download.rule
+/root/tensorflow/build/FP16-download/fp16-prefix/src/fp16-stamp/fp16-install.rule
+/root/tensorflow/build/FP16-download/fp16-prefix/src/fp16-stamp/fp16-mkdir.rule
+/root/tensorflow/build/FP16-download/fp16-prefix/src/fp16-stamp/fp16-patch.rule
+/root/tensorflow/build/FP16-download/fp16-prefix/src/fp16-stamp/fp16-test.rule
+/root/tensorflow/build/FP16-download/fp16-prefix/src/fp16-stamp/fp16-update.rule

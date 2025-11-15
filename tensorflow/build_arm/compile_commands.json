@@ -1,0 +1,192 @@
+[
+{
+  "directory": "/root/tensorflow/build/_deps/flatbuffers-build",
+  "command": "/usr/bin/arm-linux-gnueabihf-g++ -DEIGEN_MPL2_ONLY -DFLATBUFFERS_LOCALE_INDEPENDENT=1 -DNOMINMAX=1 -I/root/tensorflow/build/flatbuffers/include -I/root/tensorflow/build/flatbuffers/grpc -O3 -DNDEBUG -fPIC -Wall -pedantic -Wextra -Wno-unused-parameter -Wold-style-cast -fsigned-char -Wnon-virtual-dtor -Wunused-result -Wunused-parameter -Werror=unused-parameter -Wmissing-declarations -Wzero-as-null-pointer-constant -faligned-new -Wextra-semi -std=c++17 -o CMakeFiles/flatbuffers.dir/src/idl_parser.cpp.o -c /root/tensorflow/build/flatbuffers/src/idl_parser.cpp",
+  "file": "/root/tensorflow/build/flatbuffers/src/idl_parser.cpp"
+},
+{
+  "directory": "/root/tensorflow/build/_deps/flatbuffers-build",
+  "command": "/usr/bin/arm-linux-gnueabihf-g++ -DEIGEN_MPL2_ONLY -DFLATBUFFERS_LOCALE_INDEPENDENT=1 -DNOMINMAX=1 -I/root/tensorflow/build/flatbuffers/include -I/root/tensorflow/build/flatbuffers/grpc -O3 -DNDEBUG -fPIC -Wall -pedantic -Wextra -Wno-unused-parameter -Wold-style-cast -fsigned-char -Wnon-virtual-dtor -Wunused-result -Wunused-parameter -Werror=unused-parameter -Wmissing-declarations -Wzero-as-null-pointer-constant -faligned-new -Wextra-semi -std=c++17 -o CMakeFiles/flatbuffers.dir/src/idl_gen_text.cpp.o -c /root/tensorflow/build/flatbuffers/src/idl_gen_text.cpp",
+  "file": "/root/tensorflow/build/flatbuffers/src/idl_gen_text.cpp"
+},
+{
+  "directory": "/root/tensorflow/build/_deps/flatbuffers-build",
+  "command": "/usr/bin/arm-linux-gnueabihf-g++ -DEIGEN_MPL2_ONLY -DFLATBUFFERS_LOCALE_INDEPENDENT=1 -DNOMINMAX=1 -I/root/tensorflow/build/flatbuffers/include -I/root/tensorflow/build/flatbuffers/grpc -O3 -DNDEBUG -fPIC -Wall -pedantic -Wextra -Wno-unused-parameter -Wold-style-cast -fsigned-char -Wnon-virtual-dtor -Wunused-result -Wunused-parameter -Werror=unused-parameter -Wmissing-declarations -Wzero-as-null-pointer-constant -faligned-new -Wextra-semi -std=c++17 -o CMakeFiles/flatbuffers.dir/src/reflection.cpp.o -c /root/tensorflow/build/flatbuffers/src/reflection.cpp",
+  "file": "/root/tensorflow/build/flatbuffers/src/reflection.cpp"
+},
+{
+  "directory": "/root/tensorflow/build/_deps/flatbuffers-build",
+  "command": "/usr/bin/arm-linux-gnueabihf-g++ -DEIGEN_MPL2_ONLY -DFLATBUFFERS_LOCALE_INDEPENDENT=1 -DNOMINMAX=1 -I/root/tensorflow/build/flatbuffers/include -I/root/tensorflow/build/flatbuffers/grpc -O3 -DNDEBUG -fPIC -Wall -pedantic -Wextra -Wno-unused-parameter -Wold-style-cast -fsigned-char -Wnon-virtual-dtor -Wunused-result -Wunused-parameter -Werror=unused-parameter -Wmissing-declarations -Wzero-as-null-pointer-constant -faligned-new -Wextra-semi -std=c++17 -o CMakeFiles/flatbuffers.dir/src/util.cpp.o -c /root/tensorflow/build/flatbuffers/src/util.cpp",
+  "file": "/root/tensorflow/build/flatbuffers/src/util.cpp"
+},
+{
+  "directory": "/root/tensorflow/build/_deps/flatbuffers-build",
+  "command": "/usr/bin/arm-linux-gnueabihf-g++ -DEIGEN_MPL2_ONLY -DFLATBUFFERS_LOCALE_INDEPENDENT=1 -DNOMINMAX=1 -I/root/tensorflow/build/flatbuffers/include -I/root/tensorflow/build/flatbuffers/grpc -O3 -DNDEBUG -fPIE -Wall -pedantic -Wextra -Wno-unused-parameter -Wold-style-cast -fsigned-char -Wnon-virtual-dtor -Wunused-result -Wunused-parameter -Werror=unused-parameter -Wmissing-declarations -Wzero-as-null-pointer-constant -faligned-new -Wextra-semi -std=c++17 -o CMakeFiles/flatc.dir/src/idl_parser.cpp.o -c /root/tensorflow/build/flatbuffers/src/idl_parser.cpp",
+  "file": "/root/tensorflow/build/flatbuffers/src/idl_parser.cpp"
+},
+{
+  "directory": "/root/tensorflow/build/_deps/flatbuffers-build",
+  "command": "/usr/bin/arm-linux-gnueabihf-g++ -DEIGEN_MPL2_ONLY -DFLATBUFFERS_LOCALE_INDEPENDENT=1 -DNOMINMAX=1 -I/root/tensorflow/build/flatbuffers/include -I/root/tensorflow/build/flatbuffers/grpc -O3 -DNDEBUG -fPIE -Wall -pedantic -Wextra -Wno-unused-parameter -Wold-style-cast -fsigned-char -Wnon-virtual-dtor -Wunused-result -Wunused-parameter -Werror=unused-parameter -Wmissing-declarations -Wzero-as-null-pointer-constant -faligned-new -Wextra-semi -std=c++17 -o CMakeFiles/flatc.dir/src/idl_gen_text.cpp.o -c /root/tensorflow/build/flatbuffers/src/idl_gen_text.cpp",
+  "file": "/root/tensorflow/build/flatbuffers/src/idl_gen_text.cpp"
+},
+{
+  "directory": "/root/tensorflow/build/_deps/flatbuffers-build",
+  "command": "/usr/bin/arm-linux-gnueabihf-g++ -DEIGEN_MPL2_ONLY -DFLATBUFFERS_LOCALE_INDEPENDENT=1 -DNOMINMAX=1 -I/root/tensorflow/build/flatbuffers/include -I/root/tensorflow/build/flatbuffers/grpc -O3 -DNDEBUG -fPIE -Wall -pedantic -Wextra -Wno-unused-parameter -Wold-style-cast -fsigned-char -Wnon-virtual-dtor -Wunused-result -Wunused-parameter -Werror=unused-parameter -Wmissing-declarations -Wzero-as-null-pointer-constant -faligned-new -Wextra-semi -std=c++17 -o CMakeFiles/flatc.dir/src/reflection.cpp.o -c /root/tensorflow/build/flatbuffers/src/reflection.cpp",
+  "file": "/root/tensorflow/build/flatbuffers/src/reflection.cpp"
+},
+{
+  "directory": "/root/tensorflow/build/_deps/flatbuffers-build",
+  "command": "/usr/bin/arm-linux-gnueabihf-g++ -DEIGEN_MPL2_ONLY -DFLATBUFFERS_LOCALE_INDEPENDENT=1 -DNOMINMAX=1 -I/root/tensorflow/build/flatbuffers/include -I/root/tensorflow/build/flatbuffers/grpc -O3 -DNDEBUG -fPIE -Wall -pedantic -Wextra -Wno-unused-parameter -Wold-style-cast -fsigned-char -Wnon-virtual-dtor -Wunused-result -Wunused-parameter -Werror=unused-parameter -Wmissing-declarations -Wzero-as-null-pointer-constant -faligned-new -Wextra-semi -std=c++17 -o CMakeFiles/flatc.dir/src/util.cpp.o -c /root/tensorflow/build/flatbuffers/src/util.cpp",
+  "file": "/root/tensorflow/build/flatbuffers/src/util.cpp"
+},
+{
+  "directory": "/root/tensorflow/build/_deps/flatbuffers-build",
+  "command": "/usr/bin/arm-linux-gnueabihf-g++ -DEIGEN_MPL2_ONLY -DFLATBUFFERS_LOCALE_INDEPENDENT=1 -DNOMINMAX=1 -I/root/tensorflow/build/flatbuffers/include -I/root/tensorflow/build/flatbuffers/grpc -O3 -DNDEBUG -fPIE -Wall -pedantic -Wextra -Wno-unused-parameter -Wold-style-cast -fsigned-char -Wnon-virtual-dtor -Wunused-result -Wunused-parameter -Werror=unused-parameter -Wmissing-declarations -Wzero-as-null-pointer-constant -faligned-new -Wextra-semi -std=c++17 -o CMakeFiles/flatc.dir/src/idl_gen_cpp.cpp.o -c /root/tensorflow/build/flatbuffers/src/idl_gen_cpp.cpp",
+  "file": "/root/tensorflow/build/flatbuffers/src/idl_gen_cpp.cpp"
+},
+{
+  "directory": "/root/tensorflow/build/_deps/flatbuffers-build",
+  "command": "/usr/bin/arm-linux-gnueabihf-g++ -DEIGEN_MPL2_ONLY -DFLATBUFFERS_LOCALE_INDEPENDENT=1 -DNOMINMAX=1 -I/root/tensorflow/build/flatbuffers/include -I/root/tensorflow/build/flatbuffers/grpc -O3 -DNDEBUG -fPIE -Wall -pedantic -Wextra -Wno-unused-parameter -Wold-style-cast -fsigned-char -Wnon-virtual-dtor -Wunused-result -Wunused-parameter -Werror=unused-parameter -Wmissing-declarations -Wzero-as-null-pointer-constant -faligned-new -Wextra-semi -std=c++17 -o CMakeFiles/flatc.dir/src/idl_gen_csharp.cpp.o -c /root/tensorflow/build/flatbuffers/src/idl_gen_csharp.cpp",
+  "file": "/root/tensorflow/build/flatbuffers/src/idl_gen_csharp.cpp"
+},
+{
+  "directory": "/root/tensorflow/build/_deps/flatbuffers-build",
+  "command": "/usr/bin/arm-linux-gnueabihf-g++ -DEIGEN_MPL2_ONLY -DFLATBUFFERS_LOCALE_INDEPENDENT=1 -DNOMINMAX=1 -I/root/tensorflow/build/flatbuffers/include -I/root/tensorflow/build/flatbuffers/grpc -O3 -DNDEBUG -fPIE -Wall -pedantic -Wextra -Wno-unused-parameter -Wold-style-cast -fsigned-char -Wnon-virtual-dtor -Wunused-result -Wunused-parameter -Werror=unused-parameter -Wmissing-declarations -Wzero-as-null-pointer-constant -faligned-new -Wextra-semi -std=c++17 -o CMakeFiles/flatc.dir/src/idl_gen_dart.cpp.o -c /root/tensorflow/build/flatbuffers/src/idl_gen_dart.cpp",
+  "file": "/root/tensorflow/build/flatbuffers/src/idl_gen_dart.cpp"
+},
+{
+  "directory": "/root/tensorflow/build/_deps/flatbuffers-build",
+  "command": "/usr/bin/arm-linux-gnueabihf-g++ -DEIGEN_MPL2_ONLY -DFLATBUFFERS_LOCALE_INDEPENDENT=1 -DNOMINMAX=1 -I/root/tensorflow/build/flatbuffers/include -I/root/tensorflow/build/flatbuffers/grpc -O3 -DNDEBUG -fPIE -Wall -pedantic -Wextra -Wno-unused-parameter -Wold-style-cast -fsigned-char -Wnon-virtual-dtor -Wunused-result -Wunused-parameter -Werror=unused-parameter -Wmissing-declarations -Wzero-as-null-pointer-constant -faligned-new -Wextra-semi -std=c++17 -o CMakeFiles/flatc.dir/src/idl_gen_kotlin.cpp.o -c /root/tensorflow/build/flatbuffers/src/idl_gen_kotlin.cpp",
+  "file": "/root/tensorflow/build/flatbuffers/src/idl_gen_kotlin.cpp"
+},
+{
+  "directory": "/root/tensorflow/build/_deps/flatbuffers-build",
+  "command": "/usr/bin/arm-linux-gnueabihf-g++ -DEIGEN_MPL2_ONLY -DFLATBUFFERS_LOCALE_INDEPENDENT=1 -DNOMINMAX=1 -I/root/tensorflow/build/flatbuffers/include -I/root/tensorflow/build/flatbuffers/grpc -O3 -DNDEBUG -fPIE -Wall -pedantic -Wextra -Wno-unused-parameter -Wold-style-cast -fsigned-char -Wnon-virtual-dtor -Wunused-result -Wunused-parameter -Werror=unused-parameter -Wmissing-declarations -Wzero-as-null-pointer-constant -faligned-new -Wextra-semi -std=c++17 -o CMakeFiles/flatc.dir/src/idl_gen_go.cpp.o -c /root/tensorflow/build/flatbuffers/src/idl_gen_go.cpp",
+  "file": "/root/tensorflow/build/flatbuffers/src/idl_gen_go.cpp"
+},
+{
+  "directory": "/root/tensorflow/build/_deps/flatbuffers-build",
+  "command": "/usr/bin/arm-linux-gnueabihf-g++ -DEIGEN_MPL2_ONLY -DFLATBUFFERS_LOCALE_INDEPENDENT=1 -DNOMINMAX=1 -I/root/tensorflow/build/flatbuffers/include -I/root/tensorflow/build/flatbuffers/grpc -O3 -DNDEBUG -fPIE -Wall -pedantic -Wextra -Wno-unused-parameter -Wold-style-cast -fsigned-char -Wnon-virtual-dtor -Wunused-result -Wunused-parameter -Werror=unused-parameter -Wmissing-declarations -Wzero-as-null-pointer-constant -faligned-new -Wextra-semi -std=c++17 -o CMakeFiles/flatc.dir/src/idl_gen_java.cpp.o -c /root/tensorflow/build/flatbuffers/src/idl_gen_java.cpp",
+  "file": "/root/tensorflow/build/flatbuffers/src/idl_gen_java.cpp"
+},
+{
+  "directory": "/root/tensorflow/build/_deps/flatbuffers-build",
+  "command": "/usr/bin/arm-linux-gnueabihf-g++ -DEIGEN_MPL2_ONLY -DFLATBUFFERS_LOCALE_INDEPENDENT=1 -DNOMINMAX=1 -I/root/tensorflow/build/flatbuffers/include -I/root/tensorflow/build/flatbuffers/grpc -O3 -DNDEBUG -fPIE -Wall -pedantic -Wextra -Wno-unused-parameter -Wold-style-cast -fsigned-char -Wnon-virtual-dtor -Wunused-result -Wunused-parameter -Werror=unused-parameter -Wmissing-declarations -Wzero-as-null-pointer-constant -faligned-new -Wextra-semi -std=c++17 -o CMakeFiles/flatc.dir/src/idl_gen_ts.cpp.o -c /root/tensorflow/build/flatbuffers/src/idl_gen_ts.cpp",
+  "file": "/root/tensorflow/build/flatbuffers/src/idl_gen_ts.cpp"
+},
+{
+  "directory": "/root/tensorflow/build/_deps/flatbuffers-build",
+  "command": "/usr/bin/arm-linux-gnueabihf-g++ -DEIGEN_MPL2_ONLY -DFLATBUFFERS_LOCALE_INDEPENDENT=1 -DNOMINMAX=1 -I/root/tensorflow/build/flatbuffers/include -I/root/tensorflow/build/flatbuffers/grpc -O3 -DNDEBUG -fPIE -Wall -pedantic -Wextra -Wno-unused-parameter -Wold-style-cast -fsigned-char -Wnon-virtual-dtor -Wunused-result -Wunused-parameter -Werror=unused-parameter -Wmissing-declarations -Wzero-as-null-pointer-constant -faligned-new -Wextra-semi -std=c++17 -o CMakeFiles/flatc.dir/src/idl_gen_php.cpp.o -c /root/tensorflow/build/flatbuffers/src/idl_gen_php.cpp",
+  "file": "/root/tensorflow/build/flatbuffers/src/idl_gen_php.cpp"
+},
+{
+  "directory": "/root/tensorflow/build/_deps/flatbuffers-build",
+  "command": "/usr/bin/arm-linux-gnueabihf-g++ -DEIGEN_MPL2_ONLY -DFLATBUFFERS_LOCALE_INDEPENDENT=1 -DNOMINMAX=1 -I/root/tensorflow/build/flatbuffers/include -I/root/tensorflow/build/flatbuffers/grpc -O3 -DNDEBUG -fPIE -Wall -pedantic -Wextra -Wno-unused-parameter -Wold-style-cast -fsigned-char -Wnon-virtual-dtor -Wunused-result -Wunused-parameter -Werror=unused-parameter -Wmissing-declarations -Wzero-as-null-pointer-constant -faligned-new -Wextra-semi -std=c++17 -o CMakeFiles/flatc.dir/src/idl_gen_python.cpp.o -c /root/tensorflow/build/flatbuffers/src/idl_gen_python.cpp",
+  "file": "/root/tensorflow/build/flatbuffers/src/idl_gen_python.cpp"
+},
+{
+  "directory": "/root/tensorflow/build/_deps/flatbuffers-build",
+  "command": "/usr/bin/arm-linux-gnueabihf-g++ -DEIGEN_MPL2_ONLY -DFLATBUFFERS_LOCALE_INDEPENDENT=1 -DNOMINMAX=1 -I/root/tensorflow/build/flatbuffers/include -I/root/tensorflow/build/flatbuffers/grpc -O3 -DNDEBUG -fPIE -Wall -pedantic -Wextra -Wno-unused-parameter -Wold-style-cast -fsigned-char -Wnon-virtual-dtor -Wunused-result -Wunused-parameter -Werror=unused-parameter -Wmissing-declarations -Wzero-as-null-pointer-constant -faligned-new -Wextra-semi -std=c++17 -o CMakeFiles/flatc.dir/src/idl_gen_lobster.cpp.o -c /root/tensorflow/build/flatbuffers/src/idl_gen_lobster.cpp",
+  "file": "/root/tensorflow/build/flatbuffers/src/idl_gen_lobster.cpp"
+},
+{
+  "directory": "/root/tensorflow/build/_deps/flatbuffers-build",
+  "command": "/usr/bin/arm-linux-gnueabihf-g++ -DEIGEN_MPL2_ONLY -DFLATBUFFERS_LOCALE_INDEPENDENT=1 -DNOMINMAX=1 -I/root/tensorflow/build/flatbuffers/include -I/root/tensorflow/build/flatbuffers/grpc -O3 -DNDEBUG -fPIE -Wall -pedantic -Wextra -Wno-unused-parameter -Wold-style-cast -fsigned-char -Wnon-virtual-dtor -Wunused-result -Wunused-parameter -Werror=unused-parameter -Wmissing-declarations -Wzero-as-null-pointer-constant -faligned-new -Wextra-semi -std=c++17 -o CMakeFiles/flatc.dir/src/idl_gen_lua.cpp.o -c /root/tensorflow/build/flatbuffers/src/idl_gen_lua.cpp",
+  "file": "/root/tensorflow/build/flatbuffers/src/idl_gen_lua.cpp"
+},
+{
+  "directory": "/root/tensorflow/build/_deps/flatbuffers-build",
+  "command": "/usr/bin/arm-linux-gnueabihf-g++ -DEIGEN_MPL2_ONLY -DFLATBUFFERS_LOCALE_INDEPENDENT=1 -DNOMINMAX=1 -I/root/tensorflow/build/flatbuffers/include -I/root/tensorflow/build/flatbuffers/grpc -O3 -DNDEBUG -fPIE -Wall -pedantic -Wextra -Wno-unused-parameter -Wold-style-cast -fsigned-char -Wnon-virtual-dtor -Wunused-result -Wunused-parameter -Werror=unused-parameter -Wmissing-declarations -Wzero-as-null-pointer-constant -faligned-new -Wextra-semi -std=c++17 -o CMakeFiles/flatc.dir/src/idl_gen_rust.cpp.o -c /root/tensorflow/build/flatbuffers/src/idl_gen_rust.cpp",
+  "file": "/root/tensorflow/build/flatbuffers/src/idl_gen_rust.cpp"
+},
+{
+  "directory": "/root/tensorflow/build/_deps/flatbuffers-build",
+  "command": "/usr/bin/arm-linux-gnueabihf-g++ -DEIGEN_MPL2_ONLY -DFLATBUFFERS_LOCALE_INDEPENDENT=1 -DNOMINMAX=1 -I/root/tensorflow/build/flatbuffers/include -I/root/tensorflow/build/flatbuffers/grpc -O3 -DNDEBUG -fPIE -Wall -pedantic -Wextra -Wno-unused-parameter -Wold-style-cast -fsigned-char -Wnon-virtual-dtor -Wunused-result -Wunused-parameter -Werror=unused-parameter -Wmissing-declarations -Wzero-as-null-pointer-constant -faligned-new -Wextra-semi -std=c++17 -o CMakeFiles/flatc.dir/src/idl_gen_fbs.cpp.o -c /root/tensorflow/build/flatbuffers/src/idl_gen_fbs.cpp",
+  "file": "/root/tensorflow/build/flatbuffers/src/idl_gen_fbs.cpp"
+},
+{
+  "directory": "/root/tensorflow/build/_deps/flatbuffers-build",
+  "command": "/usr/bin/arm-linux-gnueabihf-g++ -DEIGEN_MPL2_ONLY -DFLATBUFFERS_LOCALE_INDEPENDENT=1 -DNOMINMAX=1 -I/root/tensorflow/build/flatbuffers/include -I/root/tensorflow/build/flatbuffers/grpc -O3 -DNDEBUG -fPIE -Wall -pedantic -Wextra -Wno-unused-parameter -Wold-style-cast -fsigned-char -Wnon-virtual-dtor -Wunused-result -Wunused-parameter -Werror=unused-parameter -Wmissing-declarations -Wzero-as-null-pointer-constant -faligned-new -Wextra-semi -std=c++17 -o CMakeFiles/flatc.dir/src/idl_gen_grpc.cpp.o -c /root/tensorflow/build/flatbuffers/src/idl_gen_grpc.cpp",
+  "file": "/root/tensorflow/build/flatbuffers/src/idl_gen_grpc.cpp"
+},
+{
+  "directory": "/root/tensorflow/build/_deps/flatbuffers-build",
+  "command": "/usr/bin/arm-linux-gnueabihf-g++ -DEIGEN_MPL2_ONLY -DFLATBUFFERS_LOCALE_INDEPENDENT=1 -DNOMINMAX=1 -I/root/tensorflow/build/flatbuffers/include -I/root/tensorflow/build/flatbuffers/grpc -O3 -DNDEBUG -fPIE -Wall -pedantic -Wextra -Wno-unused-parameter -Wold-style-cast -fsigned-char -Wnon-virtual-dtor -Wunused-result -Wunused-parameter -Werror=unused-parameter -Wmissing-declarations -Wzero-as-null-pointer-constant -faligned-new -Wextra-semi -std=c++17 -o CMakeFiles/flatc.dir/src/idl_gen_json_schema.cpp.o -c /root/tensorflow/build/flatbuffers/src/idl_gen_json_schema.cpp",
+  "file": "/root/tensorflow/build/flatbuffers/src/idl_gen_json_schema.cpp"
+},
+{
+  "directory": "/root/tensorflow/build/_deps/flatbuffers-build",
+  "command": "/usr/bin/arm-linux-gnueabihf-g++ -DEIGEN_MPL2_ONLY -DFLATBUFFERS_LOCALE_INDEPENDENT=1 -DNOMINMAX=1 -I/root/tensorflow/build/flatbuffers/include -I/root/tensorflow/build/flatbuffers/grpc -O3 -DNDEBUG -fPIE -Wall -pedantic -Wextra -Wno-unused-parameter -Wold-style-cast -fsigned-char -Wnon-virtual-dtor -Wunused-result -Wunused-parameter -Werror=unused-parameter -Wmissing-declarations -Wzero-as-null-pointer-constant -faligned-new -Wextra-semi -std=c++17 -o CMakeFiles/flatc.dir/src/idl_gen_swift.cpp.o -c /root/tensorflow/build/flatbuffers/src/idl_gen_swift.cpp",
+  "file": "/root/tensorflow/build/flatbuffers/src/idl_gen_swift.cpp"
+},
+{
+  "directory": "/root/tensorflow/build/_deps/flatbuffers-build",
+  "command": "/usr/bin/arm-linux-gnueabihf-g++ -DEIGEN_MPL2_ONLY -DFLATBUFFERS_LOCALE_INDEPENDENT=1 -DNOMINMAX=1 -I/root/tensorflow/build/flatbuffers/include -I/root/tensorflow/build/flatbuffers/grpc -O3 -DNDEBUG -fPIE -Wall -pedantic -Wextra -Wno-unused-parameter -Wold-style-cast -fsigned-char -Wnon-virtual-dtor -Wunused-result -Wunused-parameter -Werror=unused-parameter -Wmissing-declarations -Wzero-as-null-pointer-constant -faligned-new -Wextra-semi -std=c++17 -o CMakeFiles/flatc.dir/src/flatc.cpp.o -c /root/tensorflow/build/flatbuffers/src/flatc.cpp",
+  "file": "/root/tensorflow/build/flatbuffers/src/flatc.cpp"
+},
+{
+  "directory": "/root/tensorflow/build/_deps/flatbuffers-build",
+  "command": "/usr/bin/arm-linux-gnueabihf-g++ -DEIGEN_MPL2_ONLY -DFLATBUFFERS_LOCALE_INDEPENDENT=1 -DNOMINMAX=1 -I/root/tensorflow/build/flatbuffers/include -I/root/tensorflow/build/flatbuffers/grpc -O3 -DNDEBUG -fPIE -Wall -pedantic -Wextra -Wno-unused-parameter -Wold-style-cast -fsigned-char -Wnon-virtual-dtor -Wunused-result -Wunused-parameter -Werror=unused-parameter -Wmissing-declarations -Wzero-as-null-pointer-constant -faligned-new -Wextra-semi -std=c++17 -o CMakeFiles/flatc.dir/src/flatc_main.cpp.o -c /root/tensorflow/build/flatbuffers/src/flatc_main.cpp",
+  "file": "/root/tensorflow/build/flatbuffers/src/flatc_main.cpp"
+},
+{
+  "directory": "/root/tensorflow/build/_deps/flatbuffers-build",
+  "command": "/usr/bin/arm-linux-gnueabihf-g++ -DEIGEN_MPL2_ONLY -DFLATBUFFERS_LOCALE_INDEPENDENT=1 -DNOMINMAX=1 -I/root/tensorflow/build/flatbuffers/include -I/root/tensorflow/build/flatbuffers/grpc -O3 -DNDEBUG -fPIE -Wall -pedantic -Wextra -Wno-unused-parameter -Wold-style-cast -fsigned-char -Wnon-virtual-dtor -Wunused-result -Wunused-parameter -Werror=unused-parameter -Wmissing-declarations -Wzero-as-null-pointer-constant -faligned-new -Wextra-semi -std=c++17 -o CMakeFiles/flatc.dir/src/binary_annotator.cpp.o -c /root/tensorflow/build/flatbuffers/src/binary_annotator.cpp",
+  "file": "/root/tensorflow/build/flatbuffers/src/binary_annotator.cpp"
+},
+{
+  "directory": "/root/tensorflow/build/_deps/flatbuffers-build",
+  "command": "/usr/bin/arm-linux-gnueabihf-g++ -DEIGEN_MPL2_ONLY -DFLATBUFFERS_LOCALE_INDEPENDENT=1 -DNOMINMAX=1 -I/root/tensorflow/build/flatbuffers/include -I/root/tensorflow/build/flatbuffers/grpc -O3 -DNDEBUG -fPIE -Wall -pedantic -Wextra -Wno-unused-parameter -Wold-style-cast -fsigned-char -Wnon-virtual-dtor -Wunused-result -Wunused-parameter -Werror=unused-parameter -Wmissing-declarations -Wzero-as-null-pointer-constant -faligned-new -Wextra-semi -std=c++17 -o CMakeFiles/flatc.dir/src/annotated_binary_text_gen.cpp.o -c /root/tensorflow/build/flatbuffers/src/annotated_binary_text_gen.cpp",
+  "file": "/root/tensorflow/build/flatbuffers/src/annotated_binary_text_gen.cpp"
+},
+{
+  "directory": "/root/tensorflow/build/_deps/flatbuffers-build",
+  "command": "/usr/bin/arm-linux-gnueabihf-g++ -DEIGEN_MPL2_ONLY -DFLATBUFFERS_LOCALE_INDEPENDENT=1 -DNOMINMAX=1 -I/root/tensorflow/build/flatbuffers/include -I/root/tensorflow/build/flatbuffers/grpc -O3 -DNDEBUG -fPIE -Wall -pedantic -Wextra -Wno-unused-parameter -Wold-style-cast -fsigned-char -Wnon-virtual-dtor -Wunused-result -Wunused-parameter -Werror=unused-parameter -Wmissing-declarations -Wzero-as-null-pointer-constant -faligned-new -Wextra-semi -std=c++17 -o CMakeFiles/flatc.dir/src/bfbs_gen_lua.cpp.o -c /root/tensorflow/build/flatbuffers/src/bfbs_gen_lua.cpp",
+  "file": "/root/tensorflow/build/flatbuffers/src/bfbs_gen_lua.cpp"
+},
+{
+  "directory": "/root/tensorflow/build/_deps/flatbuffers-build",
+  "command": "/usr/bin/arm-linux-gnueabihf-g++ -DEIGEN_MPL2_ONLY -DFLATBUFFERS_LOCALE_INDEPENDENT=1 -DNOMINMAX=1 -I/root/tensorflow/build/flatbuffers/include -I/root/tensorflow/build/flatbuffers/grpc -O3 -DNDEBUG -fPIE -Wall -pedantic -Wextra -Wno-unused-parameter -Wold-style-cast -fsigned-char -Wnon-virtual-dtor -Wunused-result -Wunused-parameter -Werror=unused-parameter -Wmissing-declarations -Wzero-as-null-pointer-constant -faligned-new -Wextra-semi -std=c++17 -o CMakeFiles/flatc.dir/src/bfbs_gen_nim.cpp.o -c /root/tensorflow/build/flatbuffers/src/bfbs_gen_nim.cpp",
+  "file": "/root/tensorflow/build/flatbuffers/src/bfbs_gen_nim.cpp"
+},
+{
+  "directory": "/root/tensorflow/build/_deps/flatbuffers-build",
+  "command": "/usr/bin/arm-linux-gnueabihf-g++ -DEIGEN_MPL2_ONLY -DFLATBUFFERS_LOCALE_INDEPENDENT=1 -DNOMINMAX=1 -I/root/tensorflow/build/flatbuffers/include -I/root/tensorflow/build/flatbuffers/grpc -O3 -DNDEBUG -fPIE -Wall -pedantic -Wextra -Wno-unused-parameter -Wold-style-cast -fsigned-char -Wnon-virtual-dtor -Wunused-result -Wunused-parameter -Werror=unused-parameter -Wmissing-declarations -Wzero-as-null-pointer-constant -faligned-new -Wextra-semi -std=c++17 -o CMakeFiles/flatc.dir/src/code_generators.cpp.o -c /root/tensorflow/build/flatbuffers/src/code_generators.cpp",
+  "file": "/root/tensorflow/build/flatbuffers/src/code_generators.cpp"
+},
+{
+  "directory": "/root/tensorflow/build/_deps/flatbuffers-build",
+  "command": "/usr/bin/arm-linux-gnueabihf-g++ -DEIGEN_MPL2_ONLY -DFLATBUFFERS_LOCALE_INDEPENDENT=1 -DNOMINMAX=1 -I/root/tensorflow/build/flatbuffers/include -I/root/tensorflow/build/flatbuffers/grpc -O3 -DNDEBUG -fPIE -Wall -pedantic -Wextra -Wno-unused-parameter -Wold-style-cast -fsigned-char -Wnon-virtual-dtor -Wunused-result -Wunused-parameter -Werror=unused-parameter -Wmissing-declarations -Wzero-as-null-pointer-constant -faligned-new -Wextra-semi -std=c++17 -o CMakeFiles/flatc.dir/grpc/src/compiler/cpp_generator.cc.o -c /root/tensorflow/build/flatbuffers/grpc/src/compiler/cpp_generator.cc",
+  "file": "/root/tensorflow/build/flatbuffers/grpc/src/compiler/cpp_generator.cc"
+},
+{
+  "directory": "/root/tensorflow/build/_deps/flatbuffers-build",
+  "command": "/usr/bin/arm-linux-gnueabihf-g++ -DEIGEN_MPL2_ONLY -DFLATBUFFERS_LOCALE_INDEPENDENT=1 -DNOMINMAX=1 -I/root/tensorflow/build/flatbuffers/include -I/root/tensorflow/build/flatbuffers/grpc -O3 -DNDEBUG -fPIE -Wall -pedantic -Wextra -Wno-unused-parameter -Wold-style-cast -fsigned-char -Wnon-virtual-dtor -Wunused-result -Wunused-parameter -Werror=unused-parameter -Wmissing-declarations -Wzero-as-null-pointer-constant -faligned-new -Wextra-semi -std=c++17 -o CMakeFiles/flatc.dir/grpc/src/compiler/go_generator.cc.o -c /root/tensorflow/build/flatbuffers/grpc/src/compiler/go_generator.cc",
+  "file": "/root/tensorflow/build/flatbuffers/grpc/src/compiler/go_generator.cc"
+},
+{
+  "directory": "/root/tensorflow/build/_deps/flatbuffers-build",
+  "command": "/usr/bin/arm-linux-gnueabihf-g++ -DEIGEN_MPL2_ONLY -DFLATBUFFERS_LOCALE_INDEPENDENT=1 -DNOMINMAX=1 -I/root/tensorflow/build/flatbuffers/include -I/root/tensorflow/build/flatbuffers/grpc -O3 -DNDEBUG -fPIE -Wall -pedantic -Wextra -Wno-unused-parameter -Wold-style-cast -fsigned-char -Wnon-virtual-dtor -Wunused-result -Wunused-parameter -Werror=unused-parameter -Wmissing-declarations -Wzero-as-null-pointer-constant -faligned-new -Wextra-semi -std=c++17 -o CMakeFiles/flatc.dir/grpc/src/compiler/java_generator.cc.o -c /root/tensorflow/build/flatbuffers/grpc/src/compiler/java_generator.cc",
+  "file": "/root/tensorflow/build/flatbuffers/grpc/src/compiler/java_generator.cc"
+},
+{
+  "directory": "/root/tensorflow/build/_deps/flatbuffers-build",
+  "command": "/usr/bin/arm-linux-gnueabihf-g++ -DEIGEN_MPL2_ONLY -DFLATBUFFERS_LOCALE_INDEPENDENT=1 -DNOMINMAX=1 -I/root/tensorflow/build/flatbuffers/include -I/root/tensorflow/build/flatbuffers/grpc -O3 -DNDEBUG -fPIE -Wall -pedantic -Wextra -Wno-unused-parameter -Wold-style-cast -fsigned-char -Wnon-virtual-dtor -Wunused-result -Wunused-parameter -Werror=unused-parameter -Wmissing-declarations -Wzero-as-null-pointer-constant -faligned-new -Wextra-semi -std=c++17 -o CMakeFiles/flatc.dir/grpc/src/compiler/python_generator.cc.o -c /root/tensorflow/build/flatbuffers/grpc/src/compiler/python_generator.cc",
+  "file": "/root/tensorflow/build/flatbuffers/grpc/src/compiler/python_generator.cc"
+},
+{
+  "directory": "/root/tensorflow/build/_deps/flatbuffers-build",
+  "command": "/usr/bin/arm-linux-gnueabihf-g++ -DEIGEN_MPL2_ONLY -DFLATBUFFERS_LOCALE_INDEPENDENT=1 -DNOMINMAX=1 -I/root/tensorflow/build/flatbuffers/include -I/root/tensorflow/build/flatbuffers/grpc -O3 -DNDEBUG -fPIE -Wall -pedantic -Wextra -Wno-unused-parameter -Wold-style-cast -fsigned-char -Wnon-virtual-dtor -Wunused-result -Wunused-parameter -Werror=unused-parameter -Wmissing-declarations -Wzero-as-null-pointer-constant -faligned-new -Wextra-semi -std=c++17 -o CMakeFiles/flatc.dir/grpc/src/compiler/swift_generator.cc.o -c /root/tensorflow/build/flatbuffers/grpc/src/compiler/swift_generator.cc",
+  "file": "/root/tensorflow/build/flatbuffers/grpc/src/compiler/swift_generator.cc"
+},
+{
+  "directory": "/root/tensorflow/build/_deps/flatbuffers-build",
+  "command": "/usr/bin/arm-linux-gnueabihf-g++ -DEIGEN_MPL2_ONLY -DFLATBUFFERS_LOCALE_INDEPENDENT=1 -DNOMINMAX=1 -I/root/tensorflow/build/flatbuffers/include -I/root/tensorflow/build/flatbuffers/grpc -O3 -DNDEBUG -fPIE -Wall -pedantic -Wextra -Wno-unused-parameter -Wold-style-cast -fsigned-char -Wnon-virtual-dtor -Wunused-result -Wunused-parameter -Werror=unused-parameter -Wmissing-declarations -Wzero-as-null-pointer-constant -faligned-new -Wextra-semi -std=c++17 -o CMakeFiles/flatc.dir/grpc/src/compiler/ts_generator.cc.o -c /root/tensorflow/build/flatbuffers/grpc/src/compiler/ts_generator.cc",
+  "file": "/root/tensorflow/build/flatbuffers/grpc/src/compiler/ts_generator.cc"
+},
+{
+  "directory": "/root/tensorflow/build/_deps/flatbuffers-build",
+  "command": "/usr/bin/arm-linux-gnueabihf-g++ -DEIGEN_MPL2_ONLY -DFLATBUFFERS_LOCALE_INDEPENDENT=1 -DNOMINMAX=1 -I/root/tensorflow/build/flatbuffers/include -I/root/tensorflow/build/flatbuffers/grpc -O3 -DNDEBUG -fPIE -Wall -pedantic -Wextra -Wno-unused-parameter -Wold-style-cast -fsigned-char -Wnon-virtual-dtor -Wunused-result -Wunused-parameter -Werror=unused-parameter -Wmissing-declarations -Wzero-as-null-pointer-constant -faligned-new -Wextra-semi -std=c++17 -o CMakeFiles/flathash.dir/src/flathash.cpp.o -c /root/tensorflow/build/flatbuffers/src/flathash.cpp",
+  "file": "/root/tensorflow/build/flatbuffers/src/flathash.cpp"
+}
+]

@@ -1,0 +1,14 @@
+# Target labels
+ fxdiv
+# Source files and their labels
+/root/tensorflow/build/FXdiv-download/CMakeFiles/fxdiv
+/root/tensorflow/build/FXdiv-download/CMakeFiles/fxdiv.rule
+/root/tensorflow/build/FXdiv-download/CMakeFiles/fxdiv-complete.rule
+/root/tensorflow/build/FXdiv-download/fxdiv-prefix/src/fxdiv-stamp/fxdiv-build.rule
+/root/tensorflow/build/FXdiv-download/fxdiv-prefix/src/fxdiv-stamp/fxdiv-configure.rule
+/root/tensorflow/build/FXdiv-download/fxdiv-prefix/src/fxdiv-stamp/fxdiv-download.rule
+/root/tensorflow/build/FXdiv-download/fxdiv-prefix/src/fxdiv-stamp/fxdiv-install.rule
+/root/tensorflow/build/FXdiv-download/fxdiv-prefix/src/fxdiv-stamp/fxdiv-mkdir.rule
+/root/tensorflow/build/FXdiv-download/fxdiv-prefix/src/fxdiv-stamp/fxdiv-patch.rule
+/root/tensorflow/build/FXdiv-download/fxdiv-prefix/src/fxdiv-stamp/fxdiv-test.rule
+/root/tensorflow/build/FXdiv-download/fxdiv-prefix/src/fxdiv-stamp/fxdiv-update.rule

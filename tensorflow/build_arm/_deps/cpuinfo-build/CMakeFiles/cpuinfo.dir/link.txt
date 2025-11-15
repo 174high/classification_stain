@@ -1,0 +1,2 @@
+/usr/bin/arm-linux-gnueabihf-ar qc libcpuinfo.a CMakeFiles/cpuinfo.dir/src/api.c.o CMakeFiles/cpuinfo.dir/src/cache.c.o CMakeFiles/cpuinfo.dir/src/init.c.o CMakeFiles/cpuinfo.dir/src/log.c.o
+/usr/bin/arm-linux-gnueabihf-ranlib libcpuinfo.a

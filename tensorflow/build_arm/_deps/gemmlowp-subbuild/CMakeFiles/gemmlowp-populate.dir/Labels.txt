@@ -1,0 +1,14 @@
+# Target labels
+ gemmlowp-populate
+# Source files and their labels
+/root/tensorflow/build/_deps/gemmlowp-subbuild/CMakeFiles/gemmlowp-populate
+/root/tensorflow/build/_deps/gemmlowp-subbuild/CMakeFiles/gemmlowp-populate.rule
+/root/tensorflow/build/_deps/gemmlowp-subbuild/CMakeFiles/gemmlowp-populate-complete.rule
+/root/tensorflow/build/_deps/gemmlowp-subbuild/gemmlowp-populate-prefix/src/gemmlowp-populate-stamp/gemmlowp-populate-build.rule
+/root/tensorflow/build/_deps/gemmlowp-subbuild/gemmlowp-populate-prefix/src/gemmlowp-populate-stamp/gemmlowp-populate-configure.rule
+/root/tensorflow/build/_deps/gemmlowp-subbuild/gemmlowp-populate-prefix/src/gemmlowp-populate-stamp/gemmlowp-populate-download.rule
+/root/tensorflow/build/_deps/gemmlowp-subbuild/gemmlowp-populate-prefix/src/gemmlowp-populate-stamp/gemmlowp-populate-install.rule
+/root/tensorflow/build/_deps/gemmlowp-subbuild/gemmlowp-populate-prefix/src/gemmlowp-populate-stamp/gemmlowp-populate-mkdir.rule
+/root/tensorflow/build/_deps/gemmlowp-subbuild/gemmlowp-populate-prefix/src/gemmlowp-populate-stamp/gemmlowp-populate-patch.rule
+/root/tensorflow/build/_deps/gemmlowp-subbuild/gemmlowp-populate-prefix/src/gemmlowp-populate-stamp/gemmlowp-populate-test.rule
+/root/tensorflow/build/_deps/gemmlowp-subbuild/gemmlowp-populate-prefix/src/gemmlowp-populate-stamp/gemmlowp-populate-update.rule

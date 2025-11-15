@@ -1,0 +1,2 @@
+/usr/bin/arm-linux-gnueabihf-ar qc libruy_block_map.a CMakeFiles/ruy_block_map.dir/block_map.cc.o
+/usr/bin/arm-linux-gnueabihf-ranlib libruy_block_map.a

@@ -1,0 +1,2 @@
+/usr/bin/arm-linux-gnueabihf-ar qc libruy_allocator.a CMakeFiles/ruy_allocator.dir/allocator.cc.o
+/usr/bin/arm-linux-gnueabihf-ranlib libruy_allocator.a

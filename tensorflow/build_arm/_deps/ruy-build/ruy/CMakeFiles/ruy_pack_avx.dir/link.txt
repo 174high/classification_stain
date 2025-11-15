@@ -1,0 +1,2 @@
+/usr/bin/arm-linux-gnueabihf-ar qc libruy_pack_avx.a CMakeFiles/ruy_pack_avx.dir/pack_avx.cc.o
+/usr/bin/arm-linux-gnueabihf-ranlib libruy_pack_avx.a

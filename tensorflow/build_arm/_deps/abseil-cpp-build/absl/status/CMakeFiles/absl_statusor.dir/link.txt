@@ -1,0 +1,2 @@
+/usr/bin/arm-linux-gnueabihf-ar qc libabsl_statusor.a CMakeFiles/absl_statusor.dir/statusor.cc.o
+/usr/bin/arm-linux-gnueabihf-ranlib libabsl_statusor.a

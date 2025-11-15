@@ -1,0 +1,2 @@
+/usr/bin/arm-linux-gnueabihf-ar qc libruy_prepacked_cache.a CMakeFiles/ruy_prepacked_cache.dir/prepacked_cache.cc.o
+/usr/bin/arm-linux-gnueabihf-ranlib libruy_prepacked_cache.a

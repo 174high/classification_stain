@@ -1,0 +1,2 @@
+/usr/bin/arm-linux-gnueabihf-ar qc libabsl_log_entry.a CMakeFiles/absl_log_entry.dir/log_entry.cc.o
+/usr/bin/arm-linux-gnueabihf-ranlib libabsl_log_entry.a

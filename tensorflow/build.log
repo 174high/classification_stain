@@ -1,0 +1,38 @@
+/usr/lib/gcc-cross/arm-linux-gnueabihf/11/../../../../arm-linux-gnueabihf/bin/ld: ./build_arm/_deps/ruy-build/ruy/libruy_cpuinfo.a(cpuinfo.cc.o): in function `ruy::CpuInfo::NeonDotprod()':
+cpuinfo.cc:(.text+0x1b4): undefined reference to `cpuinfo_isa'
+/usr/lib/gcc-cross/arm-linux-gnueabihf/11/../../../../arm-linux-gnueabihf/bin/ld: ./build_arm/_deps/cpuinfo-build/libcpuinfo.a(init.c.o): in function `cpuinfo_initialize':
+init.c:(.text+0x18): undefined reference to `cpuinfo_arm_linux_init'
+/usr/lib/gcc-cross/arm-linux-gnueabihf/11/../../../../arm-linux-gnueabihf/bin/ld: ./build_arm/_deps/xnnpack-build/libXNNPACK.a(hardware-config.c.o): in function `init_hardware_config':
+hardware-config.c:(.text+0x6c): undefined reference to `cpuinfo_isa'
+/usr/lib/gcc-cross/arm-linux-gnueabihf/11/../../../../arm-linux-gnueabihf/bin/ld: ./build_arm/_deps/xnnpack-build/libXNNPACK.a(hardware-config.c.o): in function `xnn_init_hardware_config':
+hardware-config.c:(.text+0xb0): undefined reference to `cpuinfo_isa'
+/usr/lib/gcc-cross/arm-linux-gnueabihf/11/../../../../arm-linux-gnueabihf/bin/ld: ./build_arm/_deps/xnnpack-build/libXNNPACK.a(average-pooling-nhwc.c.o): in function `xnn_setup_average_pooling2d_nhwc_qu8':
+average-pooling-nhwc.c:(.text+0xbdc): undefined reference to `pthreadpool_get_threads_count'
+/usr/lib/gcc-cross/arm-linux-gnueabihf/11/../../../../arm-linux-gnueabihf/bin/ld: ./build_arm/_deps/xnnpack-build/libXNNPACK.a(average-pooling-nhwc.c.o): in function `xnn_setup_average_pooling2d_nhwc_f16':
+average-pooling-nhwc.c:(.text+0xc9c): undefined reference to `pthreadpool_get_threads_count'
+/usr/lib/gcc-cross/arm-linux-gnueabihf/11/../../../../arm-linux-gnueabihf/bin/ld: ./build_arm/_deps/xnnpack-build/libXNNPACK.a(average-pooling-nhwc.c.o): in function `xnn_setup_average_pooling2d_nhwc_f32':
+average-pooling-nhwc.c:(.text+0xd68): undefined reference to `pthreadpool_get_threads_count'
+/usr/lib/gcc-cross/arm-linux-gnueabihf/11/../../../../arm-linux-gnueabihf/bin/ld: ./build_arm/_deps/xnnpack-build/libXNNPACK.a(binary-elementwise-nd.c.o): in function `run_binary_elementwise_nd.constprop.0':
+binary-elementwise-nd.c:(.text+0x536): undefined reference to `pthreadpool_get_threads_count'
+/usr/lib/gcc-cross/arm-linux-gnueabihf/11/../../../../arm-linux-gnueabihf/bin/ld: ./build_arm/_deps/xnnpack-build/libXNNPACK.a(binary-elementwise-nd.c.o): in function `xnn_setup_add_nd_f16':
+binary-elementwise-nd.c:(.text+0x1516): undefined reference to `pthreadpool_get_threads_count'
+/usr/lib/gcc-cross/arm-linux-gnueabihf/11/../../../../arm-linux-gnueabihf/bin/ld: ./build_arm/_deps/xnnpack-build/libXNNPACK.a(binary-elementwise-nd.c.o):binary-elementwise-nd.c:(.text+0x154c): more undefined references to `pthreadpool_get_threads_count' follow
+/usr/lib/gcc-cross/arm-linux-gnueabihf/11/../../../../arm-linux-gnueabihf/bin/ld: ./build_arm/_deps/xnnpack-build/libXNNPACK.a(operator-run.c.o): in function `xnn_run_operator_with_index':
+operator-run.c:(.text+0x1aae): undefined reference to `pthreadpool_parallelize_3d_tile_2d_with_uarch'
+/usr/lib/gcc-cross/arm-linux-gnueabihf/11/../../../../arm-linux-gnueabihf/bin/ld: operator-run.c:(.text+0x1b2a): undefined reference to `pthreadpool_parallelize_4d_tile_2d_with_uarch'
+/usr/lib/gcc-cross/arm-linux-gnueabihf/11/../../../../arm-linux-gnueabihf/bin/ld: operator-run.c:(.text+0x1b40): undefined reference to `pthreadpool_parallelize_1d'
+/usr/lib/gcc-cross/arm-linux-gnueabihf/11/../../../../arm-linux-gnueabihf/bin/ld: operator-run.c:(.text+0x1b5c): undefined reference to `pthreadpool_parallelize_1d_tile_1d'
+/usr/lib/gcc-cross/arm-linux-gnueabihf/11/../../../../arm-linux-gnueabihf/bin/ld: operator-run.c:(.text+0x1b78): undefined reference to `pthreadpool_parallelize_2d'
+/usr/lib/gcc-cross/arm-linux-gnueabihf/11/../../../../arm-linux-gnueabihf/bin/ld: operator-run.c:(.text+0x1b9a): undefined reference to `pthreadpool_parallelize_2d_tile_1d'
+/usr/lib/gcc-cross/arm-linux-gnueabihf/11/../../../../arm-linux-gnueabihf/bin/ld: operator-run.c:(.text+0x1bc2): undefined reference to `pthreadpool_parallelize_2d_tile_2d'
+/usr/lib/gcc-cross/arm-linux-gnueabihf/11/../../../../arm-linux-gnueabihf/bin/ld: operator-run.c:(.text+0x1be4): undefined reference to `pthreadpool_parallelize_3d'
+/usr/lib/gcc-cross/arm-linux-gnueabihf/11/../../../../arm-linux-gnueabihf/bin/ld: operator-run.c:(.text+0x1c12): undefined reference to `pthreadpool_parallelize_3d_tile_2d'
+/usr/lib/gcc-cross/arm-linux-gnueabihf/11/../../../../arm-linux-gnueabihf/bin/ld: operator-run.c:(.text+0x1c3a): undefined reference to `pthreadpool_parallelize_4d'
+/usr/lib/gcc-cross/arm-linux-gnueabihf/11/../../../../arm-linux-gnueabihf/bin/ld: operator-run.c:(.text+0x1c6e): undefined reference to `pthreadpool_parallelize_4d_tile_2d'
+/usr/lib/gcc-cross/arm-linux-gnueabihf/11/../../../../arm-linux-gnueabihf/bin/ld: operator-run.c:(.text+0x1c9c): undefined reference to `pthreadpool_parallelize_5d'
+/usr/lib/gcc-cross/arm-linux-gnueabihf/11/../../../../arm-linux-gnueabihf/bin/ld: operator-run.c:(.text+0x1cd6): undefined reference to `pthreadpool_parallelize_5d_tile_2d'
+/usr/lib/gcc-cross/arm-linux-gnueabihf/11/../../../../arm-linux-gnueabihf/bin/ld: operator-run.c:(.text+0x1d16): undefined reference to `pthreadpool_parallelize_6d_tile_2d'
+/usr/lib/gcc-cross/arm-linux-gnueabihf/11/../../../../arm-linux-gnueabihf/bin/ld: operator-run.c:(.text+0x1d48): undefined reference to `pthreadpool_parallelize_2d_tile_2d_with_uarch'
+/usr/lib/gcc-cross/arm-linux-gnueabihf/11/../../../../arm-linux-gnueabihf/bin/ld: main.arm: hidden symbol `cpuinfo_arm_linux_init' isn't defined
+/usr/lib/gcc-cross/arm-linux-gnueabihf/11/../../../../arm-linux-gnueabihf/bin/ld: final link failed: bad value
+collect2: error: ld returned 1 exit status

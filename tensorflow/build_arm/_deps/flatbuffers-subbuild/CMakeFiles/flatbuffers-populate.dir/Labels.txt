@@ -1,0 +1,14 @@
+# Target labels
+ flatbuffers-populate
+# Source files and their labels
+/root/tensorflow/build/_deps/flatbuffers-subbuild/CMakeFiles/flatbuffers-populate
+/root/tensorflow/build/_deps/flatbuffers-subbuild/CMakeFiles/flatbuffers-populate.rule
+/root/tensorflow/build/_deps/flatbuffers-subbuild/CMakeFiles/flatbuffers-populate-complete.rule
+/root/tensorflow/build/_deps/flatbuffers-subbuild/flatbuffers-populate-prefix/src/flatbuffers-populate-stamp/flatbuffers-populate-build.rule
+/root/tensorflow/build/_deps/flatbuffers-subbuild/flatbuffers-populate-prefix/src/flatbuffers-populate-stamp/flatbuffers-populate-configure.rule
+/root/tensorflow/build/_deps/flatbuffers-subbuild/flatbuffers-populate-prefix/src/flatbuffers-populate-stamp/flatbuffers-populate-download.rule
+/root/tensorflow/build/_deps/flatbuffers-subbuild/flatbuffers-populate-prefix/src/flatbuffers-populate-stamp/flatbuffers-populate-install.rule
+/root/tensorflow/build/_deps/flatbuffers-subbuild/flatbuffers-populate-prefix/src/flatbuffers-populate-stamp/flatbuffers-populate-mkdir.rule
+/root/tensorflow/build/_deps/flatbuffers-subbuild/flatbuffers-populate-prefix/src/flatbuffers-populate-stamp/flatbuffers-populate-patch.rule
+/root/tensorflow/build/_deps/flatbuffers-subbuild/flatbuffers-populate-prefix/src/flatbuffers-populate-stamp/flatbuffers-populate-test.rule
+/root/tensorflow/build/_deps/flatbuffers-subbuild/flatbuffers-populate-prefix/src/flatbuffers-populate-stamp/flatbuffers-populate-update.rule

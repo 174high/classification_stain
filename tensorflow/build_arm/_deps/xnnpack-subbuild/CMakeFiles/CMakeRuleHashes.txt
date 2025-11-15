@@ -1,0 +1,11 @@
+# Hashes of file build rules.
+a53fde17ac5feb254e1b0c2b087ef59f /root/tensorflow/build/src/xnnpack-populate-stamp/xnnpack-populate-build
+7039760008a19bf42102044f6478887c /root/tensorflow/build/src/xnnpack-populate-stamp/xnnpack-populate-configure
+95d0f4e4b7dfa8e52acd0ce7d52f1dfa /root/tensorflow/build/src/xnnpack-populate-stamp/xnnpack-populate-download
+eebcfc5ad78d7b3c03e3894dc705cc27 /root/tensorflow/build/src/xnnpack-populate-stamp/xnnpack-populate-install
+2fe5cf2540f00f5d7bd7d9576d42f5cc /root/tensorflow/build/src/xnnpack-populate-stamp/xnnpack-populate-mkdir
+0751db3dfc88fab7b2238d4ed9bbb65e /root/tensorflow/build/src/xnnpack-populate-stamp/xnnpack-populate-patch
+8ebf62b578791d63f4c5dd1ee78c045e /root/tensorflow/build/src/xnnpack-populate-stamp/xnnpack-populate-test
+64e84aefd03956108b640638e0e35536 /root/tensorflow/build/src/xnnpack-populate-stamp/xnnpack-populate-update
+9b8b2ba30074884e919dc8ceab5aa4bb CMakeFiles/xnnpack-populate
+3f922436fc79bffe95f9dee64a2342b6 CMakeFiles/xnnpack-populate-complete

@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/root/tensorflow/build/_deps/xnnpack-subbuild/CMakeFiles/xnnpack-populate"
+		},
+		{
+			"file" : "/root/tensorflow/build/_deps/xnnpack-subbuild/CMakeFiles/xnnpack-populate.rule"
+		},
+		{
+			"file" : "/root/tensorflow/build/_deps/xnnpack-subbuild/CMakeFiles/xnnpack-populate-complete.rule"
+		},
+		{
+			"file" : "/root/tensorflow/build/src/xnnpack-populate-stamp/xnnpack-populate-build.rule"
+		},
+		{
+			"file" : "/root/tensorflow/build/src/xnnpack-populate-stamp/xnnpack-populate-configure.rule"
+		},
+		{
+			"file" : "/root/tensorflow/build/src/xnnpack-populate-stamp/xnnpack-populate-download.rule"
+		},
+		{
+			"file" : "/root/tensorflow/build/src/xnnpack-populate-stamp/xnnpack-populate-install.rule"
+		},
+		{
+			"file" : "/root/tensorflow/build/src/xnnpack-populate-stamp/xnnpack-populate-mkdir.rule"
+		},
+		{
+			"file" : "/root/tensorflow/build/src/xnnpack-populate-stamp/xnnpack-populate-patch.rule"
+		},
+		{
+			"file" : "/root/tensorflow/build/src/xnnpack-populate-stamp/xnnpack-populate-test.rule"
+		},
+		{
+			"file" : "/root/tensorflow/build/src/xnnpack-populate-stamp/xnnpack-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"xnnpack-populate"
+		],
+		"name" : "xnnpack-populate"
+	}
+}

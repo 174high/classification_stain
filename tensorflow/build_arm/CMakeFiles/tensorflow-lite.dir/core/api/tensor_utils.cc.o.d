@@ -1,0 +1,32 @@
+CMakeFiles/tensorflow-lite.dir/core/api/tensor_utils.cc.o: \
+ /root/tensorflow/tensorflow/lite/core/api/tensor_utils.cc \
+ /usr/arm-linux-gnueabihf/include/stdc-predef.h \
+ /root/tensorflow/tensorflow/lite/core/api/tensor_utils.h \
+ /root/tensorflow/tensorflow/lite/core/c/common.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabihf/11/include/stdarg.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabihf/11/include/stdbool.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabihf/11/include/stddef.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabihf/11/include/stdint.h \
+ /usr/arm-linux-gnueabihf/include/stdint.h \
+ /usr/arm-linux-gnueabihf/include/bits/libc-header-start.h \
+ /usr/arm-linux-gnueabihf/include/features.h \
+ /usr/arm-linux-gnueabihf/include/features-time64.h \
+ /usr/arm-linux-gnueabihf/include/bits/wordsize.h \
+ /usr/arm-linux-gnueabihf/include/bits/timesize.h \
+ /usr/arm-linux-gnueabihf/include/sys/cdefs.h \
+ /usr/arm-linux-gnueabihf/include/bits/long-double.h \
+ /usr/arm-linux-gnueabihf/include/gnu/stubs.h \
+ /usr/arm-linux-gnueabihf/include/gnu/stubs-hard.h \
+ /usr/arm-linux-gnueabihf/include/bits/types.h \
+ /usr/arm-linux-gnueabihf/include/bits/typesizes.h \
+ /usr/arm-linux-gnueabihf/include/bits/time64.h \
+ /usr/arm-linux-gnueabihf/include/bits/wchar.h \
+ /usr/arm-linux-gnueabihf/include/bits/stdint-intn.h \
+ /usr/arm-linux-gnueabihf/include/bits/stdint-uintn.h \
+ /root/tensorflow/tensorflow/lite/core/c/c_api_types.h \
+ /usr/arm-linux-gnueabihf/include/string.h \
+ /usr/arm-linux-gnueabihf/include/bits/types/locale_t.h \
+ /usr/arm-linux-gnueabihf/include/bits/types/__locale_t.h \
+ /usr/arm-linux-gnueabihf/include/strings.h \
+ /usr/arm-linux-gnueabihf/include/bits/strings_fortified.h \
+ /usr/arm-linux-gnueabihf/include/bits/string_fortified.h

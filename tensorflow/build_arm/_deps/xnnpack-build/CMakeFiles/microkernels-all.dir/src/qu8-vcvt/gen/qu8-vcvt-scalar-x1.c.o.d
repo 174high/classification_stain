@@ -1,0 +1,27 @@
+_deps/xnnpack-build/CMakeFiles/microkernels-all.dir/src/qu8-vcvt/gen/qu8-vcvt-scalar-x1.c.o: \
+ /root/tensorflow/build/xnnpack/src/qu8-vcvt/gen/qu8-vcvt-scalar-x1.c \
+ /usr/arm-linux-gnueabihf/include/stdc-predef.h \
+ /usr/arm-linux-gnueabihf/include/assert.h \
+ /usr/arm-linux-gnueabihf/include/features.h \
+ /usr/arm-linux-gnueabihf/include/features-time64.h \
+ /usr/arm-linux-gnueabihf/include/bits/wordsize.h \
+ /usr/arm-linux-gnueabihf/include/bits/timesize.h \
+ /usr/arm-linux-gnueabihf/include/sys/cdefs.h \
+ /usr/arm-linux-gnueabihf/include/bits/long-double.h \
+ /usr/arm-linux-gnueabihf/include/gnu/stubs.h \
+ /usr/arm-linux-gnueabihf/include/gnu/stubs-hard.h \
+ /root/tensorflow/build/xnnpack/src/xnnpack/math.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabihf/11/include/stdbool.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabihf/11/include/stddef.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabihf/11/include/stdint.h \
+ /usr/arm-linux-gnueabihf/include/stdint.h \
+ /usr/arm-linux-gnueabihf/include/bits/libc-header-start.h \
+ /usr/arm-linux-gnueabihf/include/bits/types.h \
+ /usr/arm-linux-gnueabihf/include/bits/typesizes.h \
+ /usr/arm-linux-gnueabihf/include/bits/time64.h \
+ /usr/arm-linux-gnueabihf/include/bits/wchar.h \
+ /usr/arm-linux-gnueabihf/include/bits/stdint-intn.h \
+ /usr/arm-linux-gnueabihf/include/bits/stdint-uintn.h \
+ /root/tensorflow/build/xnnpack/src/xnnpack/common.h \
+ /root/tensorflow/build/xnnpack/src/xnnpack/vcvt.h \
+ /root/tensorflow/build/xnnpack/src/xnnpack/microparams.h

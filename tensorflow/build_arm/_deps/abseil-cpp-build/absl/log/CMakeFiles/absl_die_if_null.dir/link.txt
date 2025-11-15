@@ -1,0 +1,2 @@
+/usr/bin/arm-linux-gnueabihf-ar qc libabsl_die_if_null.a CMakeFiles/absl_die_if_null.dir/die_if_null.cc.o
+/usr/bin/arm-linux-gnueabihf-ranlib libabsl_die_if_null.a

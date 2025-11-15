@@ -1,0 +1,2 @@
+/usr/bin/arm-linux-gnueabihf-ar qc libruy_thread_pool.a CMakeFiles/ruy_thread_pool.dir/thread_pool.cc.o
+/usr/bin/arm-linux-gnueabihf-ranlib libruy_thread_pool.a

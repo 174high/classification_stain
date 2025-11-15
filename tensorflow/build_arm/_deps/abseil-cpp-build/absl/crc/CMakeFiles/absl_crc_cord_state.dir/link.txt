@@ -1,0 +1,2 @@
+/usr/bin/arm-linux-gnueabihf-ar qc libabsl_crc_cord_state.a CMakeFiles/absl_crc_cord_state.dir/internal/crc_cord_state.cc.o
+/usr/bin/arm-linux-gnueabihf-ranlib libabsl_crc_cord_state.a

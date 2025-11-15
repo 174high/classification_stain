@@ -1,0 +1,2 @@
+/usr/bin/arm-linux-gnueabihf-ar qc libabsl_log_globals.a CMakeFiles/absl_log_globals.dir/globals.cc.o
+/usr/bin/arm-linux-gnueabihf-ranlib libabsl_log_globals.a

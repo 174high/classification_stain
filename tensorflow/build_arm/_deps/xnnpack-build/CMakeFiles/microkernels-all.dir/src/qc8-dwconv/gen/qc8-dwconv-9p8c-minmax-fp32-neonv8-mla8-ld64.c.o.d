@@ -1,0 +1,30 @@
+_deps/xnnpack-build/CMakeFiles/microkernels-all.dir/src/qc8-dwconv/gen/qc8-dwconv-9p8c-minmax-fp32-neonv8-mla8-ld64.c.o: \
+ /root/tensorflow/build/xnnpack/src/qc8-dwconv/gen/qc8-dwconv-9p8c-minmax-fp32-neonv8-mla8-ld64.c \
+ /usr/arm-linux-gnueabihf/include/stdc-predef.h \
+ /usr/arm-linux-gnueabihf/include/assert.h \
+ /usr/arm-linux-gnueabihf/include/features.h \
+ /usr/arm-linux-gnueabihf/include/features-time64.h \
+ /usr/arm-linux-gnueabihf/include/bits/wordsize.h \
+ /usr/arm-linux-gnueabihf/include/bits/timesize.h \
+ /usr/arm-linux-gnueabihf/include/sys/cdefs.h \
+ /usr/arm-linux-gnueabihf/include/bits/long-double.h \
+ /usr/arm-linux-gnueabihf/include/gnu/stubs.h \
+ /usr/arm-linux-gnueabihf/include/gnu/stubs-hard.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabihf/11/include/arm_neon.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabihf/11/include/arm_fp16.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabihf/11/include/stdint.h \
+ /usr/arm-linux-gnueabihf/include/stdint.h \
+ /usr/arm-linux-gnueabihf/include/bits/libc-header-start.h \
+ /usr/arm-linux-gnueabihf/include/bits/types.h \
+ /usr/arm-linux-gnueabihf/include/bits/typesizes.h \
+ /usr/arm-linux-gnueabihf/include/bits/time64.h \
+ /usr/arm-linux-gnueabihf/include/bits/wchar.h \
+ /usr/arm-linux-gnueabihf/include/bits/stdint-intn.h \
+ /usr/arm-linux-gnueabihf/include/bits/stdint-uintn.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabihf/11/include/arm_bf16.h \
+ /root/tensorflow/build/xnnpack/src/xnnpack/dwconv.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabihf/11/include/stddef.h \
+ /root/tensorflow/build/xnnpack/src/xnnpack/common.h \
+ /root/tensorflow/build/xnnpack/src/xnnpack/microparams.h \
+ /root/tensorflow/build/xnnpack/src/xnnpack/intrinsics-polyfill.h \
+ /root/tensorflow/build/xnnpack/src/xnnpack/unaligned.h

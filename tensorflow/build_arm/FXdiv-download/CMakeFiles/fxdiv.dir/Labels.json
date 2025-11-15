@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/root/tensorflow/build/FXdiv-download/CMakeFiles/fxdiv"
+		},
+		{
+			"file" : "/root/tensorflow/build/FXdiv-download/CMakeFiles/fxdiv.rule"
+		},
+		{
+			"file" : "/root/tensorflow/build/FXdiv-download/CMakeFiles/fxdiv-complete.rule"
+		},
+		{
+			"file" : "/root/tensorflow/build/FXdiv-download/fxdiv-prefix/src/fxdiv-stamp/fxdiv-build.rule"
+		},
+		{
+			"file" : "/root/tensorflow/build/FXdiv-download/fxdiv-prefix/src/fxdiv-stamp/fxdiv-configure.rule"
+		},
+		{
+			"file" : "/root/tensorflow/build/FXdiv-download/fxdiv-prefix/src/fxdiv-stamp/fxdiv-download.rule"
+		},
+		{
+			"file" : "/root/tensorflow/build/FXdiv-download/fxdiv-prefix/src/fxdiv-stamp/fxdiv-install.rule"
+		},
+		{
+			"file" : "/root/tensorflow/build/FXdiv-download/fxdiv-prefix/src/fxdiv-stamp/fxdiv-mkdir.rule"
+		},
+		{
+			"file" : "/root/tensorflow/build/FXdiv-download/fxdiv-prefix/src/fxdiv-stamp/fxdiv-patch.rule"
+		},
+		{
+			"file" : "/root/tensorflow/build/FXdiv-download/fxdiv-prefix/src/fxdiv-stamp/fxdiv-test.rule"
+		},
+		{
+			"file" : "/root/tensorflow/build/FXdiv-download/fxdiv-prefix/src/fxdiv-stamp/fxdiv-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"fxdiv"
+		],
+		"name" : "fxdiv"
+	}
+}

@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/root/tensorflow/build/_deps/abseil-cpp-subbuild/CMakeFiles/abseil-cpp-populate"
+		},
+		{
+			"file" : "/root/tensorflow/build/_deps/abseil-cpp-subbuild/CMakeFiles/abseil-cpp-populate.rule"
+		},
+		{
+			"file" : "/root/tensorflow/build/_deps/abseil-cpp-subbuild/CMakeFiles/abseil-cpp-populate-complete.rule"
+		},
+		{
+			"file" : "/root/tensorflow/build/src/abseil-cpp-populate-stamp/abseil-cpp-populate-build.rule"
+		},
+		{
+			"file" : "/root/tensorflow/build/src/abseil-cpp-populate-stamp/abseil-cpp-populate-configure.rule"
+		},
+		{
+			"file" : "/root/tensorflow/build/src/abseil-cpp-populate-stamp/abseil-cpp-populate-download.rule"
+		},
+		{
+			"file" : "/root/tensorflow/build/src/abseil-cpp-populate-stamp/abseil-cpp-populate-install.rule"
+		},
+		{
+			"file" : "/root/tensorflow/build/src/abseil-cpp-populate-stamp/abseil-cpp-populate-mkdir.rule"
+		},
+		{
+			"file" : "/root/tensorflow/build/src/abseil-cpp-populate-stamp/abseil-cpp-populate-patch.rule"
+		},
+		{
+			"file" : "/root/tensorflow/build/src/abseil-cpp-populate-stamp/abseil-cpp-populate-test.rule"
+		},
+		{
+			"file" : "/root/tensorflow/build/src/abseil-cpp-populate-stamp/abseil-cpp-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"abseil-cpp-populate"
+		],
+		"name" : "abseil-cpp-populate"
+	}
+}

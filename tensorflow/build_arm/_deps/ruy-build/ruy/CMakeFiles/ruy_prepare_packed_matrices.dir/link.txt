@@ -1,0 +1,2 @@
+/usr/bin/arm-linux-gnueabihf-ar qc libruy_prepare_packed_matrices.a CMakeFiles/ruy_prepare_packed_matrices.dir/prepare_packed_matrices.cc.o
+/usr/bin/arm-linux-gnueabihf-ranlib libruy_prepare_packed_matrices.a

@@ -1,0 +1,2 @@
+/usr/bin/arm-linux-gnueabihf-ar qc libruy_ctx.a CMakeFiles/ruy_ctx.dir/ctx.cc.o
+/usr/bin/arm-linux-gnueabihf-ranlib libruy_ctx.a

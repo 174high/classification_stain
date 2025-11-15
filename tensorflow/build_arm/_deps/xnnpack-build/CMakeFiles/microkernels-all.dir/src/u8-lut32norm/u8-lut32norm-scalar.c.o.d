@@ -1,0 +1,34 @@
+_deps/xnnpack-build/CMakeFiles/microkernels-all.dir/src/u8-lut32norm/u8-lut32norm-scalar.c.o: \
+ /root/tensorflow/build/xnnpack/src/u8-lut32norm/u8-lut32norm-scalar.c \
+ /usr/arm-linux-gnueabihf/include/stdc-predef.h \
+ /usr/arm-linux-gnueabihf/include/assert.h \
+ /usr/arm-linux-gnueabihf/include/features.h \
+ /usr/arm-linux-gnueabihf/include/features-time64.h \
+ /usr/arm-linux-gnueabihf/include/bits/wordsize.h \
+ /usr/arm-linux-gnueabihf/include/bits/timesize.h \
+ /usr/arm-linux-gnueabihf/include/sys/cdefs.h \
+ /usr/arm-linux-gnueabihf/include/bits/long-double.h \
+ /usr/arm-linux-gnueabihf/include/gnu/stubs.h \
+ /usr/arm-linux-gnueabihf/include/gnu/stubs-hard.h \
+ /root/tensorflow/build/FXdiv-source/include/fxdiv.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabihf/11/include/stddef.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabihf/11/include/stdint.h \
+ /usr/arm-linux-gnueabihf/include/stdint.h \
+ /usr/arm-linux-gnueabihf/include/bits/libc-header-start.h \
+ /usr/arm-linux-gnueabihf/include/bits/types.h \
+ /usr/arm-linux-gnueabihf/include/bits/typesizes.h \
+ /usr/arm-linux-gnueabihf/include/bits/time64.h \
+ /usr/arm-linux-gnueabihf/include/bits/wchar.h \
+ /usr/arm-linux-gnueabihf/include/bits/stdint-intn.h \
+ /usr/arm-linux-gnueabihf/include/bits/stdint-uintn.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabihf/11/include/limits.h \
+ /usr/lib/gcc-cross/arm-linux-gnueabihf/11/include/syslimits.h \
+ /usr/arm-linux-gnueabihf/include/limits.h \
+ /usr/arm-linux-gnueabihf/include/bits/posix1_lim.h \
+ /usr/arm-linux-gnueabihf/include/bits/local_lim.h \
+ /usr/arm-linux-gnueabihf/include/linux/limits.h \
+ /usr/arm-linux-gnueabihf/include/bits/pthread_stack_min-dynamic.h \
+ /usr/arm-linux-gnueabihf/include/bits/pthread_stack_min.h \
+ /usr/arm-linux-gnueabihf/include/bits/posix2_lim.h \
+ /root/tensorflow/build/xnnpack/src/xnnpack/lut.h \
+ /root/tensorflow/build/xnnpack/src/xnnpack/common.h

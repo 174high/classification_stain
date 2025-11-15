@@ -1,0 +1,2 @@
+/usr/bin/arm-linux-gnueabihf-ar qc libabsl_strerror.a CMakeFiles/absl_strerror.dir/internal/strerror.cc.o
+/usr/bin/arm-linux-gnueabihf-ranlib libabsl_strerror.a

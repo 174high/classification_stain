@@ -1,0 +1,14 @@
+# Target labels
+ psimd
+# Source files and their labels
+/root/tensorflow/build/psimd-download/CMakeFiles/psimd
+/root/tensorflow/build/psimd-download/CMakeFiles/psimd.rule
+/root/tensorflow/build/psimd-download/CMakeFiles/psimd-complete.rule
+/root/tensorflow/build/psimd-download/psimd-prefix/src/psimd-stamp/psimd-build.rule
+/root/tensorflow/build/psimd-download/psimd-prefix/src/psimd-stamp/psimd-configure.rule
+/root/tensorflow/build/psimd-download/psimd-prefix/src/psimd-stamp/psimd-download.rule
+/root/tensorflow/build/psimd-download/psimd-prefix/src/psimd-stamp/psimd-install.rule
+/root/tensorflow/build/psimd-download/psimd-prefix/src/psimd-stamp/psimd-mkdir.rule
+/root/tensorflow/build/psimd-download/psimd-prefix/src/psimd-stamp/psimd-patch.rule
+/root/tensorflow/build/psimd-download/psimd-prefix/src/psimd-stamp/psimd-test.rule
+/root/tensorflow/build/psimd-download/psimd-prefix/src/psimd-stamp/psimd-update.rule

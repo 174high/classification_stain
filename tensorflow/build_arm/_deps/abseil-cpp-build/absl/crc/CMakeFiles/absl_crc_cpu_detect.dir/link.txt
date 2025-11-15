@@ -1,0 +1,2 @@
+/usr/bin/arm-linux-gnueabihf-ar qc libabsl_crc_cpu_detect.a CMakeFiles/absl_crc_cpu_detect.dir/internal/cpu_detect.cc.o
+/usr/bin/arm-linux-gnueabihf-ranlib libabsl_crc_cpu_detect.a

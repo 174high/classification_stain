@@ -1,0 +1,132 @@
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wshorten64to32 failed with the following output:
+Change Dir: /root/tensorflow/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_f5479/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_f5479.dir/build.make CMakeFiles/cmTC_f5479.dir/build
+gmake[1]: Entering directory '/root/tensorflow/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_f5479.dir/src.cxx.o
+/usr/bin/arm-linux-gnueabihf-g++ -DCOMPILER_SUPPORT_Wshorten64to32  -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Werror -fPIE   -Wshorten-64-to-32 -std=gnu++17 -o CMakeFiles/cmTC_f5479.dir/src.cxx.o -c /root/tensorflow/build/CMakeFiles/CMakeTmp/src.cxx
+arm-linux-gnueabihf-g++: error: unrecognized command-line option '-Wshorten-64-to-32'
+gmake[1]: *** [CMakeFiles/cmTC_f5479.dir/build.make:78: CMakeFiles/cmTC_f5479.dir/src.cxx.o] Error 1
+gmake[1]: Leaving directory '/root/tensorflow/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_f5479/fast] Error 2
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wcpp11extensions failed with the following output:
+Change Dir: /root/tensorflow/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_7969e/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_7969e.dir/build.make CMakeFiles/cmTC_7969e.dir/build
+gmake[1]: Entering directory '/root/tensorflow/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_7969e.dir/src.cxx.o
+/usr/bin/arm-linux-gnueabihf-g++ -DCOMPILER_SUPPORT_Wcpp11extensions  -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wenum-conversion -Werror -fPIE   -Wc++11-extensions -std=gnu++17 -o CMakeFiles/cmTC_7969e.dir/src.cxx.o -c /root/tensorflow/build/CMakeFiles/CMakeTmp/src.cxx
+arm-linux-gnueabihf-g++: error: unrecognized command-line option '-Wc++11-extensions'; did you mean '-fms-extensions'?
+gmake[1]: *** [CMakeFiles/cmTC_7969e.dir/build.make:78: CMakeFiles/cmTC_7969e.dir/src.cxx.o] Error 1
+gmake[1]: Leaving directory '/root/tensorflow/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_7969e/fast] Error 2
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_wd981 failed with the following output:
+Change Dir: /root/tensorflow/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_e0af5/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e0af5.dir/build.make CMakeFiles/cmTC_e0af5.dir/build
+gmake[1]: Entering directory '/root/tensorflow/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e0af5.dir/src.cxx.o
+/usr/bin/arm-linux-gnueabihf-g++ -DCOMPILER_SUPPORT_wd981  -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wenum-conversion -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -Werror -fPIE   -wd981 -std=gnu++17 -o CMakeFiles/cmTC_e0af5.dir/src.cxx.o -c /root/tensorflow/build/CMakeFiles/CMakeTmp/src.cxx
+arm-linux-gnueabihf-g++: error: unrecognized command-line option '-wd981'
+gmake[1]: *** [CMakeFiles/cmTC_e0af5.dir/build.make:78: CMakeFiles/cmTC_e0af5.dir/src.cxx.o] Error 1
+gmake[1]: Leaving directory '/root/tensorflow/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_e0af5/fast] Error 2
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_wd2304 failed with the following output:
+Change Dir: /root/tensorflow/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_39d48/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_39d48.dir/build.make CMakeFiles/cmTC_39d48.dir/build
+gmake[1]: Entering directory '/root/tensorflow/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_39d48.dir/src.cxx.o
+/usr/bin/arm-linux-gnueabihf-g++ -DCOMPILER_SUPPORT_wd2304  -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wenum-conversion -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -Werror -fPIE   -wd2304 -std=gnu++17 -o CMakeFiles/cmTC_39d48.dir/src.cxx.o -c /root/tensorflow/build/CMakeFiles/CMakeTmp/src.cxx
+arm-linux-gnueabihf-g++: error: unrecognized command-line option '-wd2304'
+gmake[1]: *** [CMakeFiles/cmTC_39d48.dir/build.make:78: CMakeFiles/cmTC_39d48.dir/src.cxx.o] Error 1
+gmake[1]: Leaving directory '/root/tensorflow/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_39d48/fast] Error 2
+
+
+Source file was:
+int main() { return 0; }
+Compiling the Fortran compiler identification source file "CMakeFortranCompilerId.F" failed.
+Compiler: CMAKE_Fortran_COMPILER-NOTFOUND 
+Build flags: 
+Id flags: -v 
+
+The output was:
+No such file or directory
+
+
+Compiling the Fortran compiler identification source file "CMakeFortranCompilerId.F" failed.
+Compiler: CMAKE_Fortran_COMPILER-NOTFOUND 
+Build flags: 
+Id flags:  
+
+The output was:
+No such file or directory
+
+
+Compiling the Fortran compiler identification source file "CMakeFortranCompilerId.F" failed.
+Compiler: CMAKE_Fortran_COMPILER-NOTFOUND 
+Build flags: 
+Id flags: -c 
+
+The output was:
+No such file or directory
+
+
+Compiling the Fortran compiler identification source file "CMakeFortranCompilerId.F" failed.
+Compiler: CMAKE_Fortran_COMPILER-NOTFOUND 
+Build flags: 
+Id flags: -fpp 
+
+The output was:
+No such file or directory
+
+
+Compiling the Fortran compiler identification source file "CMakeFortranCompilerId.F" failed.
+Compiler: CMAKE_Fortran_COMPILER-NOTFOUND 
+Build flags: 
+Id flags: -v 
+
+The output was:
+No such file or directory
+
+
+Compiling the Fortran compiler identification source file "CMakeFortranCompilerId.F" failed.
+Compiler: CMAKE_Fortran_COMPILER-NOTFOUND 
+Build flags: 
+Id flags:  
+
+The output was:
+No such file or directory
+
+
+Compiling the Fortran compiler identification source file "CMakeFortranCompilerId.F" failed.
+Compiler: CMAKE_Fortran_COMPILER-NOTFOUND 
+Build flags: 
+Id flags: -c 
+
+The output was:
+No such file or directory
+
+
+Compiling the Fortran compiler identification source file "CMakeFortranCompilerId.F" failed.
+Compiler: CMAKE_Fortran_COMPILER-NOTFOUND 
+Build flags: 
+Id flags: -fpp 
+
+The output was:
+No such file or directory
+
+

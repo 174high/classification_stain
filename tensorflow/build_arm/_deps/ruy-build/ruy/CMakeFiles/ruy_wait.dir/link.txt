@@ -1,0 +1,2 @@
+/usr/bin/arm-linux-gnueabihf-ar qc libruy_wait.a CMakeFiles/ruy_wait.dir/wait.cc.o
+/usr/bin/arm-linux-gnueabihf-ranlib libruy_wait.a

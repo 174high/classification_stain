@@ -1,0 +1,14 @@
+# Target labels
+ xnnpack-populate
+# Source files and their labels
+/root/tensorflow/build/_deps/xnnpack-subbuild/CMakeFiles/xnnpack-populate
+/root/tensorflow/build/_deps/xnnpack-subbuild/CMakeFiles/xnnpack-populate.rule
+/root/tensorflow/build/_deps/xnnpack-subbuild/CMakeFiles/xnnpack-populate-complete.rule
+/root/tensorflow/build/src/xnnpack-populate-stamp/xnnpack-populate-build.rule
+/root/tensorflow/build/src/xnnpack-populate-stamp/xnnpack-populate-configure.rule
+/root/tensorflow/build/src/xnnpack-populate-stamp/xnnpack-populate-download.rule
+/root/tensorflow/build/src/xnnpack-populate-stamp/xnnpack-populate-install.rule
+/root/tensorflow/build/src/xnnpack-populate-stamp/xnnpack-populate-mkdir.rule
+/root/tensorflow/build/src/xnnpack-populate-stamp/xnnpack-populate-patch.rule
+/root/tensorflow/build/src/xnnpack-populate-stamp/xnnpack-populate-test.rule
+/root/tensorflow/build/src/xnnpack-populate-stamp/xnnpack-populate-update.rule

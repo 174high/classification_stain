@@ -1,0 +1,949 @@
+The target system is: Linux -  - arm
+The host system is: Linux - 5.15.0-161-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/arm-linux-gnueabihf-gcc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/root/tensorflow/build/CMakeFiles/3.22.1/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/arm-linux-gnueabihf-g++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/root/tensorflow/build/CMakeFiles/3.22.1/CompilerIdCXX/a.out"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /root/tensorflow/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_08fa6/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_08fa6.dir/build.make CMakeFiles/cmTC_08fa6.dir/build
+gmake[1]: Entering directory '/root/tensorflow/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_08fa6.dir/CMakeCCompilerABI.c.o
+/usr/bin/arm-linux-gnueabihf-gcc   -v -o CMakeFiles/cmTC_08fa6.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=/usr/bin/arm-linux-gnueabihf-gcc
+Target: arm-linux-gnueabihf
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libitm --disable-libquadmath --disable-libquadmath-support --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --without-target-system-zlib --enable-multiarch --disable-sjlj-exceptions --with-arch=armv7-a+fp --with-float=hard --with-mode=thumb --disable-werror --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=arm-linux-gnueabihf --program-prefix=arm-linux-gnueabihf- --includedir=/usr/arm-linux-gnueabihf/include --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_08fa6.dir/CMakeCCompilerABI.c.o' '-c'  '-mfloat-abi=hard' '-mtls-dialect=gnu' '-mthumb' '-mlibarch=armv7-a+fp' '-march=armv7-a+fp' '-dumpdir' 'CMakeFiles/cmTC_08fa6.dir/'
+ /usr/lib/gcc-cross/arm-linux-gnueabihf/11/cc1 -quiet -v -imultilib . -imultiarch arm-linux-gnueabihf /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_08fa6.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mfloat-abi=hard -mtls-dialect=gnu -mthumb -mlibarch=armv7-a+fp -march=armv7-a+fp -version -fstack-protector-strong -Wformat -Wformat-security -o /tmp/ccm9WviX.s
+GNU C17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (arm-linux-gnueabihf)
+	compiled by GNU C version 11.4.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/local/include/arm-linux-gnueabihf"
+ignoring nonexistent directory "/usr/lib/gcc-cross/arm-linux-gnueabihf/11/include-fixed"
+ignoring nonexistent directory "/usr/include/arm-linux-gnueabihf"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/gcc-cross/arm-linux-gnueabihf/11/include
+ /usr/lib/gcc-cross/arm-linux-gnueabihf/11/../../../../arm-linux-gnueabihf/include
+ /usr/include
+End of search list.
+GNU C17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (arm-linux-gnueabihf)
+	compiled by GNU C version 11.4.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 7e287f36fa9a65e178386b3529c34d4c
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_08fa6.dir/CMakeCCompilerABI.c.o' '-c'  '-mfloat-abi=hard' '-mtls-dialect=gnu' '-mthumb' '-mlibarch=armv7-a+fp' '-march=armv7-a+fp' '-dumpdir' 'CMakeFiles/cmTC_08fa6.dir/'
+ /usr/lib/gcc-cross/arm-linux-gnueabihf/11/../../../../arm-linux-gnueabihf/bin/as -v -march=armv7-a -mfloat-abi=hard -meabi=5 -o CMakeFiles/cmTC_08fa6.dir/CMakeCCompilerABI.c.o /tmp/ccm9WviX.s
+GNU assembler version 2.38 (arm-linux-gnueabihf) using BFD version (GNU Binutils for Ubuntu) 2.38
+COMPILER_PATH=/usr/lib/gcc-cross/arm-linux-gnueabihf/11/:/usr/lib/gcc-cross/arm-linux-gnueabihf/11/:/usr/lib/gcc-cross/arm-linux-gnueabihf/:/usr/lib/gcc-cross/arm-linux-gnueabihf/11/:/usr/lib/gcc-cross/arm-linux-gnueabihf/:/usr/lib/gcc-cross/arm-linux-gnueabihf/11/../../../../arm-linux-gnueabihf/bin/
+LIBRARY_PATH=/usr/lib/gcc-cross/arm-linux-gnueabihf/11/:/usr/lib/gcc-cross/arm-linux-gnueabihf/11/../../../../arm-linux-gnueabihf/lib/:/lib/arm-linux-gnueabihf/:/lib/:/usr/lib/arm-linux-gnueabihf/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_08fa6.dir/CMakeCCompilerABI.c.o' '-c'  '-mfloat-abi=hard' '-mtls-dialect=gnu' '-mthumb' '-mlibarch=armv7-a+fp' '-march=armv7-a+fp' '-dumpdir' 'CMakeFiles/cmTC_08fa6.dir/CMakeCCompilerABI.c.'
+Linking C executable cmTC_08fa6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_08fa6.dir/link.txt --verbose=1
+/usr/bin/arm-linux-gnueabihf-gcc  -v CMakeFiles/cmTC_08fa6.dir/CMakeCCompilerABI.c.o -o cmTC_08fa6 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/arm-linux-gnueabihf-gcc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc-cross/arm-linux-gnueabihf/11/lto-wrapper
+Target: arm-linux-gnueabihf
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libitm --disable-libquadmath --disable-libquadmath-support --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --without-target-system-zlib --enable-multiarch --disable-sjlj-exceptions --with-arch=armv7-a+fp --with-float=hard --with-mode=thumb --disable-werror --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=arm-linux-gnueabihf --program-prefix=arm-linux-gnueabihf- --includedir=/usr/arm-linux-gnueabihf/include --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) 
+COMPILER_PATH=/usr/lib/gcc-cross/arm-linux-gnueabihf/11/:/usr/lib/gcc-cross/arm-linux-gnueabihf/11/:/usr/lib/gcc-cross/arm-linux-gnueabihf/:/usr/lib/gcc-cross/arm-linux-gnueabihf/11/:/usr/lib/gcc-cross/arm-linux-gnueabihf/:/usr/lib/gcc-cross/arm-linux-gnueabihf/11/../../../../arm-linux-gnueabihf/bin/
+LIBRARY_PATH=/usr/lib/gcc-cross/arm-linux-gnueabihf/11/:/usr/lib/gcc-cross/arm-linux-gnueabihf/11/../../../../arm-linux-gnueabihf/lib/:/lib/arm-linux-gnueabihf/:/lib/:/usr/lib/arm-linux-gnueabihf/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_08fa6'  '-mfloat-abi=hard' '-mtls-dialect=gnu' '-mthumb' '-mlibarch=armv7-a+fp' '-march=armv7-a+fp' '-dumpdir' 'cmTC_08fa6.'
+ /usr/lib/gcc-cross/arm-linux-gnueabihf/11/collect2 -plugin /usr/lib/gcc-cross/arm-linux-gnueabihf/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc-cross/arm-linux-gnueabihf/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccxWViny.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -dynamic-linker /lib/ld-linux-armhf.so.3 -X --hash-style=gnu --as-needed -m armelf_linux_eabi -pie -z now -z relro -o cmTC_08fa6 /usr/lib/gcc-cross/arm-linux-gnueabihf/11/../../../../arm-linux-gnueabihf/lib/Scrt1.o /usr/lib/gcc-cross/arm-linux-gnueabihf/11/../../../../arm-linux-gnueabihf/lib/crti.o /usr/lib/gcc-cross/arm-linux-gnueabihf/11/crtbeginS.o -L/usr/lib/gcc-cross/arm-linux-gnueabihf/11 -L/usr/lib/gcc-cross/arm-linux-gnueabihf/11/../../../../arm-linux-gnueabihf/lib -L/lib/arm-linux-gnueabihf -L/usr/lib/arm-linux-gnueabihf CMakeFiles/cmTC_08fa6.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc-cross/arm-linux-gnueabihf/11/crtendS.o /usr/lib/gcc-cross/arm-linux-gnueabihf/11/../../../../arm-linux-gnueabihf/lib/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_08fa6'  '-mfloat-abi=hard' '-mtls-dialect=gnu' '-mthumb' '-mlibarch=armv7-a+fp' '-march=armv7-a+fp' '-dumpdir' 'cmTC_08fa6.'
+gmake[1]: Leaving directory '/root/tensorflow/build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/lib/gcc-cross/arm-linux-gnueabihf/11/include]
+    add: [/usr/lib/gcc-cross/arm-linux-gnueabihf/11/../../../../arm-linux-gnueabihf/include]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/usr/lib/gcc-cross/arm-linux-gnueabihf/11/include] ==> [/usr/lib/gcc-cross/arm-linux-gnueabihf/11/include]
+  collapse include dir [/usr/lib/gcc-cross/arm-linux-gnueabihf/11/../../../../arm-linux-gnueabihf/include] ==> [/usr/arm-linux-gnueabihf/include]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/lib/gcc-cross/arm-linux-gnueabihf/11/include;/usr/arm-linux-gnueabihf/include;/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(arm-linux-gnueabihf-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /root/tensorflow/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_08fa6/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_08fa6.dir/build.make CMakeFiles/cmTC_08fa6.dir/build]
+  ignore line: [gmake[1]: Entering directory '/root/tensorflow/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_08fa6.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/arm-linux-gnueabihf-gcc   -v -o CMakeFiles/cmTC_08fa6.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/arm-linux-gnueabihf-gcc]
+  ignore line: [Target: arm-linux-gnueabihf]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libitm --disable-libquadmath --disable-libquadmath-support --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --without-target-system-zlib --enable-multiarch --disable-sjlj-exceptions --with-arch=armv7-a+fp --with-float=hard --with-mode=thumb --disable-werror --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=arm-linux-gnueabihf --program-prefix=arm-linux-gnueabihf- --includedir=/usr/arm-linux-gnueabihf/include --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_08fa6.dir/CMakeCCompilerABI.c.o' '-c'  '-mfloat-abi=hard' '-mtls-dialect=gnu' '-mthumb' '-mlibarch=armv7-a+fp' '-march=armv7-a+fp' '-dumpdir' 'CMakeFiles/cmTC_08fa6.dir/']
+  ignore line: [ /usr/lib/gcc-cross/arm-linux-gnueabihf/11/cc1 -quiet -v -imultilib . -imultiarch arm-linux-gnueabihf /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_08fa6.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mfloat-abi=hard -mtls-dialect=gnu -mthumb -mlibarch=armv7-a+fp -march=armv7-a+fp -version -fstack-protector-strong -Wformat -Wformat-security -o /tmp/ccm9WviX.s]
+  ignore line: [GNU C17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (arm-linux-gnueabihf)]
+  ignore line: [	compiled by GNU C version 11.4.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/usr/local/include/arm-linux-gnueabihf"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc-cross/arm-linux-gnueabihf/11/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/usr/include/arm-linux-gnueabihf"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/lib/gcc-cross/arm-linux-gnueabihf/11/include]
+  ignore line: [ /usr/lib/gcc-cross/arm-linux-gnueabihf/11/../../../../arm-linux-gnueabihf/include]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (arm-linux-gnueabihf)]
+  ignore line: [	compiled by GNU C version 11.4.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 7e287f36fa9a65e178386b3529c34d4c]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_08fa6.dir/CMakeCCompilerABI.c.o' '-c'  '-mfloat-abi=hard' '-mtls-dialect=gnu' '-mthumb' '-mlibarch=armv7-a+fp' '-march=armv7-a+fp' '-dumpdir' 'CMakeFiles/cmTC_08fa6.dir/']
+  ignore line: [ /usr/lib/gcc-cross/arm-linux-gnueabihf/11/../../../../arm-linux-gnueabihf/bin/as -v -march=armv7-a -mfloat-abi=hard -meabi=5 -o CMakeFiles/cmTC_08fa6.dir/CMakeCCompilerABI.c.o /tmp/ccm9WviX.s]
+  ignore line: [GNU assembler version 2.38 (arm-linux-gnueabihf) using BFD version (GNU Binutils for Ubuntu) 2.38]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc-cross/arm-linux-gnueabihf/11/:/usr/lib/gcc-cross/arm-linux-gnueabihf/11/:/usr/lib/gcc-cross/arm-linux-gnueabihf/:/usr/lib/gcc-cross/arm-linux-gnueabihf/11/:/usr/lib/gcc-cross/arm-linux-gnueabihf/:/usr/lib/gcc-cross/arm-linux-gnueabihf/11/../../../../arm-linux-gnueabihf/bin/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc-cross/arm-linux-gnueabihf/11/:/usr/lib/gcc-cross/arm-linux-gnueabihf/11/../../../../arm-linux-gnueabihf/lib/:/lib/arm-linux-gnueabihf/:/lib/:/usr/lib/arm-linux-gnueabihf/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_08fa6.dir/CMakeCCompilerABI.c.o' '-c'  '-mfloat-abi=hard' '-mtls-dialect=gnu' '-mthumb' '-mlibarch=armv7-a+fp' '-march=armv7-a+fp' '-dumpdir' 'CMakeFiles/cmTC_08fa6.dir/CMakeCCompilerABI.c.']
+  ignore line: [Linking C executable cmTC_08fa6]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_08fa6.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/arm-linux-gnueabihf-gcc  -v CMakeFiles/cmTC_08fa6.dir/CMakeCCompilerABI.c.o -o cmTC_08fa6 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/arm-linux-gnueabihf-gcc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc-cross/arm-linux-gnueabihf/11/lto-wrapper]
+  ignore line: [Target: arm-linux-gnueabihf]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libitm --disable-libquadmath --disable-libquadmath-support --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --without-target-system-zlib --enable-multiarch --disable-sjlj-exceptions --with-arch=armv7-a+fp --with-float=hard --with-mode=thumb --disable-werror --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=arm-linux-gnueabihf --program-prefix=arm-linux-gnueabihf- --includedir=/usr/arm-linux-gnueabihf/include --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc-cross/arm-linux-gnueabihf/11/:/usr/lib/gcc-cross/arm-linux-gnueabihf/11/:/usr/lib/gcc-cross/arm-linux-gnueabihf/:/usr/lib/gcc-cross/arm-linux-gnueabihf/11/:/usr/lib/gcc-cross/arm-linux-gnueabihf/:/usr/lib/gcc-cross/arm-linux-gnueabihf/11/../../../../arm-linux-gnueabihf/bin/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc-cross/arm-linux-gnueabihf/11/:/usr/lib/gcc-cross/arm-linux-gnueabihf/11/../../../../arm-linux-gnueabihf/lib/:/lib/arm-linux-gnueabihf/:/lib/:/usr/lib/arm-linux-gnueabihf/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_08fa6'  '-mfloat-abi=hard' '-mtls-dialect=gnu' '-mthumb' '-mlibarch=armv7-a+fp' '-march=armv7-a+fp' '-dumpdir' 'cmTC_08fa6.']
+  link line: [ /usr/lib/gcc-cross/arm-linux-gnueabihf/11/collect2 -plugin /usr/lib/gcc-cross/arm-linux-gnueabihf/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc-cross/arm-linux-gnueabihf/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccxWViny.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -dynamic-linker /lib/ld-linux-armhf.so.3 -X --hash-style=gnu --as-needed -m armelf_linux_eabi -pie -z now -z relro -o cmTC_08fa6 /usr/lib/gcc-cross/arm-linux-gnueabihf/11/../../../../arm-linux-gnueabihf/lib/Scrt1.o /usr/lib/gcc-cross/arm-linux-gnueabihf/11/../../../../arm-linux-gnueabihf/lib/crti.o /usr/lib/gcc-cross/arm-linux-gnueabihf/11/crtbeginS.o -L/usr/lib/gcc-cross/arm-linux-gnueabihf/11 -L/usr/lib/gcc-cross/arm-linux-gnueabihf/11/../../../../arm-linux-gnueabihf/lib -L/lib/arm-linux-gnueabihf -L/usr/lib/arm-linux-gnueabihf CMakeFiles/cmTC_08fa6.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc-cross/arm-linux-gnueabihf/11/crtendS.o /usr/lib/gcc-cross/arm-linux-gnueabihf/11/../../../../arm-linux-gnueabihf/lib/crtn.o]
+    arg [/usr/lib/gcc-cross/arm-linux-gnueabihf/11/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc-cross/arm-linux-gnueabihf/11/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc-cross/arm-linux-gnueabihf/11/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccxWViny.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--sysroot=/] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-linux-armhf.so.3] ==> ignore
+    arg [-X] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-m] ==> ignore
+    arg [armelf_linux_eabi] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_08fa6] ==> ignore
+    arg [/usr/lib/gcc-cross/arm-linux-gnueabihf/11/../../../../arm-linux-gnueabihf/lib/Scrt1.o] ==> obj [/usr/lib/gcc-cross/arm-linux-gnueabihf/11/../../../../arm-linux-gnueabihf/lib/Scrt1.o]
+    arg [/usr/lib/gcc-cross/arm-linux-gnueabihf/11/../../../../arm-linux-gnueabihf/lib/crti.o] ==> obj [/usr/lib/gcc-cross/arm-linux-gnueabihf/11/../../../../arm-linux-gnueabihf/lib/crti.o]
+    arg [/usr/lib/gcc-cross/arm-linux-gnueabihf/11/crtbeginS.o] ==> obj [/usr/lib/gcc-cross/arm-linux-gnueabihf/11/crtbeginS.o]
+    arg [-L/usr/lib/gcc-cross/arm-linux-gnueabihf/11] ==> dir [/usr/lib/gcc-cross/arm-linux-gnueabihf/11]
+    arg [-L/usr/lib/gcc-cross/arm-linux-gnueabihf/11/../../../../arm-linux-gnueabihf/lib] ==> dir [/usr/lib/gcc-cross/arm-linux-gnueabihf/11/../../../../arm-linux-gnueabihf/lib]
+    arg [-L/lib/arm-linux-gnueabihf] ==> dir [/lib/arm-linux-gnueabihf]
+    arg [-L/usr/lib/arm-linux-gnueabihf] ==> dir [/usr/lib/arm-linux-gnueabihf]
+    arg [CMakeFiles/cmTC_08fa6.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [/usr/lib/gcc-cross/arm-linux-gnueabihf/11/crtendS.o] ==> obj [/usr/lib/gcc-cross/arm-linux-gnueabihf/11/crtendS.o]
+    arg [/usr/lib/gcc-cross/arm-linux-gnueabihf/11/../../../../arm-linux-gnueabihf/lib/crtn.o] ==> obj [/usr/lib/gcc-cross/arm-linux-gnueabihf/11/../../../../arm-linux-gnueabihf/lib/crtn.o]
+  collapse obj [/usr/lib/gcc-cross/arm-linux-gnueabihf/11/../../../../arm-linux-gnueabihf/lib/Scrt1.o] ==> [/usr/arm-linux-gnueabihf/lib/Scrt1.o]
+  collapse obj [/usr/lib/gcc-cross/arm-linux-gnueabihf/11/../../../../arm-linux-gnueabihf/lib/crti.o] ==> [/usr/arm-linux-gnueabihf/lib/crti.o]
+  collapse obj [/usr/lib/gcc-cross/arm-linux-gnueabihf/11/../../../../arm-linux-gnueabihf/lib/crtn.o] ==> [/usr/arm-linux-gnueabihf/lib/crtn.o]
+  collapse library dir [/usr/lib/gcc-cross/arm-linux-gnueabihf/11] ==> [/usr/lib/gcc-cross/arm-linux-gnueabihf/11]
+  collapse library dir [/usr/lib/gcc-cross/arm-linux-gnueabihf/11/../../../../arm-linux-gnueabihf/lib] ==> [/usr/arm-linux-gnueabihf/lib]
+  collapse library dir [/lib/arm-linux-gnueabihf] ==> [/lib/arm-linux-gnueabihf]
+  collapse library dir [/usr/lib/arm-linux-gnueabihf] ==> [/usr/lib/arm-linux-gnueabihf]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit objs: [/usr/arm-linux-gnueabihf/lib/Scrt1.o;/usr/arm-linux-gnueabihf/lib/crti.o;/usr/lib/gcc-cross/arm-linux-gnueabihf/11/crtbeginS.o;/usr/lib/gcc-cross/arm-linux-gnueabihf/11/crtendS.o;/usr/arm-linux-gnueabihf/lib/crtn.o]
+  implicit dirs: [/usr/lib/gcc-cross/arm-linux-gnueabihf/11;/usr/arm-linux-gnueabihf/lib;/lib/arm-linux-gnueabihf;/usr/lib/arm-linux-gnueabihf]
+  implicit fwks: []
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /root/tensorflow/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_070bc/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_070bc.dir/build.make CMakeFiles/cmTC_070bc.dir/build
+gmake[1]: Entering directory '/root/tensorflow/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_070bc.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/arm-linux-gnueabihf-g++   -v -o CMakeFiles/cmTC_070bc.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp
+Using built-in specs.
+COLLECT_GCC=/usr/bin/arm-linux-gnueabihf-g++
+Target: arm-linux-gnueabihf
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libitm --disable-libquadmath --disable-libquadmath-support --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --without-target-system-zlib --enable-multiarch --disable-sjlj-exceptions --with-arch=armv7-a+fp --with-float=hard --with-mode=thumb --disable-werror --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=arm-linux-gnueabihf --program-prefix=arm-linux-gnueabihf- --includedir=/usr/arm-linux-gnueabihf/include --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_070bc.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc'  '-mfloat-abi=hard' '-mtls-dialect=gnu' '-mthumb' '-mlibarch=armv7-a+fp' '-march=armv7-a+fp' '-dumpdir' 'CMakeFiles/cmTC_070bc.dir/'
+ /usr/lib/gcc-cross/arm-linux-gnueabihf/11/cc1plus -quiet -v -imultilib . -imultiarch arm-linux-gnueabihf -D_GNU_SOURCE /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_070bc.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mfloat-abi=hard -mtls-dialect=gnu -mthumb -mlibarch=armv7-a+fp -march=armv7-a+fp -version -fstack-protector-strong -Wformat -Wformat-security -o /tmp/cc7W8xuo.s
+GNU C++17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (arm-linux-gnueabihf)
+	compiled by GNU C version 11.4.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/local/include/arm-linux-gnueabihf"
+ignoring nonexistent directory "/usr/lib/gcc-cross/arm-linux-gnueabihf/11/include-fixed"
+ignoring nonexistent directory "/usr/include/arm-linux-gnueabihf"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/gcc-cross/arm-linux-gnueabihf/11/../../../../arm-linux-gnueabihf/include/c++/11
+ /usr/lib/gcc-cross/arm-linux-gnueabihf/11/../../../../arm-linux-gnueabihf/include/c++/11/arm-linux-gnueabihf/.
+ /usr/lib/gcc-cross/arm-linux-gnueabihf/11/../../../../arm-linux-gnueabihf/include/c++/11/backward
+ /usr/lib/gcc-cross/arm-linux-gnueabihf/11/include
+ /usr/lib/gcc-cross/arm-linux-gnueabihf/11/../../../../arm-linux-gnueabihf/include
+ /usr/include
+End of search list.
+GNU C++17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (arm-linux-gnueabihf)
+	compiled by GNU C version 11.4.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: f8dab96d7e7b711d866ac6ec96f46fba
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_070bc.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc'  '-mfloat-abi=hard' '-mtls-dialect=gnu' '-mthumb' '-mlibarch=armv7-a+fp' '-march=armv7-a+fp' '-dumpdir' 'CMakeFiles/cmTC_070bc.dir/'
+ /usr/lib/gcc-cross/arm-linux-gnueabihf/11/../../../../arm-linux-gnueabihf/bin/as -v -march=armv7-a -mfloat-abi=hard -meabi=5 -o CMakeFiles/cmTC_070bc.dir/CMakeCXXCompilerABI.cpp.o /tmp/cc7W8xuo.s
+GNU assembler version 2.38 (arm-linux-gnueabihf) using BFD version (GNU Binutils for Ubuntu) 2.38
+COMPILER_PATH=/usr/lib/gcc-cross/arm-linux-gnueabihf/11/:/usr/lib/gcc-cross/arm-linux-gnueabihf/11/:/usr/lib/gcc-cross/arm-linux-gnueabihf/:/usr/lib/gcc-cross/arm-linux-gnueabihf/11/:/usr/lib/gcc-cross/arm-linux-gnueabihf/:/usr/lib/gcc-cross/arm-linux-gnueabihf/11/../../../../arm-linux-gnueabihf/bin/
+LIBRARY_PATH=/usr/lib/gcc-cross/arm-linux-gnueabihf/11/:/usr/lib/gcc-cross/arm-linux-gnueabihf/11/../../../../arm-linux-gnueabihf/lib/:/lib/arm-linux-gnueabihf/:/lib/:/usr/lib/arm-linux-gnueabihf/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_070bc.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc'  '-mfloat-abi=hard' '-mtls-dialect=gnu' '-mthumb' '-mlibarch=armv7-a+fp' '-march=armv7-a+fp' '-dumpdir' 'CMakeFiles/cmTC_070bc.dir/CMakeCXXCompilerABI.cpp.'
+Linking CXX executable cmTC_070bc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_070bc.dir/link.txt --verbose=1
+/usr/bin/arm-linux-gnueabihf-g++  -v CMakeFiles/cmTC_070bc.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_070bc 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/arm-linux-gnueabihf-g++
+COLLECT_LTO_WRAPPER=/usr/lib/gcc-cross/arm-linux-gnueabihf/11/lto-wrapper
+Target: arm-linux-gnueabihf
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libitm --disable-libquadmath --disable-libquadmath-support --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --without-target-system-zlib --enable-multiarch --disable-sjlj-exceptions --with-arch=armv7-a+fp --with-float=hard --with-mode=thumb --disable-werror --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=arm-linux-gnueabihf --program-prefix=arm-linux-gnueabihf- --includedir=/usr/arm-linux-gnueabihf/include --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) 
+COMPILER_PATH=/usr/lib/gcc-cross/arm-linux-gnueabihf/11/:/usr/lib/gcc-cross/arm-linux-gnueabihf/11/:/usr/lib/gcc-cross/arm-linux-gnueabihf/:/usr/lib/gcc-cross/arm-linux-gnueabihf/11/:/usr/lib/gcc-cross/arm-linux-gnueabihf/:/usr/lib/gcc-cross/arm-linux-gnueabihf/11/../../../../arm-linux-gnueabihf/bin/
+LIBRARY_PATH=/usr/lib/gcc-cross/arm-linux-gnueabihf/11/:/usr/lib/gcc-cross/arm-linux-gnueabihf/11/../../../../arm-linux-gnueabihf/lib/:/lib/arm-linux-gnueabihf/:/lib/:/usr/lib/arm-linux-gnueabihf/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_070bc' '-shared-libgcc'  '-mfloat-abi=hard' '-mtls-dialect=gnu' '-mthumb' '-mlibarch=armv7-a+fp' '-march=armv7-a+fp' '-dumpdir' 'cmTC_070bc.'
+ /usr/lib/gcc-cross/arm-linux-gnueabihf/11/collect2 -plugin /usr/lib/gcc-cross/arm-linux-gnueabihf/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc-cross/arm-linux-gnueabihf/11/lto-wrapper -plugin-opt=-fresolution=/tmp/cckUQLKu.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -dynamic-linker /lib/ld-linux-armhf.so.3 -X --hash-style=gnu --as-needed -m armelf_linux_eabi -pie -z now -z relro -o cmTC_070bc /usr/lib/gcc-cross/arm-linux-gnueabihf/11/../../../../arm-linux-gnueabihf/lib/Scrt1.o /usr/lib/gcc-cross/arm-linux-gnueabihf/11/../../../../arm-linux-gnueabihf/lib/crti.o /usr/lib/gcc-cross/arm-linux-gnueabihf/11/crtbeginS.o -L/usr/lib/gcc-cross/arm-linux-gnueabihf/11 -L/usr/lib/gcc-cross/arm-linux-gnueabihf/11/../../../../arm-linux-gnueabihf/lib -L/lib/arm-linux-gnueabihf -L/usr/lib/arm-linux-gnueabihf CMakeFiles/cmTC_070bc.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc-cross/arm-linux-gnueabihf/11/crtendS.o /usr/lib/gcc-cross/arm-linux-gnueabihf/11/../../../../arm-linux-gnueabihf/lib/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_070bc' '-shared-libgcc'  '-mfloat-abi=hard' '-mtls-dialect=gnu' '-mthumb' '-mlibarch=armv7-a+fp' '-march=armv7-a+fp' '-dumpdir' 'cmTC_070bc.'
+gmake[1]: Leaving directory '/root/tensorflow/build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/lib/gcc-cross/arm-linux-gnueabihf/11/../../../../arm-linux-gnueabihf/include/c++/11]
+    add: [/usr/lib/gcc-cross/arm-linux-gnueabihf/11/../../../../arm-linux-gnueabihf/include/c++/11/arm-linux-gnueabihf/.]
+    add: [/usr/lib/gcc-cross/arm-linux-gnueabihf/11/../../../../arm-linux-gnueabihf/include/c++/11/backward]
+    add: [/usr/lib/gcc-cross/arm-linux-gnueabihf/11/include]
+    add: [/usr/lib/gcc-cross/arm-linux-gnueabihf/11/../../../../arm-linux-gnueabihf/include]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/usr/lib/gcc-cross/arm-linux-gnueabihf/11/../../../../arm-linux-gnueabihf/include/c++/11] ==> [/usr/arm-linux-gnueabihf/include/c++/11]
+  collapse include dir [/usr/lib/gcc-cross/arm-linux-gnueabihf/11/../../../../arm-linux-gnueabihf/include/c++/11/arm-linux-gnueabihf/.] ==> [/usr/arm-linux-gnueabihf/include/c++/11/arm-linux-gnueabihf]
+  collapse include dir [/usr/lib/gcc-cross/arm-linux-gnueabihf/11/../../../../arm-linux-gnueabihf/include/c++/11/backward] ==> [/usr/arm-linux-gnueabihf/include/c++/11/backward]
+  collapse include dir [/usr/lib/gcc-cross/arm-linux-gnueabihf/11/include] ==> [/usr/lib/gcc-cross/arm-linux-gnueabihf/11/include]
+  collapse include dir [/usr/lib/gcc-cross/arm-linux-gnueabihf/11/../../../../arm-linux-gnueabihf/include] ==> [/usr/arm-linux-gnueabihf/include]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/arm-linux-gnueabihf/include/c++/11;/usr/arm-linux-gnueabihf/include/c++/11/arm-linux-gnueabihf;/usr/arm-linux-gnueabihf/include/c++/11/backward;/usr/lib/gcc-cross/arm-linux-gnueabihf/11/include;/usr/arm-linux-gnueabihf/include;/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(arm-linux-gnueabihf-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /root/tensorflow/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_070bc/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_070bc.dir/build.make CMakeFiles/cmTC_070bc.dir/build]
+  ignore line: [gmake[1]: Entering directory '/root/tensorflow/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_070bc.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/arm-linux-gnueabihf-g++   -v -o CMakeFiles/cmTC_070bc.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/arm-linux-gnueabihf-g++]
+  ignore line: [Target: arm-linux-gnueabihf]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libitm --disable-libquadmath --disable-libquadmath-support --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --without-target-system-zlib --enable-multiarch --disable-sjlj-exceptions --with-arch=armv7-a+fp --with-float=hard --with-mode=thumb --disable-werror --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=arm-linux-gnueabihf --program-prefix=arm-linux-gnueabihf- --includedir=/usr/arm-linux-gnueabihf/include --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_070bc.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc'  '-mfloat-abi=hard' '-mtls-dialect=gnu' '-mthumb' '-mlibarch=armv7-a+fp' '-march=armv7-a+fp' '-dumpdir' 'CMakeFiles/cmTC_070bc.dir/']
+  ignore line: [ /usr/lib/gcc-cross/arm-linux-gnueabihf/11/cc1plus -quiet -v -imultilib . -imultiarch arm-linux-gnueabihf -D_GNU_SOURCE /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_070bc.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mfloat-abi=hard -mtls-dialect=gnu -mthumb -mlibarch=armv7-a+fp -march=armv7-a+fp -version -fstack-protector-strong -Wformat -Wformat-security -o /tmp/cc7W8xuo.s]
+  ignore line: [GNU C++17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (arm-linux-gnueabihf)]
+  ignore line: [	compiled by GNU C version 11.4.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/usr/local/include/arm-linux-gnueabihf"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc-cross/arm-linux-gnueabihf/11/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/usr/include/arm-linux-gnueabihf"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/lib/gcc-cross/arm-linux-gnueabihf/11/../../../../arm-linux-gnueabihf/include/c++/11]
+  ignore line: [ /usr/lib/gcc-cross/arm-linux-gnueabihf/11/../../../../arm-linux-gnueabihf/include/c++/11/arm-linux-gnueabihf/.]
+  ignore line: [ /usr/lib/gcc-cross/arm-linux-gnueabihf/11/../../../../arm-linux-gnueabihf/include/c++/11/backward]
+  ignore line: [ /usr/lib/gcc-cross/arm-linux-gnueabihf/11/include]
+  ignore line: [ /usr/lib/gcc-cross/arm-linux-gnueabihf/11/../../../../arm-linux-gnueabihf/include]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (arm-linux-gnueabihf)]
+  ignore line: [	compiled by GNU C version 11.4.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: f8dab96d7e7b711d866ac6ec96f46fba]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_070bc.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc'  '-mfloat-abi=hard' '-mtls-dialect=gnu' '-mthumb' '-mlibarch=armv7-a+fp' '-march=armv7-a+fp' '-dumpdir' 'CMakeFiles/cmTC_070bc.dir/']
+  ignore line: [ /usr/lib/gcc-cross/arm-linux-gnueabihf/11/../../../../arm-linux-gnueabihf/bin/as -v -march=armv7-a -mfloat-abi=hard -meabi=5 -o CMakeFiles/cmTC_070bc.dir/CMakeCXXCompilerABI.cpp.o /tmp/cc7W8xuo.s]
+  ignore line: [GNU assembler version 2.38 (arm-linux-gnueabihf) using BFD version (GNU Binutils for Ubuntu) 2.38]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc-cross/arm-linux-gnueabihf/11/:/usr/lib/gcc-cross/arm-linux-gnueabihf/11/:/usr/lib/gcc-cross/arm-linux-gnueabihf/:/usr/lib/gcc-cross/arm-linux-gnueabihf/11/:/usr/lib/gcc-cross/arm-linux-gnueabihf/:/usr/lib/gcc-cross/arm-linux-gnueabihf/11/../../../../arm-linux-gnueabihf/bin/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc-cross/arm-linux-gnueabihf/11/:/usr/lib/gcc-cross/arm-linux-gnueabihf/11/../../../../arm-linux-gnueabihf/lib/:/lib/arm-linux-gnueabihf/:/lib/:/usr/lib/arm-linux-gnueabihf/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_070bc.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc'  '-mfloat-abi=hard' '-mtls-dialect=gnu' '-mthumb' '-mlibarch=armv7-a+fp' '-march=armv7-a+fp' '-dumpdir' 'CMakeFiles/cmTC_070bc.dir/CMakeCXXCompilerABI.cpp.']
+  ignore line: [Linking CXX executable cmTC_070bc]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_070bc.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/arm-linux-gnueabihf-g++  -v CMakeFiles/cmTC_070bc.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_070bc ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/arm-linux-gnueabihf-g++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc-cross/arm-linux-gnueabihf/11/lto-wrapper]
+  ignore line: [Target: arm-linux-gnueabihf]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libitm --disable-libquadmath --disable-libquadmath-support --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --without-target-system-zlib --enable-multiarch --disable-sjlj-exceptions --with-arch=armv7-a+fp --with-float=hard --with-mode=thumb --disable-werror --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=arm-linux-gnueabihf --program-prefix=arm-linux-gnueabihf- --includedir=/usr/arm-linux-gnueabihf/include --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc-cross/arm-linux-gnueabihf/11/:/usr/lib/gcc-cross/arm-linux-gnueabihf/11/:/usr/lib/gcc-cross/arm-linux-gnueabihf/:/usr/lib/gcc-cross/arm-linux-gnueabihf/11/:/usr/lib/gcc-cross/arm-linux-gnueabihf/:/usr/lib/gcc-cross/arm-linux-gnueabihf/11/../../../../arm-linux-gnueabihf/bin/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc-cross/arm-linux-gnueabihf/11/:/usr/lib/gcc-cross/arm-linux-gnueabihf/11/../../../../arm-linux-gnueabihf/lib/:/lib/arm-linux-gnueabihf/:/lib/:/usr/lib/arm-linux-gnueabihf/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_070bc' '-shared-libgcc'  '-mfloat-abi=hard' '-mtls-dialect=gnu' '-mthumb' '-mlibarch=armv7-a+fp' '-march=armv7-a+fp' '-dumpdir' 'cmTC_070bc.']
+  link line: [ /usr/lib/gcc-cross/arm-linux-gnueabihf/11/collect2 -plugin /usr/lib/gcc-cross/arm-linux-gnueabihf/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc-cross/arm-linux-gnueabihf/11/lto-wrapper -plugin-opt=-fresolution=/tmp/cckUQLKu.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -dynamic-linker /lib/ld-linux-armhf.so.3 -X --hash-style=gnu --as-needed -m armelf_linux_eabi -pie -z now -z relro -o cmTC_070bc /usr/lib/gcc-cross/arm-linux-gnueabihf/11/../../../../arm-linux-gnueabihf/lib/Scrt1.o /usr/lib/gcc-cross/arm-linux-gnueabihf/11/../../../../arm-linux-gnueabihf/lib/crti.o /usr/lib/gcc-cross/arm-linux-gnueabihf/11/crtbeginS.o -L/usr/lib/gcc-cross/arm-linux-gnueabihf/11 -L/usr/lib/gcc-cross/arm-linux-gnueabihf/11/../../../../arm-linux-gnueabihf/lib -L/lib/arm-linux-gnueabihf -L/usr/lib/arm-linux-gnueabihf CMakeFiles/cmTC_070bc.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc-cross/arm-linux-gnueabihf/11/crtendS.o /usr/lib/gcc-cross/arm-linux-gnueabihf/11/../../../../arm-linux-gnueabihf/lib/crtn.o]
+    arg [/usr/lib/gcc-cross/arm-linux-gnueabihf/11/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc-cross/arm-linux-gnueabihf/11/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc-cross/arm-linux-gnueabihf/11/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cckUQLKu.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--sysroot=/] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-linux-armhf.so.3] ==> ignore
+    arg [-X] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-m] ==> ignore
+    arg [armelf_linux_eabi] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_070bc] ==> ignore
+    arg [/usr/lib/gcc-cross/arm-linux-gnueabihf/11/../../../../arm-linux-gnueabihf/lib/Scrt1.o] ==> obj [/usr/lib/gcc-cross/arm-linux-gnueabihf/11/../../../../arm-linux-gnueabihf/lib/Scrt1.o]
+    arg [/usr/lib/gcc-cross/arm-linux-gnueabihf/11/../../../../arm-linux-gnueabihf/lib/crti.o] ==> obj [/usr/lib/gcc-cross/arm-linux-gnueabihf/11/../../../../arm-linux-gnueabihf/lib/crti.o]
+    arg [/usr/lib/gcc-cross/arm-linux-gnueabihf/11/crtbeginS.o] ==> obj [/usr/lib/gcc-cross/arm-linux-gnueabihf/11/crtbeginS.o]
+    arg [-L/usr/lib/gcc-cross/arm-linux-gnueabihf/11] ==> dir [/usr/lib/gcc-cross/arm-linux-gnueabihf/11]
+    arg [-L/usr/lib/gcc-cross/arm-linux-gnueabihf/11/../../../../arm-linux-gnueabihf/lib] ==> dir [/usr/lib/gcc-cross/arm-linux-gnueabihf/11/../../../../arm-linux-gnueabihf/lib]
+    arg [-L/lib/arm-linux-gnueabihf] ==> dir [/lib/arm-linux-gnueabihf]
+    arg [-L/usr/lib/arm-linux-gnueabihf] ==> dir [/usr/lib/arm-linux-gnueabihf]
+    arg [CMakeFiles/cmTC_070bc.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc-cross/arm-linux-gnueabihf/11/crtendS.o] ==> obj [/usr/lib/gcc-cross/arm-linux-gnueabihf/11/crtendS.o]
+    arg [/usr/lib/gcc-cross/arm-linux-gnueabihf/11/../../../../arm-linux-gnueabihf/lib/crtn.o] ==> obj [/usr/lib/gcc-cross/arm-linux-gnueabihf/11/../../../../arm-linux-gnueabihf/lib/crtn.o]
+  collapse obj [/usr/lib/gcc-cross/arm-linux-gnueabihf/11/../../../../arm-linux-gnueabihf/lib/Scrt1.o] ==> [/usr/arm-linux-gnueabihf/lib/Scrt1.o]
+  collapse obj [/usr/lib/gcc-cross/arm-linux-gnueabihf/11/../../../../arm-linux-gnueabihf/lib/crti.o] ==> [/usr/arm-linux-gnueabihf/lib/crti.o]
+  collapse obj [/usr/lib/gcc-cross/arm-linux-gnueabihf/11/../../../../arm-linux-gnueabihf/lib/crtn.o] ==> [/usr/arm-linux-gnueabihf/lib/crtn.o]
+  collapse library dir [/usr/lib/gcc-cross/arm-linux-gnueabihf/11] ==> [/usr/lib/gcc-cross/arm-linux-gnueabihf/11]
+  collapse library dir [/usr/lib/gcc-cross/arm-linux-gnueabihf/11/../../../../arm-linux-gnueabihf/lib] ==> [/usr/arm-linux-gnueabihf/lib]
+  collapse library dir [/lib/arm-linux-gnueabihf] ==> [/lib/arm-linux-gnueabihf]
+  collapse library dir [/usr/lib/arm-linux-gnueabihf] ==> [/usr/lib/arm-linux-gnueabihf]
+  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit objs: [/usr/arm-linux-gnueabihf/lib/Scrt1.o;/usr/arm-linux-gnueabihf/lib/crti.o;/usr/lib/gcc-cross/arm-linux-gnueabihf/11/crtbeginS.o;/usr/lib/gcc-cross/arm-linux-gnueabihf/11/crtendS.o;/usr/arm-linux-gnueabihf/lib/crtn.o]
+  implicit dirs: [/usr/lib/gcc-cross/arm-linux-gnueabihf/11;/usr/arm-linux-gnueabihf/lib;/lib/arm-linux-gnueabihf;/usr/lib/arm-linux-gnueabihf]
+  implicit fwks: []
+
+
+Performing C++ SOURCE FILE Test ABSL_INTERNAL_AT_LEAST_CXX17 succeeded with the following output:
+Change Dir: /root/tensorflow/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_68202/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_68202.dir/build.make CMakeFiles/cmTC_68202.dir/build
+gmake[1]: Entering directory '/root/tensorflow/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_68202.dir/src.cxx.o
+/usr/bin/arm-linux-gnueabihf-g++ -DABSL_INTERNAL_AT_LEAST_CXX17  -fPIE -std=gnu++17 -o CMakeFiles/cmTC_68202.dir/src.cxx.o -c /root/tensorflow/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_68202
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_68202.dir/link.txt --verbose=1
+/usr/bin/arm-linux-gnueabihf-g++ CMakeFiles/cmTC_68202.dir/src.cxx.o -o cmTC_68202 
+gmake[1]: Leaving directory '/root/tensorflow/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#ifdef _MSC_VER
+#  if _MSVC_LANG < 201700L
+#    error "The compiler defaults or is configured for C++ < 17"
+#  endif
+#elif __cplusplus < 201700L
+#  error "The compiler defaults or is configured for C++ < 17"
+#endif
+int main() { return 0; }
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /root/tensorflow/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_40f92/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_40f92.dir/build.make CMakeFiles/cmTC_40f92.dir/build
+gmake[1]: Entering directory '/root/tensorflow/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_40f92.dir/CheckIncludeFile.c.o
+/usr/bin/arm-linux-gnueabihf-gcc   -fPIE -o CMakeFiles/cmTC_40f92.dir/CheckIncludeFile.c.o -c /root/tensorflow/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_40f92
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_40f92.dir/link.txt --verbose=1
+/usr/bin/arm-linux-gnueabihf-gcc CMakeFiles/cmTC_40f92.dir/CheckIncludeFile.c.o -o cmTC_40f92 
+gmake[1]: Leaving directory '/root/tensorflow/build/CMakeFiles/CMakeTmp'
+
+
+
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD succeeded with the following output:
+Change Dir: /root/tensorflow/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_7f72d/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_7f72d.dir/build.make CMakeFiles/cmTC_7f72d.dir/build
+gmake[1]: Entering directory '/root/tensorflow/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7f72d.dir/src.c.o
+/usr/bin/arm-linux-gnueabihf-gcc -DCMAKE_HAVE_LIBC_PTHREAD  -fPIE -o CMakeFiles/cmTC_7f72d.dir/src.c.o -c /root/tensorflow/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_7f72d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7f72d.dir/link.txt --verbose=1
+/usr/bin/arm-linux-gnueabihf-gcc CMakeFiles/cmTC_7f72d.dir/src.c.o -o cmTC_7f72d 
+gmake[1]: Leaving directory '/root/tensorflow/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Performing C++ SOURCE FILE Test standard_math_library_linked_to_automatically succeeded with the following output:
+Change Dir: /root/tensorflow/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_4e615/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_4e615.dir/build.make CMakeFiles/cmTC_4e615.dir/build
+gmake[1]: Entering directory '/root/tensorflow/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_4e615.dir/src.cxx.o
+/usr/bin/arm-linux-gnueabihf-g++ -Dstandard_math_library_linked_to_automatically  -fPIE -std=gnu++17 -o CMakeFiles/cmTC_4e615.dir/src.cxx.o -c /root/tensorflow/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_4e615
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4e615.dir/link.txt --verbose=1
+/usr/bin/arm-linux-gnueabihf-g++ CMakeFiles/cmTC_4e615.dir/src.cxx.o -o cmTC_4e615 
+gmake[1]: Leaving directory '/root/tensorflow/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+#include<cmath>
+int main(int argc, char **){
+  return int(std::sin(double(argc)) + std::log(double(argc)));
+}
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_WERROR succeeded with the following output:
+Change Dir: /root/tensorflow/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_b11be/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b11be.dir/build.make CMakeFiles/cmTC_b11be.dir/build
+gmake[1]: Entering directory '/root/tensorflow/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_b11be.dir/src.cxx.o
+/usr/bin/arm-linux-gnueabihf-g++ -DCOMPILER_SUPPORT_WERROR  -fPIE   -Werror -std=gnu++17 -o CMakeFiles/cmTC_b11be.dir/src.cxx.o -c /root/tensorflow/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_b11be
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b11be.dir/link.txt --verbose=1
+/usr/bin/arm-linux-gnueabihf-g++ CMakeFiles/cmTC_b11be.dir/src.cxx.o -o cmTC_b11be 
+gmake[1]: Leaving directory '/root/tensorflow/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_pedantic succeeded with the following output:
+Change Dir: /root/tensorflow/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_8a663/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_8a663.dir/build.make CMakeFiles/cmTC_8a663.dir/build
+gmake[1]: Entering directory '/root/tensorflow/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_8a663.dir/src.cxx.o
+/usr/bin/arm-linux-gnueabihf-g++ -DCOMPILER_SUPPORT_pedantic  -Werror -fPIE   -pedantic -std=gnu++17 -o CMakeFiles/cmTC_8a663.dir/src.cxx.o -c /root/tensorflow/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_8a663
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8a663.dir/link.txt --verbose=1
+/usr/bin/arm-linux-gnueabihf-g++  -Werror CMakeFiles/cmTC_8a663.dir/src.cxx.o -o cmTC_8a663 
+gmake[1]: Leaving directory '/root/tensorflow/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wall succeeded with the following output:
+Change Dir: /root/tensorflow/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_1cfc5/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_1cfc5.dir/build.make CMakeFiles/cmTC_1cfc5.dir/build
+gmake[1]: Entering directory '/root/tensorflow/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_1cfc5.dir/src.cxx.o
+/usr/bin/arm-linux-gnueabihf-g++ -DCOMPILER_SUPPORT_Wall  -pedantic -Werror -fPIE   -Wall -std=gnu++17 -o CMakeFiles/cmTC_1cfc5.dir/src.cxx.o -c /root/tensorflow/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_1cfc5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1cfc5.dir/link.txt --verbose=1
+/usr/bin/arm-linux-gnueabihf-g++  -pedantic -Werror CMakeFiles/cmTC_1cfc5.dir/src.cxx.o -o cmTC_1cfc5 
+gmake[1]: Leaving directory '/root/tensorflow/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wextra succeeded with the following output:
+Change Dir: /root/tensorflow/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_3262f/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_3262f.dir/build.make CMakeFiles/cmTC_3262f.dir/build
+gmake[1]: Entering directory '/root/tensorflow/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_3262f.dir/src.cxx.o
+/usr/bin/arm-linux-gnueabihf-g++ -DCOMPILER_SUPPORT_Wextra  -pedantic -Wall -Werror -fPIE   -Wextra -std=gnu++17 -o CMakeFiles/cmTC_3262f.dir/src.cxx.o -c /root/tensorflow/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_3262f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3262f.dir/link.txt --verbose=1
+/usr/bin/arm-linux-gnueabihf-g++  -pedantic -Wall -Werror CMakeFiles/cmTC_3262f.dir/src.cxx.o -o cmTC_3262f 
+gmake[1]: Leaving directory '/root/tensorflow/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wundef succeeded with the following output:
+Change Dir: /root/tensorflow/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_2cbac/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_2cbac.dir/build.make CMakeFiles/cmTC_2cbac.dir/build
+gmake[1]: Entering directory '/root/tensorflow/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_2cbac.dir/src.cxx.o
+/usr/bin/arm-linux-gnueabihf-g++ -DCOMPILER_SUPPORT_Wundef  -pedantic -Wall -Wextra -Werror -fPIE   -Wundef -std=gnu++17 -o CMakeFiles/cmTC_2cbac.dir/src.cxx.o -c /root/tensorflow/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_2cbac
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2cbac.dir/link.txt --verbose=1
+/usr/bin/arm-linux-gnueabihf-g++  -pedantic -Wall -Wextra -Werror CMakeFiles/cmTC_2cbac.dir/src.cxx.o -o cmTC_2cbac 
+gmake[1]: Leaving directory '/root/tensorflow/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wcastalign succeeded with the following output:
+Change Dir: /root/tensorflow/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_9c56f/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_9c56f.dir/build.make CMakeFiles/cmTC_9c56f.dir/build
+gmake[1]: Entering directory '/root/tensorflow/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_9c56f.dir/src.cxx.o
+/usr/bin/arm-linux-gnueabihf-g++ -DCOMPILER_SUPPORT_Wcastalign  -pedantic -Wall -Wextra -Wundef -Werror -fPIE   -Wcast-align -std=gnu++17 -o CMakeFiles/cmTC_9c56f.dir/src.cxx.o -c /root/tensorflow/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_9c56f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9c56f.dir/link.txt --verbose=1
+/usr/bin/arm-linux-gnueabihf-g++  -pedantic -Wall -Wextra -Wundef -Werror CMakeFiles/cmTC_9c56f.dir/src.cxx.o -o cmTC_9c56f 
+gmake[1]: Leaving directory '/root/tensorflow/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wcharsubscripts succeeded with the following output:
+Change Dir: /root/tensorflow/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_f2689/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_f2689.dir/build.make CMakeFiles/cmTC_f2689.dir/build
+gmake[1]: Entering directory '/root/tensorflow/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_f2689.dir/src.cxx.o
+/usr/bin/arm-linux-gnueabihf-g++ -DCOMPILER_SUPPORT_Wcharsubscripts  -pedantic -Wall -Wextra -Wundef -Wcast-align -Werror -fPIE   -Wchar-subscripts -std=gnu++17 -o CMakeFiles/cmTC_f2689.dir/src.cxx.o -c /root/tensorflow/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_f2689
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f2689.dir/link.txt --verbose=1
+/usr/bin/arm-linux-gnueabihf-g++  -pedantic -Wall -Wextra -Wundef -Wcast-align -Werror CMakeFiles/cmTC_f2689.dir/src.cxx.o -o cmTC_f2689 
+gmake[1]: Leaving directory '/root/tensorflow/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wnonvirtualdtor succeeded with the following output:
+Change Dir: /root/tensorflow/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_4fa0d/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_4fa0d.dir/build.make CMakeFiles/cmTC_4fa0d.dir/build
+gmake[1]: Entering directory '/root/tensorflow/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_4fa0d.dir/src.cxx.o
+/usr/bin/arm-linux-gnueabihf-g++ -DCOMPILER_SUPPORT_Wnonvirtualdtor  -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Werror -fPIE   -Wnon-virtual-dtor -std=gnu++17 -o CMakeFiles/cmTC_4fa0d.dir/src.cxx.o -c /root/tensorflow/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_4fa0d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4fa0d.dir/link.txt --verbose=1
+/usr/bin/arm-linux-gnueabihf-g++  -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Werror CMakeFiles/cmTC_4fa0d.dir/src.cxx.o -o cmTC_4fa0d 
+gmake[1]: Leaving directory '/root/tensorflow/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wunusedlocaltypedefs succeeded with the following output:
+Change Dir: /root/tensorflow/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_6aa21/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_6aa21.dir/build.make CMakeFiles/cmTC_6aa21.dir/build
+gmake[1]: Entering directory '/root/tensorflow/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_6aa21.dir/src.cxx.o
+/usr/bin/arm-linux-gnueabihf-g++ -DCOMPILER_SUPPORT_Wunusedlocaltypedefs  -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Werror -fPIE   -Wunused-local-typedefs -std=gnu++17 -o CMakeFiles/cmTC_6aa21.dir/src.cxx.o -c /root/tensorflow/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_6aa21
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6aa21.dir/link.txt --verbose=1
+/usr/bin/arm-linux-gnueabihf-g++  -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Werror CMakeFiles/cmTC_6aa21.dir/src.cxx.o -o cmTC_6aa21 
+gmake[1]: Leaving directory '/root/tensorflow/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wpointerarith succeeded with the following output:
+Change Dir: /root/tensorflow/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_5575c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_5575c.dir/build.make CMakeFiles/cmTC_5575c.dir/build
+gmake[1]: Entering directory '/root/tensorflow/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_5575c.dir/src.cxx.o
+/usr/bin/arm-linux-gnueabihf-g++ -DCOMPILER_SUPPORT_Wpointerarith  -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Werror -fPIE   -Wpointer-arith -std=gnu++17 -o CMakeFiles/cmTC_5575c.dir/src.cxx.o -c /root/tensorflow/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_5575c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5575c.dir/link.txt --verbose=1
+/usr/bin/arm-linux-gnueabihf-g++  -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Werror CMakeFiles/cmTC_5575c.dir/src.cxx.o -o cmTC_5575c 
+gmake[1]: Leaving directory '/root/tensorflow/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wwritestrings succeeded with the following output:
+Change Dir: /root/tensorflow/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_549e7/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_549e7.dir/build.make CMakeFiles/cmTC_549e7.dir/build
+gmake[1]: Entering directory '/root/tensorflow/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_549e7.dir/src.cxx.o
+/usr/bin/arm-linux-gnueabihf-g++ -DCOMPILER_SUPPORT_Wwritestrings  -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Werror -fPIE   -Wwrite-strings -std=gnu++17 -o CMakeFiles/cmTC_549e7.dir/src.cxx.o -c /root/tensorflow/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_549e7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_549e7.dir/link.txt --verbose=1
+/usr/bin/arm-linux-gnueabihf-g++  -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Werror CMakeFiles/cmTC_549e7.dir/src.cxx.o -o cmTC_549e7 
+gmake[1]: Leaving directory '/root/tensorflow/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wformatsecurity succeeded with the following output:
+Change Dir: /root/tensorflow/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_0c7b7/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_0c7b7.dir/build.make CMakeFiles/cmTC_0c7b7.dir/build
+gmake[1]: Entering directory '/root/tensorflow/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_0c7b7.dir/src.cxx.o
+/usr/bin/arm-linux-gnueabihf-g++ -DCOMPILER_SUPPORT_Wformatsecurity  -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Werror -fPIE   -Wformat-security -std=gnu++17 -o CMakeFiles/cmTC_0c7b7.dir/src.cxx.o -c /root/tensorflow/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_0c7b7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0c7b7.dir/link.txt --verbose=1
+/usr/bin/arm-linux-gnueabihf-g++  -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Werror CMakeFiles/cmTC_0c7b7.dir/src.cxx.o -o cmTC_0c7b7 
+gmake[1]: Leaving directory '/root/tensorflow/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wlogicalop succeeded with the following output:
+Change Dir: /root/tensorflow/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_2906b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_2906b.dir/build.make CMakeFiles/cmTC_2906b.dir/build
+gmake[1]: Entering directory '/root/tensorflow/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_2906b.dir/src.cxx.o
+/usr/bin/arm-linux-gnueabihf-g++ -DCOMPILER_SUPPORT_Wlogicalop  -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Werror -fPIE   -Wlogical-op -std=gnu++17 -o CMakeFiles/cmTC_2906b.dir/src.cxx.o -c /root/tensorflow/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_2906b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2906b.dir/link.txt --verbose=1
+/usr/bin/arm-linux-gnueabihf-g++  -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Werror CMakeFiles/cmTC_2906b.dir/src.cxx.o -o cmTC_2906b 
+gmake[1]: Leaving directory '/root/tensorflow/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wenumconversion succeeded with the following output:
+Change Dir: /root/tensorflow/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_6a455/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_6a455.dir/build.make CMakeFiles/cmTC_6a455.dir/build
+gmake[1]: Entering directory '/root/tensorflow/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_6a455.dir/src.cxx.o
+/usr/bin/arm-linux-gnueabihf-g++ -DCOMPILER_SUPPORT_Wenumconversion  -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Werror -fPIE   -Wenum-conversion -std=gnu++17 -o CMakeFiles/cmTC_6a455.dir/src.cxx.o -c /root/tensorflow/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_6a455
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6a455.dir/link.txt --verbose=1
+/usr/bin/arm-linux-gnueabihf-g++  -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Werror CMakeFiles/cmTC_6a455.dir/src.cxx.o -o cmTC_6a455 
+gmake[1]: Leaving directory '/root/tensorflow/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wdoublepromotion succeeded with the following output:
+Change Dir: /root/tensorflow/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_5c2fa/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_5c2fa.dir/build.make CMakeFiles/cmTC_5c2fa.dir/build
+gmake[1]: Entering directory '/root/tensorflow/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_5c2fa.dir/src.cxx.o
+/usr/bin/arm-linux-gnueabihf-g++ -DCOMPILER_SUPPORT_Wdoublepromotion  -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wenum-conversion -Werror -fPIE   -Wdouble-promotion -std=gnu++17 -o CMakeFiles/cmTC_5c2fa.dir/src.cxx.o -c /root/tensorflow/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_5c2fa
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5c2fa.dir/link.txt --verbose=1
+/usr/bin/arm-linux-gnueabihf-g++  -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wenum-conversion -Werror CMakeFiles/cmTC_5c2fa.dir/src.cxx.o -o cmTC_5c2fa 
+gmake[1]: Leaving directory '/root/tensorflow/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wshadow succeeded with the following output:
+Change Dir: /root/tensorflow/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_a063f/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_a063f.dir/build.make CMakeFiles/cmTC_a063f.dir/build
+gmake[1]: Entering directory '/root/tensorflow/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_a063f.dir/src.cxx.o
+/usr/bin/arm-linux-gnueabihf-g++ -DCOMPILER_SUPPORT_Wshadow  -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wenum-conversion -Wdouble-promotion -Werror -fPIE   -Wshadow -std=gnu++17 -o CMakeFiles/cmTC_a063f.dir/src.cxx.o -c /root/tensorflow/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_a063f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a063f.dir/link.txt --verbose=1
+/usr/bin/arm-linux-gnueabihf-g++  -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wenum-conversion -Wdouble-promotion -Werror CMakeFiles/cmTC_a063f.dir/src.cxx.o -o cmTC_a063f 
+gmake[1]: Leaving directory '/root/tensorflow/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wnopsabi succeeded with the following output:
+Change Dir: /root/tensorflow/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_5244b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_5244b.dir/build.make CMakeFiles/cmTC_5244b.dir/build
+gmake[1]: Entering directory '/root/tensorflow/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_5244b.dir/src.cxx.o
+/usr/bin/arm-linux-gnueabihf-g++ -DCOMPILER_SUPPORT_Wnopsabi  -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wenum-conversion -Wdouble-promotion -Wshadow -Werror -fPIE   -Wno-psabi -std=gnu++17 -o CMakeFiles/cmTC_5244b.dir/src.cxx.o -c /root/tensorflow/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_5244b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5244b.dir/link.txt --verbose=1
+/usr/bin/arm-linux-gnueabihf-g++  -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wenum-conversion -Wdouble-promotion -Wshadow -Werror CMakeFiles/cmTC_5244b.dir/src.cxx.o -o cmTC_5244b 
+gmake[1]: Leaving directory '/root/tensorflow/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wnovariadicmacros succeeded with the following output:
+Change Dir: /root/tensorflow/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_1df95/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_1df95.dir/build.make CMakeFiles/cmTC_1df95.dir/build
+gmake[1]: Entering directory '/root/tensorflow/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_1df95.dir/src.cxx.o
+/usr/bin/arm-linux-gnueabihf-g++ -DCOMPILER_SUPPORT_Wnovariadicmacros  -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wenum-conversion -Wdouble-promotion -Wshadow -Wno-psabi -Werror -fPIE   -Wno-variadic-macros -std=gnu++17 -o CMakeFiles/cmTC_1df95.dir/src.cxx.o -c /root/tensorflow/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_1df95
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1df95.dir/link.txt --verbose=1
+/usr/bin/arm-linux-gnueabihf-g++  -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wenum-conversion -Wdouble-promotion -Wshadow -Wno-psabi -Werror CMakeFiles/cmTC_1df95.dir/src.cxx.o -o cmTC_1df95 
+gmake[1]: Leaving directory '/root/tensorflow/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wnolonglong succeeded with the following output:
+Change Dir: /root/tensorflow/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_06aec/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_06aec.dir/build.make CMakeFiles/cmTC_06aec.dir/build
+gmake[1]: Entering directory '/root/tensorflow/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_06aec.dir/src.cxx.o
+/usr/bin/arm-linux-gnueabihf-g++ -DCOMPILER_SUPPORT_Wnolonglong  -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wenum-conversion -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Werror -fPIE   -Wno-long-long -std=gnu++17 -o CMakeFiles/cmTC_06aec.dir/src.cxx.o -c /root/tensorflow/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_06aec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_06aec.dir/link.txt --verbose=1
+/usr/bin/arm-linux-gnueabihf-g++  -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wenum-conversion -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Werror CMakeFiles/cmTC_06aec.dir/src.cxx.o -o cmTC_06aec 
+gmake[1]: Leaving directory '/root/tensorflow/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_fnochecknew succeeded with the following output:
+Change Dir: /root/tensorflow/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_1f21d/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_1f21d.dir/build.make CMakeFiles/cmTC_1f21d.dir/build
+gmake[1]: Entering directory '/root/tensorflow/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_1f21d.dir/src.cxx.o
+/usr/bin/arm-linux-gnueabihf-g++ -DCOMPILER_SUPPORT_fnochecknew  -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wenum-conversion -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -Werror -fPIE   -fno-check-new -std=gnu++17 -o CMakeFiles/cmTC_1f21d.dir/src.cxx.o -c /root/tensorflow/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_1f21d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1f21d.dir/link.txt --verbose=1
+/usr/bin/arm-linux-gnueabihf-g++  -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wenum-conversion -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -Werror CMakeFiles/cmTC_1f21d.dir/src.cxx.o -o cmTC_1f21d 
+gmake[1]: Leaving directory '/root/tensorflow/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_fnocommon succeeded with the following output:
+Change Dir: /root/tensorflow/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_24f3c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_24f3c.dir/build.make CMakeFiles/cmTC_24f3c.dir/build
+gmake[1]: Entering directory '/root/tensorflow/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_24f3c.dir/src.cxx.o
+/usr/bin/arm-linux-gnueabihf-g++ -DCOMPILER_SUPPORT_fnocommon  -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wenum-conversion -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -Werror -fPIE   -fno-common -std=gnu++17 -o CMakeFiles/cmTC_24f3c.dir/src.cxx.o -c /root/tensorflow/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_24f3c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_24f3c.dir/link.txt --verbose=1
+/usr/bin/arm-linux-gnueabihf-g++  -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wenum-conversion -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -Werror CMakeFiles/cmTC_24f3c.dir/src.cxx.o -o cmTC_24f3c 
+gmake[1]: Leaving directory '/root/tensorflow/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_fstrictaliasing succeeded with the following output:
+Change Dir: /root/tensorflow/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_19207/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_19207.dir/build.make CMakeFiles/cmTC_19207.dir/build
+gmake[1]: Entering directory '/root/tensorflow/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_19207.dir/src.cxx.o
+/usr/bin/arm-linux-gnueabihf-g++ -DCOMPILER_SUPPORT_fstrictaliasing  -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wenum-conversion -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -Werror -fPIE   -fstrict-aliasing -std=gnu++17 -o CMakeFiles/cmTC_19207.dir/src.cxx.o -c /root/tensorflow/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_19207
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_19207.dir/link.txt --verbose=1
+/usr/bin/arm-linux-gnueabihf-g++  -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wenum-conversion -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -Werror CMakeFiles/cmTC_19207.dir/src.cxx.o -o cmTC_19207 
+gmake[1]: Leaving directory '/root/tensorflow/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_OPENMP succeeded with the following output:
+Change Dir: /root/tensorflow/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_5ca25/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_5ca25.dir/build.make CMakeFiles/cmTC_5ca25.dir/build
+gmake[1]: Entering directory '/root/tensorflow/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_5ca25.dir/src.cxx.o
+/usr/bin/arm-linux-gnueabihf-g++ -DCOMPILER_SUPPORT_OPENMP  -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wenum-conversion -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing  -fPIE   -fopenmp -std=gnu++17 -o CMakeFiles/cmTC_5ca25.dir/src.cxx.o -c /root/tensorflow/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_5ca25
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5ca25.dir/link.txt --verbose=1
+/usr/bin/arm-linux-gnueabihf-g++  -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wenum-conversion -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing  CMakeFiles/cmTC_5ca25.dir/src.cxx.o -o cmTC_5ca25 
+gmake[1]: Leaving directory '/root/tensorflow/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test FARMHASH_HAS_BUILTIN_EXPECT succeeded with the following output:
+Change Dir: /root/tensorflow/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_26784/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_26784.dir/build.make CMakeFiles/cmTC_26784.dir/build
+gmake[1]: Entering directory '/root/tensorflow/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_26784.dir/src.cxx.o
+/usr/bin/arm-linux-gnueabihf-g++ -DFARMHASH_HAS_BUILTIN_EXPECT  -fPIE -std=gnu++17 -o CMakeFiles/cmTC_26784.dir/src.cxx.o -c /root/tensorflow/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_26784
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_26784.dir/link.txt --verbose=1
+/usr/bin/arm-linux-gnueabihf-g++ CMakeFiles/cmTC_26784.dir/src.cxx.o -o cmTC_26784 
+gmake[1]: Leaving directory '/root/tensorflow/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(int argc, char* argv[]) { return (int)__builtin_expect(0, 0); }
+Determining if the strtof_l exist passed with the following output:
+Change Dir: /root/tensorflow/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_fd9aa/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_fd9aa.dir/build.make CMakeFiles/cmTC_fd9aa.dir/build
+gmake[1]: Entering directory '/root/tensorflow/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_fd9aa.dir/CheckSymbolExists.cxx.o
+/usr/bin/arm-linux-gnueabihf-g++   -fPIE -std=gnu++17 -o CMakeFiles/cmTC_fd9aa.dir/CheckSymbolExists.cxx.o -c /root/tensorflow/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTC_fd9aa
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fd9aa.dir/link.txt --verbose=1
+/usr/bin/arm-linux-gnueabihf-g++ CMakeFiles/cmTC_fd9aa.dir/CheckSymbolExists.cxx.o -o cmTC_fd9aa 
+gmake[1]: Leaving directory '/root/tensorflow/build/CMakeFiles/CMakeTmp'
+
+
+File /root/tensorflow/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strtof_l
+  return ((int*)(&strtof_l))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strtoull_l exist passed with the following output:
+Change Dir: /root/tensorflow/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_45c6a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_45c6a.dir/build.make CMakeFiles/cmTC_45c6a.dir/build
+gmake[1]: Entering directory '/root/tensorflow/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_45c6a.dir/CheckSymbolExists.cxx.o
+/usr/bin/arm-linux-gnueabihf-g++   -fPIE -std=gnu++17 -o CMakeFiles/cmTC_45c6a.dir/CheckSymbolExists.cxx.o -c /root/tensorflow/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTC_45c6a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_45c6a.dir/link.txt --verbose=1
+/usr/bin/arm-linux-gnueabihf-g++ CMakeFiles/cmTC_45c6a.dir/CheckSymbolExists.cxx.o -o cmTC_45c6a 
+gmake[1]: Leaving directory '/root/tensorflow/build/CMakeFiles/CMakeTmp'
+
+
+File /root/tensorflow/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strtoull_l
+  return ((int*)(&strtoull_l))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the realpath exist passed with the following output:
+Change Dir: /root/tensorflow/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_3395e/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_3395e.dir/build.make CMakeFiles/cmTC_3395e.dir/build
+gmake[1]: Entering directory '/root/tensorflow/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3395e.dir/CheckSymbolExists.c.o
+/usr/bin/arm-linux-gnueabihf-gcc   -fPIE -o CMakeFiles/cmTC_3395e.dir/CheckSymbolExists.c.o -c /root/tensorflow/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_3395e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3395e.dir/link.txt --verbose=1
+/usr/bin/arm-linux-gnueabihf-gcc CMakeFiles/cmTC_3395e.dir/CheckSymbolExists.c.o -o cmTC_3395e 
+gmake[1]: Leaving directory '/root/tensorflow/build/CMakeFiles/CMakeTmp'
+
+
+File /root/tensorflow/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef realpath
+  return ((int*)(&realpath))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Checking whether the ASM compiler is GNU using "--version" matched "(GNU assembler)|(GCC)|(Free Software Foundation)":
+arm-linux-gnueabihf-gcc (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0
+Copyright (C) 2021 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+

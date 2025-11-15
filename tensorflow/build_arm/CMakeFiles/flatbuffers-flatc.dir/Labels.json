@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/root/tensorflow/build/CMakeFiles/flatbuffers-flatc"
+		},
+		{
+			"file" : "/root/tensorflow/build/CMakeFiles/flatbuffers-flatc.rule"
+		},
+		{
+			"file" : "/root/tensorflow/build/CMakeFiles/flatbuffers-flatc-complete.rule"
+		},
+		{
+			"file" : "/root/tensorflow/build/flatbuffers-flatc/src/flatbuffers-flatc-stamp/flatbuffers-flatc-build.rule"
+		},
+		{
+			"file" : "/root/tensorflow/build/flatbuffers-flatc/src/flatbuffers-flatc-stamp/flatbuffers-flatc-configure.rule"
+		},
+		{
+			"file" : "/root/tensorflow/build/flatbuffers-flatc/src/flatbuffers-flatc-stamp/flatbuffers-flatc-download.rule"
+		},
+		{
+			"file" : "/root/tensorflow/build/flatbuffers-flatc/src/flatbuffers-flatc-stamp/flatbuffers-flatc-install.rule"
+		},
+		{
+			"file" : "/root/tensorflow/build/flatbuffers-flatc/src/flatbuffers-flatc-stamp/flatbuffers-flatc-mkdir.rule"
+		},
+		{
+			"file" : "/root/tensorflow/build/flatbuffers-flatc/src/flatbuffers-flatc-stamp/flatbuffers-flatc-patch.rule"
+		},
+		{
+			"file" : "/root/tensorflow/build/flatbuffers-flatc/src/flatbuffers-flatc-stamp/flatbuffers-flatc-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"flatbuffers-flatc"
+		],
+		"name" : "flatbuffers-flatc"
+	}
+}

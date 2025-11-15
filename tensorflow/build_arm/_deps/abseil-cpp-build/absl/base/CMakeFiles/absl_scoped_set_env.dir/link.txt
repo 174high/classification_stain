@@ -1,0 +1,2 @@
+/usr/bin/arm-linux-gnueabihf-ar qc libabsl_scoped_set_env.a CMakeFiles/absl_scoped_set_env.dir/internal/scoped_set_env.cc.o
+/usr/bin/arm-linux-gnueabihf-ranlib libabsl_scoped_set_env.a

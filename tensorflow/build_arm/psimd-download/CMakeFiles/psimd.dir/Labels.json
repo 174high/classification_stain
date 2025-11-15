@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/root/tensorflow/build/psimd-download/CMakeFiles/psimd"
+		},
+		{
+			"file" : "/root/tensorflow/build/psimd-download/CMakeFiles/psimd.rule"
+		},
+		{
+			"file" : "/root/tensorflow/build/psimd-download/CMakeFiles/psimd-complete.rule"
+		},
+		{
+			"file" : "/root/tensorflow/build/psimd-download/psimd-prefix/src/psimd-stamp/psimd-build.rule"
+		},
+		{
+			"file" : "/root/tensorflow/build/psimd-download/psimd-prefix/src/psimd-stamp/psimd-configure.rule"
+		},
+		{
+			"file" : "/root/tensorflow/build/psimd-download/psimd-prefix/src/psimd-stamp/psimd-download.rule"
+		},
+		{
+			"file" : "/root/tensorflow/build/psimd-download/psimd-prefix/src/psimd-stamp/psimd-install.rule"
+		},
+		{
+			"file" : "/root/tensorflow/build/psimd-download/psimd-prefix/src/psimd-stamp/psimd-mkdir.rule"
+		},
+		{
+			"file" : "/root/tensorflow/build/psimd-download/psimd-prefix/src/psimd-stamp/psimd-patch.rule"
+		},
+		{
+			"file" : "/root/tensorflow/build/psimd-download/psimd-prefix/src/psimd-stamp/psimd-test.rule"
+		},
+		{
+			"file" : "/root/tensorflow/build/psimd-download/psimd-prefix/src/psimd-stamp/psimd-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"psimd"
+		],
+		"name" : "psimd"
+	}
+}

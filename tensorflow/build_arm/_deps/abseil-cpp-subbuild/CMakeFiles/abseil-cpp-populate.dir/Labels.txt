@@ -1,0 +1,14 @@
+# Target labels
+ abseil-cpp-populate
+# Source files and their labels
+/root/tensorflow/build/_deps/abseil-cpp-subbuild/CMakeFiles/abseil-cpp-populate
+/root/tensorflow/build/_deps/abseil-cpp-subbuild/CMakeFiles/abseil-cpp-populate.rule
+/root/tensorflow/build/_deps/abseil-cpp-subbuild/CMakeFiles/abseil-cpp-populate-complete.rule
+/root/tensorflow/build/src/abseil-cpp-populate-stamp/abseil-cpp-populate-build.rule
+/root/tensorflow/build/src/abseil-cpp-populate-stamp/abseil-cpp-populate-configure.rule
+/root/tensorflow/build/src/abseil-cpp-populate-stamp/abseil-cpp-populate-download.rule
+/root/tensorflow/build/src/abseil-cpp-populate-stamp/abseil-cpp-populate-install.rule
+/root/tensorflow/build/src/abseil-cpp-populate-stamp/abseil-cpp-populate-mkdir.rule
+/root/tensorflow/build/src/abseil-cpp-populate-stamp/abseil-cpp-populate-patch.rule
+/root/tensorflow/build/src/abseil-cpp-populate-stamp/abseil-cpp-populate-test.rule
+/root/tensorflow/build/src/abseil-cpp-populate-stamp/abseil-cpp-populate-update.rule

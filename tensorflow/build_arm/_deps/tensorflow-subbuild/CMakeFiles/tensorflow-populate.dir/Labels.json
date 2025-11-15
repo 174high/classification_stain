@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/root/tensorflow/build/_deps/tensorflow-subbuild/CMakeFiles/tensorflow-populate"
+		},
+		{
+			"file" : "/root/tensorflow/build/_deps/tensorflow-subbuild/CMakeFiles/tensorflow-populate.rule"
+		},
+		{
+			"file" : "/root/tensorflow/build/_deps/tensorflow-subbuild/CMakeFiles/tensorflow-populate-complete.rule"
+		},
+		{
+			"file" : "/root/tensorflow/build/_deps/tensorflow-subbuild/tensorflow-populate-prefix/src/tensorflow-populate-stamp/tensorflow-populate-build.rule"
+		},
+		{
+			"file" : "/root/tensorflow/build/_deps/tensorflow-subbuild/tensorflow-populate-prefix/src/tensorflow-populate-stamp/tensorflow-populate-configure.rule"
+		},
+		{
+			"file" : "/root/tensorflow/build/_deps/tensorflow-subbuild/tensorflow-populate-prefix/src/tensorflow-populate-stamp/tensorflow-populate-download.rule"
+		},
+		{
+			"file" : "/root/tensorflow/build/_deps/tensorflow-subbuild/tensorflow-populate-prefix/src/tensorflow-populate-stamp/tensorflow-populate-install.rule"
+		},
+		{
+			"file" : "/root/tensorflow/build/_deps/tensorflow-subbuild/tensorflow-populate-prefix/src/tensorflow-populate-stamp/tensorflow-populate-mkdir.rule"
+		},
+		{
+			"file" : "/root/tensorflow/build/_deps/tensorflow-subbuild/tensorflow-populate-prefix/src/tensorflow-populate-stamp/tensorflow-populate-patch.rule"
+		},
+		{
+			"file" : "/root/tensorflow/build/_deps/tensorflow-subbuild/tensorflow-populate-prefix/src/tensorflow-populate-stamp/tensorflow-populate-test.rule"
+		},
+		{
+			"file" : "/root/tensorflow/build/_deps/tensorflow-subbuild/tensorflow-populate-prefix/src/tensorflow-populate-stamp/tensorflow-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"tensorflow-populate"
+		],
+		"name" : "tensorflow-populate"
+	}
+}

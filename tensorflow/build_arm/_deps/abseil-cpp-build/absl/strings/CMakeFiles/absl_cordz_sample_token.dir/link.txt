@@ -1,0 +1,2 @@
+/usr/bin/arm-linux-gnueabihf-ar qc libabsl_cordz_sample_token.a CMakeFiles/absl_cordz_sample_token.dir/internal/cordz_sample_token.cc.o
+/usr/bin/arm-linux-gnueabihf-ranlib libabsl_cordz_sample_token.a

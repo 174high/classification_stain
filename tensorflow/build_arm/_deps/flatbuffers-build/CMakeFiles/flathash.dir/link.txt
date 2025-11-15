@@ -1,0 +1,1 @@
+/usr/bin/arm-linux-gnueabihf-g++ -O3 -DNDEBUG CMakeFiles/flathash.dir/src/flathash.cpp.o -o flathash 
