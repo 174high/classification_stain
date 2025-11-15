@@ -1,0 +1,366 @@
+    4  ls
+    5  git clone  https://gitee.com/johnnyshi174/classification_stain.git
+    6  git clone https://github.com/google/XNNPACK/
+    7  ls
+    8  git clone  https://gitee.com/johnnyshi174/classification_stain.git
+    9  ls
+   10  git clone  https://gitee.com/johnnyshi174/classification_stain.git
+   11  wget https://codeload.github.com/tensorflow/tensorflow/tar.gz/refs/tags/v2.13.0
+   12  ls
+   13  c
+   14  ls
+   15  ls -all
+   16  chmod 777 v2.13.0 
+   17  ls
+   18  file v2.13.0 
+   19  gzip v2.13.0 
+   20  file v2.13.0.gz 
+   21  ls
+   22  gunzip v2.13.0.gz 
+   23  ls
+   24  file v2.13.0.gz 
+   25  file v2.13.0
+   26  ls
+   27  rm -rf v2.13.0 
+   28  ls
+   29  git clone https://github.com/tensorflow/tensorflow/tree/r2.13
+   30  git clone https://github.com/tensorflow/tensorflow
+   31  ls
+   32  cd tensorflow/
+   33  ls
+   34  git branch -a
+   35  q
+   36  ls
+   37  sudo apt install -y gcc-arm-linux-gnueabihf g++-arm-linux-gnueabihf
+   38  ls
+   39  mkdir build
+   40  cd build/
+   41  ls
+   42  cmake ../tensorflow/lite/   -DCMAKE_SYSTEM_NAME=Linux   -DCMAKE_SYSTEM_PROCESSOR=arm   -DCMAKE_C_COMPILER=arm-linux-gnueabihf-gcc   -DCMAKE_CXX_COMPILER=arm-linux-gnueabihf-g++
+   43  cd ..
+   44  git branch -a 
+   45  git checkout v2.13.0
+   46  LS
+   47  ls
+   48  cd build/
+   49  cmake ../tensorflow/lite/   -DCMAKE_SYSTEM_NAME=Linux   -DCMAKE_SYSTEM_PROCESSOR=arm   -DCMAKE_C_COMPILER=arm-linux-gnueabihf-gcc   -DCMAKE_CXX_COMPILER=arm-linux-gnueabihf-g++
+   50  make -j8
+   51  ls
+   52  cd ..
+   53  ls
+   54  vi main.c
+   55  vim main.c
+   56  ls
+   57  arm-linux-gnueabihf-g++ main.c -o main   -I./ -I./build_arm -I./build_arm/eigen -I./build_arm/abseil-cpp -I./build_arm/flatbuffers/include   -march=armv7-a -mfpu=neon-vfpv4 -mfloat-abi=hard   ./build_arm/libtensorflow-lite.a   ./build_arm/_deps/flatbuffers-build/libflatbuffers.a   ./build_arm/_deps/ruy-build/ruy/*.a   ./build_arm/pthreadpool/libpthreadpool.a   cpuinfo_full/build/libcpuinfo.a   ./build_arm/_deps/farmhash-build/libfarmhash.a   ./build_arm/_deps/ruy-build/ruy/libruy_blocking_counter.a   ./build_arm/_deps/ruy-build/ruy/libruy_block_map.a   ./build_arm/_deps/fft2d-build/libfft2d_fftsg.a   ./build_arm/_deps/xnnpack-build/libXNNPACK.a   -L/usr/lib/arm-linux-gnueabihf   -lpthread -ldl -lm -lstdc++
+   58  mv build/ build_arm
+   59  arm-linux-gnueabihf-g++ main.c -o main   -I./ -I./build_arm -I./build_arm/eigen -I./build_arm/abseil-cpp -I./build_arm/flatbuffers/include   -march=armv7-a -mfpu=neon-vfpv4 -mfloat-abi=hard   ./build_arm/libtensorflow-lite.a   ./build_arm/_deps/flatbuffers-build/libflatbuffers.a   ./build_arm/_deps/ruy-build/ruy/*.a   ./build_arm/pthreadpool/libpthreadpool.a   cpuinfo_full/build/libcpuinfo.a   ./build_arm/_deps/farmhash-build/libfarmhash.a   ./build_arm/_deps/ruy-build/ruy/libruy_blocking_counter.a   ./build_arm/_deps/ruy-build/ruy/libruy_block_map.a   ./build_arm/_deps/fft2d-build/libfft2d_fftsg.a   ./build_arm/_deps/xnnpack-build/libXNNPACK.a   -L/usr/lib/arm-linux-gnueabihf   -lpthread -ldl -lm -lstdc++
+   60  arm-linux-gnueabihf-g++ main.c -o main.arm   -I./ -I./build_arm -I./build_arm/eigen -I./build_arm/abseil-cpp -I./build_arm/flatbuffers/include   -march=armv7-a -mfpu=neon-vfpv4 -mfloat-abi=hard   ./build_arm/libtensorflow-lite.a   ./build_arm/_deps/flatbuffers-build/libflatbuffers.a   ./build_arm/_deps/ruy-build/ruy/*.a   ./build_arm/pthreadpool/libpthreadpool.a   ./build_arm/_deps/cpuinfo-build/libcpuinfo.a   ./build_arm/_deps/farmhash-build/libfarmhash.a   ./build_arm/_deps/ruy-build/ruy/libruy_blocking_counter.a   ./build_arm/_deps/ruy-build/ruy/libruy_block_map.a   ./build_arm/_deps/fft2d-build/libfft2d_fftsg.a   ./build_arm/_deps/xnnpack-build/libXNNPACK.a   -L/usr/lib/arm-linux-gnueabihf   -lpthread -ldl -lm -lstdc++
+   61  arm-linux-gnueabihf-g++ main.c -o main.arm   -I./ -I./build_arm -I./build_arm/eigen -I./build_arm/abseil-cpp -I./build_arm/flatbuffers/include   -march=armv7-a -mfpu=neon-vfpv4 -mfloat-abi=hard   ./build_arm/libtensorflow-lite.a   ./build_arm/_deps/flatbuffers-build/libflatbuffers.a   ./build_arm/_deps/ruy-build/ruy/*.a   ./build_arm/pthreadpool/libpthreadpool.a   ./build_arm/_deps/cpuinfo-build/libcpuinfo.a   ./build_arm/_deps/farmhash-build/libfarmhash.a   ./build_arm/_deps/ruy-build/ruy/libruy_blocking_counter.a   ./build_arm/_deps/ruy-build/ruy/libruy_block_map.a   ./build_arm/_deps/fft2d-build/libfft2d_fftsg.a   ./build_arm/_deps/xnnpack-build/libXNNPACK.a   -L/usr/lib/arm-linux-gnueabihf   -lpthread -ldl -lm -lstdc++ > log
+   62  vim log 
+   63  arm-linux-gnueabihf-g++ main.c -o main.arm   -I./ -I./build_arm -I./build_arm/eigen -I./build_arm/abseil-cpp -I./build_arm/flatbuffers/include   -march=armv7-a -mfpu=neon-vfpv4 -mfloat-abi=hard   ./build_arm/libtensorflow-lite.a   ./build_arm/_deps/flatbuffers-build/libflatbuffers.a   ./build_arm/_deps/ruy-build/ruy/*.a   ./build_arm/pthreadpool/libpthreadpool.a   ./build_arm/_deps/cpuinfo-build/libcpuinfo.a   ./build_arm/_deps/farmhash-build/libfarmhash.a   ./build_arm/_deps/ruy-build/ruy/libruy_blocking_counter.a   ./build_arm/_deps/ruy-build/ruy/libruy_block_map.a   ./build_arm/_deps/fft2d-build/libfft2d_fftsg.a   ./build_arm/_deps/xnnpack-build/libXNNPACK.a   -L/usr/lib/arm-linux-gnueabihf   -lpthread -ldl -lm -lstdc++ > build.log  2>&1
+   64  vim build.log 
+   65  g++ main.c -o main   -I./ -I./build -I./build/eigen -I./build/abseil-cpp -I./build/flatbuffers/include   ./build/libtensorflow-lite.a   ./build/_deps/flatbuffers-build/libflatbuffers.a   ./build/_deps/ruy-build/ruy/*.a g a.r/mb-uliilndu/xp-tghnrueeaadbpiohofl-/gl+i+b pmtahirne.acd p-ooo lm.aai n  . / b-uIi.l/d /-_Id.e/pbsu/iclpdu i-nIf.o/-bbuuiilldd//e*i.gae n  .-/Ib.u/ibludi/l_dd/eapbss/efialr-mchpaps h--Ib.u/ibludi/lldi/bfflaartmbhuafsfhe.ras /.i/nbculiuldde/ _ d e.p/sb/uriulyd-/bluiibltde/nrsuoyr/flliobwr-ulyi_tbel.oac k i n.g/_bcuoiulndt/e_rd.eap s /.f/lbautibludf/f_edresp-sb/uriulyd-/bluiiblfdl/artubyu/flfiebrrsu.ya_ b l o.c/kb_umialpd./a_ d e.p/sb/uriulyd-/b_udielpds//rfufyt/2*d.-ab u i.l/db/u*i.lad /-pltphtrheraedapdo o-ll/dlli b-pltmh r-elazd p-oloslt.dac + +.
+   66  /build/_deps/cpuinfo-build/*.a  ./build/_deps/farmhash-build/libfarmhash.a ./build/_deps/ruy-build/ruy/libruy_blocking_counter.a  .g/+b+u imladi/n_.dce p-so/ rmuayi-nb u i l-dI/.r/u y-/Il.i/bbruuiyl_db l-oIc.k/_bmuaipl.da/ e i.g/ebnu i-lId.//_bdueiplsd//fafbts2edi-lb-uciplpd /-*I..a/ b-ulipltdh/rfelaadt b-ulfdfle r-sl/mi n-cllzu d-el s t d.c/+b+u
+   67  ha
+   68  sh
+   69  arm-linux-gnueabihf-g++ main.c -o main  -I./ -I./build -I./build/eigen -I./build/abseil-cpp -I./build/flatbuffers/include   ./build/libtensorflow-lite.a   ./build/_deps/flatbuffers-build/libflatbuffers.a   ./build/_deps/ruy-build/ruy/*.a  ./build/pthreadpool/libpthreadpool.a  ./build/_deps/cpuinfo-build/*.a  ./build/_deps/farmhash-build/libfarmhash.a ./build/_deps/ruy-build/ruy/libruy_blocking_counter.a  ./build/_deps/ruy-build/ruy/libruy_block_map.a  ./build/_deps/fft2d-build/*.a -lpthread -ldl -lm -lz -lstdc++
+   70  cp build_arm/ build -r
+   71  arm-linux-gnueabihf-g++ main.c -o main  -I./ -I./build -I./build/eigen -I./build/abseil-cpp -I./build/flatbuffers/include   ./build/libtensorflow-lite.a   ./build/_deps/flatbuffers-build/libflatbuffers.a   ./build/_deps/ruy-build/ruy/*.a  ./build/pthreadpool/libpthreadpool.a  ./build/_deps/cpuinfo-build/*.a  ./build/_deps/farmhash-build/libfarmhash.a ./build/_deps/ruy-build/ruy/libruy_blocking_counter.a  ./build/_deps/ruy-build/ruy/libruy_block_map.a  ./build/_deps/fft2d-build/*.a -lpthread -ldl -lm -lz -lstdc++
+   72  arm-linux-gnueabihf-g++ main.c -o main  -I./ -I./build -I./build/eigen -I./build/abseil-cpp -I./build/flatbuffers/include   ./build/libtensorflow-lite.a   ./build/_deps/flatbuffers-build/libflatbuffers.a   ./build/_deps/ruy-build/ruy/*.a  ./build/pthreadpool/libpthreadpool.a  ./build/_deps/cpuinfo-build/*.a  ./build/_deps/farmhash-build/libfarmhash.a ./build/_deps/ruy-build/ruy/libruy_blocking_counter.a  ./build/_deps/ruy-build/ruy/libruy_block_map.a  ./build/_deps/fft2d-build/*.a -lpthread -ldl -lm - -lstdc++
+   73  arm-linux-gnueabihf-g++ main.c -o main  -I./ -I./build -I./build/eigen -I./build/abseil-cpp -I./build/flatbuffers/include   ./build/libtensorflow-lite.a   ./build/_deps/flatbuffers-build/libflatbuffers.a   ./build/_deps/ruy-build/ruy/*.a  ./build/pthreadpool/libpthreadpool.a  ./build/_deps/cpuinfo-build/*.a  ./build/_deps/farmhash-build/libfarmhash.a ./build/_deps/ruy-build/ruy/libruy_blocking_counter.a  ./build/_deps/ruy-build/ruy/libruy_block_map.a  ./build/_deps/fft2d-build/*.a -lpthread -ldl -lm  -lstdc++
+   74  arm-linux-gnueabihf-g++ main.c -o main  -I./ -I./build -I./build/eigen -I./build/abseil-cpp -I./build/flatbuffers/include   ./build/libtensorflow-lite.a   ./build/_deps/flatbuffers-build/libflatbuffers.a   ./build/_deps/ruy-build/ruy/*.a  ./build/pthreadpool/libpthreadpool.a  ./build/_deps/cpuinfo-build/*.a  ./build/_deps/farmhash-build/libfarmhash.a ./build/_deps/ruy-build/ruy/libruy_blocking_counter.a  ./build/_deps/ruy-build/ruy/libruy_block_map.a  ./build/_deps/fft2d-build/*.a -lpthread -ldl -lm  -lstdc++ > build.log  2>&1
+   75  vim build.log 
+   76  :q!
+   77  arm-linux-gnueabihf-g++ main.c -o main  -I./ -I./build -I./build/eigen -I./build/abseil-cpp -I./build/flatbuffers/include   ./build/libtensorflow-lite.a   ./build/_deps/flatbuffers-build/libflatbuffers.a   ./build/_deps/ruy-build/ruy/*.a  ./build/pthreadpool/libpthreadpool.a  ./build/_deps/cpuinfo-build/*.a  ./build/_deps/farmhash-build/libfarmhash.a ./build/_deps/ruy-build/ruy/libruy_blocking_counter.a  ./build/_deps/ruy-build/ruy/libruy_block_map.a  ./build/_deps/fft2d-build/*.a -lpthread -ldl -lm -lz -lstdc++
+   78  cp ./build/_deps/fft2d-build/libfft2d_fftsg.a  .
+   79  rm -rf ./build/_deps/fft2d-build/libfft2d_fftsg.a 
+   80  arm-linux-gnueabihf-g++ main.c -o main  -I./ -I./build -I./build/eigen -I./build/abseil-cpp -I./build/flatbuffers/include   ./build/libtensorflow-lite.a   ./build/_deps/flatbuffers-build/libflatbuffers.a   ./build/_deps/ruy-build/ruy/*.a  ./build/pthreadpool/libpthreadpool.a  ./build/_deps/cpuinfo-build/*.a  ./build/_deps/farmhash-build/libfarmhash.a ./build/_deps/ruy-build/ruy/libruy_blocking_counter.a  ./build/_deps/ruy-build/ruy/libruy_block_map.a  ./build/_deps/fft2d-build/*.a -lpthread -ldl -lm -lz -lstdc++
+   81  sudo apt-get install zlib1g-dev:armhf
+   82  wget https://zlib.net/zlib-1.2.13.tar.gz
+   83  sudo apt-get install zlib1g-dev:armhf
+   84  wget https://zlib.net/zlib-1.2.13.tar.gz
+   85  git clone https://github.com/madler/zlib.git
+   86  cd zlib/
+   87  ls
+   88  export CC=arm-linux-gnueabihf-gcc
+   89  ls
+   90  export AR=arm-linux-gnueabihf-ar
+   91  export RANLIB=arm-linux-gnueabihf-ranlib
+   92  ls
+   93  git checkout v1.2.13
+   94  ./configure --prefix=$PWD/build --static
+   95  make
+   96  make install 
+   97  cd ..
+   98  arm-linux-gnueabihf-g++ main.cpp -o main   -I./ -I./build -I./build/eigen -I./build/abseil-cpp -I./build/flatbuffers/include   -I/path/to/zlib/build/include   ./build/libtensorflow-lite.a   ./build/_deps/ruy-build/ruy/*.a   ./build/pthreadpool/libpthreadpool.a   ./build/_deps/cpuinfo-build/*.a   ./build/_deps/farmhash-build/libfarmhash.a   ./build/_deps/flatbuffers-build/libflatbuffers.a   ./build/_deps/fft2d-build/*.a   -L./zlib/build/lib -lz   -lpthread -ldl -lm -lstdc++   -march=armv7-a -mfpu=neon -mfloat-abi=hard
+   99  ls
+  100  arm-linux-gnueabihf-g++ main.c -o main   -I./ -I./build -I./build/eigen -I./build/abseil-cpp -I./build/flatbuffers/include   -I/path/to/zlib/build/include   ./build/libtensorflow-lite.a   ./build/_deps/ruy-build/ruy/*.a   ./build/pthreadpool/libpthreadpool.a   ./build/_deps/cpuinfo-build/*.a   ./build/_deps/farmhash-build/libfarmhash.a   ./build/_deps/flatbuffers-build/libflatbuffers.a   ./build/_deps/fft2d-build/*.a   -L./zlib/build/lib -lz   -lpthread -ldl -lm -lstdc++   -march=armv7-a -mfpu=neon -mfloat-abi=hard
+  101  arm-linux-gnueabihf-g++ main.c -o main   -I./ -I./build -I./build/eigen -I./build/abseil-cpp -I./build/flatbuffers/include   -I/path/to/zlib/build/include   ./build/libtensorflow-lite.a   ./build/_deps/ruy-build/ruy/*.a   ./build/pthreadpool/libpthreadpool.a   ./build/_deps/cpuinfo-build/*.a   ./build/_deps/farmhash-build/libfarmhash.a   ./build/_deps/flatbuffers-build/libflatbuffers.a   ./build/_deps/fft2d-build/*.a   -L./zlib/build/lib -lz   -lpthread -ldl -lm -lstdc++   -march=armv7-a -mfpu=neon -mfloat-abi=hard >  build.log  2>&1 
+  102  vim main.c n
+  103  vim build.log 
+  104  reboot
+  105  ls
+  106  cd tensorflow/
+  107  ls
+  108  arm-linux-gnueabihf-g++ main.c -o main.arm   -I./ -I./build_arm -I./build_arm/eigen -I./build_arm/abseil-cpp -I./build_arm/flatbuffers/include   -march=armv7-a -mfpu=neon-vfpv4 -mfloat-abi=hard   ./build_arm/libtensorflow-lite.a   ./build_arm/_deps/flatbuffers-build/libflatbuffers.a   ./build_arm/_deps/ruy-build/ruy/*.a   ./build_arm/pthreadpool/libpthreadpool.a   cpuinfo_full/build/libcpuinfo.a   ./build_arm/_deps/farmhash-build/libfarmhash.a   ./build_arm/_deps/ruy-build/ruy/libruy_blocking_counter.a   ./build_arm/_deps/ruy-build/ruy/libruy_block_map.a   ./build_arm/_deps/fft2d-build/libfft2d_fftsg.a   ./build_arm/_deps/xnnpack-build/libXNNPACK.a   -L/usr/lib/arm-linux-gnueabihf   -lpthread -ldl -lm -lstdc++
+  109  cp build build_arm -r 
+  110  ls
+  111  arm-linux-gnueabihf-g++ main.c -o main.arm   -I./ -I./build_arm -I./build_arm/eigen -I./build_arm/abseil-cpp -I./build_arm/flatbuffers/include   -march=armv7-a -mfpu=neon-vfpv4 -mfloat-abi=hard   ./build_arm/libtensorflow-lite.a   ./build_arm/_deps/flatbuffers-build/libflatbuffers.a   ./build_arm/_deps/ruy-build/ruy/*.a   ./build_arm/pthreadpool/libpthreadpool.a   cpuinfo_full/build/libcpuinfo.a   ./build_arm/_deps/farmhash-build/libfarmhash.a   ./build_arm/_deps/ruy-build/ruy/libruy_blocking_counter.a   ./build_arm/_deps/ruy-build/ruy/libruy_block_map.a   ./build_arm/_deps/fft2d-build/libfft2d_fftsg.a   ./build_arm/_deps/xnnpack-build/libXNNPACK.a   -L/usr/lib/arm-linux-gnueabihf   -lpthread -ldl -lm -lstdc++
+  112  arm-linux-gnueabihf-g++ main.c -o main.arm   -I./ -I./build_arm -I./build_arm/eigen -I./build_arm/abseil-cpp -I./build_arm/flatbuffers/include   -march=armv7-a -mfpu=neon-vfpv4 -mfloat-abi=hard   ./build_arm/libtensorflow-lite.a   ./build_arm/_deps/flatbuffers-build/libflatbuffers.a   ./build_arm/_deps/ruy-build/ruy/*.a   ./build_arm/pthreadpool/libpthreadpool.a   cpuinfo_full/build/libcpuinfo.a   ./build_arm/_deps/farmhash-build/libfarmhash.a   ./build_arm/_deps/ruy-build/ruy/libruy_blocking_counter.a   ./build_arm/_deps/ruy-build/ruy/libruy_block_map.a   ./build_arm/_deps/fft2d-build/libfft2d_fftsg.a   ./build_arm/_deps/xnnpack-build/libXNNPACK.a   -L./zlib/build/lib -lz  -L/usr/lib/arm-linux-gnueabihf   -lpthread -ldl -lm -lstdc++
+  113  arm-linux-gnueabihf-g++ main.c -o main.arm   -I./ -I./build_arm -I./build_arm/eigen -I./build_arm/abseil-cpp -I./build_arm/flatbuffers/include   -march=armv7-a -mfpu=neon-vfpv4 -mfloat-abi=hard   ./build_arm/libtensorflow-lite.a   ./build_arm/_deps/flatbuffers-build/libflatbuffers.a   ./build_arm/_deps/ruy-build/ruy/*.a   ./build_arm/pthreadpool/libpthreadpool.a   ./build_arm/_deps/cpuinfo-build/libcpuinfo.a   ./build_arm/_deps/farmhash-build/libfarmhash.a   ./build_arm/_deps/ruy-build/ruy/libruy_blocking_counter.a   ./build_arm/_deps/ruy-build/ruy/libruy_block_map.a   ./build_arm/_deps/fft2d-build/libfft2d_fftsg.a   ./build_arm/_deps/xnnpack-build/libXNNPACK.a   ./zlib/build/lib -lz   -L/usr/lib/arm-linux-gnueabihf   -lpthread -ldl -lm -lstdc++
+  114  ls zlib/build/lib/
+  115  arm-linux-gnueabihf-g++ main.c -o main.arm   -I./ -I./build_arm -I./build_arm/eigen -I./build_arm/abseil-cpp -I./build_arm/flatbuffers/include   -march=armv7-a -mfpu=neon-vfpv4 -mfloat-abi=hard   ./build_arm/libtensorflow-lite.a   ./build_arm/_deps/flatbuffers-build/libflatbuffers.a   ./build_arm/_deps/ruy-build/ruy/*.a   ./build_arm/pthreadpool/libpthreadpool.a   ./build_arm/_deps/cpuinfo-build/libcpuinfo.a   ./build_arm/_deps/farmhash-build/libfarmhash.a   ./build_arm/_deps/ruy-build/ruy/libruy_blocking_counter.a   ./build_arm/_deps/ruy-build/ruy/libruy_block_map.a   ./build_arm/_deps/fft2d-build/libfft2d_fftsg.a   ./build_arm/_deps/xnnpack-build/libXNNPACK.a   ./zlib/build/lib/libz.a  -L/usr/lib/arm-linux-gnueabihf   -lpthread -ldl -lm -lstdc++
+  116  arm-linux-gnueabihf-g++ main.c -o main.arm   -I./ -I./build_arm -I./build_arm/eigen -I./build_arm/abseil-cpp -I./build_arm/flatbuffers/include   -march=armv7-a -mfpu=neon-vfpv4 -mfloat-abi=hard   ./build_arm/libtensorflow-lite.a   ./build_arm/_deps/flatbuffers-build/libflatbuffers.a   ./build_arm/_deps/ruy-build/ruy/*.a   ./build_arm/pthreadpool/libpthreadpool.a   ./build_arm/_deps/cpuinfo-build/libcpuinfo.a   ./build_arm/_deps/farmhash-build/libfarmhash.a   ./build_arm/_deps/ruy-build/ruy/libruy_blocking_counter.a   ./build_arm/_deps/ruy-build/ruy/libruy_block_map.a   ./build_arm/_deps/fft2d-build/libfft2d_fftsg.a   ./build_arm/_deps/xnnpack-build/libXNNPACK.a   ./zlib/build/lib/libz.a  -L/usr/lib/arm-linux-gnueabihf   -lpthread -ldl -lm -lstdc++ > build.log
+  117  vim build.log 
+  118  arm-linux-gnueabihf-g++ main.c -o main.arm   -I./ -I./build_arm -I./build_arm/eigen -I./build_arm/abseil-cpp -I./build_arm/flatbuffers/include   -march=armv7-a -mfpu=neon-vfpv4 -mfloat-abi=hard   ./build_arm/libtensorflow-lite.a   ./build_arm/_deps/flatbuffers-build/libflatbuffers.a   ./build_arm/_deps/ruy-build/ruy/*.a   ./build_arm/pthreadpool/libpthreadpool.a   ./build_arm/_deps/cpuinfo-build/libcpuinfo.a   ./build_arm/_deps/farmhash-build/libfarmhash.a   ./build_arm/_deps/ruy-build/ruy/libruy_blocking_counter.a   ./build_arm/_deps/ruy-build/ruy/libruy_block_map.a   ./build_arm/_deps/fft2d-build/libfft2d_fftsg.a   ./build_arm/_deps/xnnpack-build/libXNNPACK.a   ./zlib/build/lib/libz.a  -L/usr/lib/arm-linux-gnueabihf   -lpthread -ldl -lm -lstdc++ > build.log 2>&1
+  119  vim build.log 
+  120  arm-linux-gnueabihf-g++ main.c -o main.arm   -I./ -I./build_arm -I./build_arm/eigen -I./build_arm/abseil-cpp -I./build_arm/flatbuffers/include   -march=armv7-a -mfpu=neon-vfpv4 -mfloat-abi=hard   ./build_arm/libtensorflow-lite.a   ./build_arm/_deps/flatbuffers-build/libflatbuffers.a   ./build_arm/_deps/ruy-build/ruy/*.a   ./build_arm/pthreadpool/libpthreadpool.a   ./build_arm/_deps/cpuinfo-build/libcpuinfo.a   ./build_arm/_deps/farmhash-build/libfarmhash.a   ./build_arm/_deps/ruy-build/ruy/libruy_blocking_counter.a   ./build_arm/_deps/ruy-build/ruy/libruy_block_map.a   ./build_arm/_deps/fft2d-build/libfft2d_fftsg.a   ./build_arm/_deps/xnnpack-build/libXNNPACK.a   ./zlib/build/lib/libz.a  -L/usr/lib/arm-linux-gnueabihf   -lpthread -ldl -lm -lstdc++ > build.log 2>&1
+  121  vim build.log 
+  122  :q!
+  123  arm-linux-gnueabihf-g++ main.c -o main.arm   -I./ -I./build_arm -I./build_arm/eigen -I./build_arm/abseil-cpp -I./build_arm/flatbuffers/include   -march=armv7-a -mfpu=neon-vfpv4 -mfloat-abi=hard   ./build_arm/libtensorflow-lite.a   ./build_arm/_deps/flatbuffers-build/libflatbuffers.a   ./build_arm/_deps/ruy-build/ruy/*.a   ./build_arm/pthreadpool/libpthreadpool.a   ./build_arm/_deps/cpuinfo-build/libcpuinfo.a   ./build_arm/_deps/farmhash-build/libfarmhash.a   ./build_arm/_deps/ruy-build/ruy/libruy_blocking_counter.a   ./build_arm/_deps/ruy-build/ruy/libruy_block_map.a   ./build_arm/_deps/fft2d-build/*.a  ./build_arm/_deps/xnnpack-build/libXNNPACK.a   ./zlib/build/lib/libz.a  -L/usr/lib/arm-linux-gnueabihf   -lpthread -ldl -lm -lstdc++ > build.log 2>&1
+  124  arm-linux-gnueabihf-g++ main.c -o main.arm   -I./ -I./build_arm -I./build_arm/eigen -I./build_arm/abseil-cpp -I./build_arm/flatbuffers/include   -march=armv7-a -mfpu=neon-vfpv4 -mfloat-abi=hard   ./build_arm/libtensorflow-lite.a   ./build_arm/_deps/flatbuffers-build/libflatbuffers.a   ./build_arm/_deps/ruy-build/ruy/*.a   ./build_arm/pthreadpool/libpthreadpool.a   ./build_arm/_deps/cpuinfo-build/libcpuinfo.a   ./build_arm/_deps/farmhash-build/libfarmhash.a   ./build_arm/_deps/ruy-build/ruy/libruy_blocking_counter.a   ./build_arm/_deps/ruy-build/ruy/libruy_block_map.a   ./build_arm/_deps/fft2d-build/*.a  ./build_arm/_deps/xnnpack-build/libXNNPACK.a   ./zlib/build/lib/libz.a  -L/usr/lib/arm-linux-gnueabihf   -lpthread -ldl -lm -lstdc++ 
+  125  vim build.log 
+  126  ls build_arm/_deps/fft2d-build/
+  127  ls
+  128  cd  build_arm/_deps/fft2d-build/
+  129  rm -r
+  130  ls
+  131  rm -rf libfft2d_fft4f2d.a 
+  132  cd -
+  133* arm-linux-gnueabihf-g++ main.c -o main.arm   -I./ -I./build_arm -I./build_arm/eigen -I./build_arm/abseil-cpp -I./build_arm/flatbuffers/include   -march=armv7-a -mfpu=neon-vfpv4 -mfloat-abi=hard   ./build_arm/libtensorflow-lite.a   ./build_arm/_deps/flatbuffers-build/libflatbuffers.a   ./build_arm/_deps/ruy-build/ruy/*.a   ./build_arm/pthreadpool/libpthreadpool.a   ./build_arm/_deps/cpuinfo-build/libcpuinfo.a   ./build_arm/_deps/farmhash-build/libfarmhash.a   ./build_arm/_deps/ruy-build/ruy/libruy_blocking_counter.a   ./build_arm/_deps/ruy-build/ruy/libruy_block_map.a   ./build_arm/_deps/fft2d-build/*.a  ./build_arm/_deps/xnnpack-build/libXNNPACK.a   ./zlib/build/lib/libz.a  -L/usr/lib/arm-linux-gnueabihf   -lpthread -ldl -lm -lstdc++  >
+  134  arm-linux-gnueabihf-g++ main.c -o main.arm   -I./ -I./build_arm -I./build_arm/eigen -I./build_arm/abseil-cpp -I./build_arm/flatbuffers/include   -march=armv7-a -mfpu=neon-vfpv4 -mfloat-abi=hard   ./build_arm/libtensorflow-lite.a   ./build_arm/_deps/flatbuffers-build/libflatbuffers.a   ./build_arm/_deps/ruy-build/ruy/*.a   ./build_arm/pthreadpool/libpthreadpool.a   ./build_arm/_deps/cpuinfo-build/libcpuinfo.a   ./build_arm/_deps/farmhash-build/libfarmhash.a   ./build_arm/_deps/ruy-build/ruy/libruy_blocking_counter.a   ./build_arm/_deps/ruy-build/ruy/libruy_block_map.a   ./build_arm/_deps/fft2d-build/*.a  ./build_arm/_deps/xnnpack-build/libXNNPACK.a   ./zlib/build/lib/libz.a  -L/usr/lib/arm-linux-gnueabihf   -lpthread -ldl -lm -lstdc++ > build.log 2>&1
+  135  vim build.log 
+  136  arm-linux-gnueabihf-g++ main.c -o main.arm   -I./ -I./build_arm -I./build_arm/eigen -I./build_arm/abseil-cpp -I./build_arm/flatbuffers/include   -march=armv7-a -mfpu=neon-vfpv4 -mfloat-abi=hard   ./build_arm/libtensorflow-lite.a   ./build_arm/_deps/flatbuffers-build/libflatbuffers.a   ./build_arm/_deps/ruy-build/ruy/*.a   ./build_arm/pthreadpool/libpthreadpool.a   ./build_arm/_deps/cpuinfo-build/libcpuinfo.a   ./build_arm/_deps/farmhash-build/libfarmhash.a   ./build_arm/_deps/ruy-build/ruy/libruy_blocking_counter.a   ./build_arm/_deps/ruy-build/ruy/libruy_block_map.a   ./build_arm/_deps/fft2d-build/*.a  ./build_arm/_deps/xnnpack-build/libXNNPACK.a   ./zlib/build/lib/libz.a  -L/usr/lib/arm-linux-gnueabihf   -lpthread -ldl -lm -lstdc++ > build.log 2>&1
+  137  ls build_arm/_deps/cpuinfo-build/
+  138  arm-linux-gnueabihf-g++ main.c -o main.arm   -I./ -I./build_arm -I./build_arm/eigen -I./build_arm/abseil-cpp -I./build_arm/flatbuffers/include   -march=armv7-a -mfpu=neon-vfpv4 -mfloat-abi=hard   ./build_arm/libtensorflow-lite.a   ./build_arm/_deps/flatbuffers-build/libflatbuffers.a   ./build_arm/_deps/ruy-build/ruy/*.a   ./build_arm/pthreadpool/libpthreadpool.a   ./build_arm/_deps/cpuinfo-build/*.a   ./build_arm/_deps/farmhash-build/libfarmhash.a   ./build_arm/_deps/ruy-build/ruy/libruy_blocking_counter.a   ./build_arm/_deps/ruy-build/ruy/libruy_block_map.a   ./build_arm/_deps/fft2d-build/*.a  ./build_arm/_deps/xnnpack-build/libXNNPACK.a   ./zlib/build/lib/libz.a  -L/usr/lib/arm-linux-gnueabihf   -lpthread -ldl -lm -lstdc++ > build.log 2>&1
+  139  vim build.log 
+  140  arm-linux-gnueabihf-g++ main.c -o main.arm   -I./ -I./build_arm -I./build_arm/eigen -I./build_arm/abseil-cpp -I./build_arm/flatbuffers/include   -march=armv7-a -mfpu=neon-vfpv4 -mfloat-abi=hard   ./build_arm/libtensorflow-lite.a   ./build_arm/_deps/flatbuffers-build/libflatbuffers.a   ./build_arm/_deps/ruy-build/ruy/*.a   ./build_arm/pthreadpool/libpthreadpool.a   ./build_arm/_deps/cpuinfo-build/*.a   ./build_arm/_deps/farmhash-build/libfarmhash.a   ./build_arm/_deps/ruy-build/ruy/libruy_blocking_counter.a   ./build_arm/_deps/ruy-build/ruy/libruy_block_map.a   ./build_arm/_deps/fft2d-build/*.a  ./build_arm/_deps/xnnpack-build/libXNNPACK.a   ./zlib/build/lib/libz.a  -L/usr/lib/arm-linux-gnueabihf   -lpthread -ldl -lm -lstdc++ 
+  141  arm-linux-gnueabihf-g++ main.c -o main.arm   -I./ -I./build_arm -I./build_arm/eigen -I./build_arm/abseil-cpp -I./build_arm/flatbuffers/include   -march=armv7-a -mfpu=neon-vfpv4 -mfloat-abi=hard   ./build_arm/libtensorflow-lite.a   ./build_arm/_deps/flatbuffers-build/libflatbuffers.a   ./build_arm/_deps/ruy-build/ruy/*.a   ./build_arm/pthreadpool/libpthreadpool.a   ./build_arm/_deps/cpuinfo-build/*.a   ./build_arm/_deps/farmhash-build/libfarmhash.a   ./build_arm/_deps/ruy-build/ruy/libruy_blocking_counter.a   ./build_arm/_deps/ruy-build/ruy/libruy_block_map.a   ./build_arm/_deps/fft2d-build/*.a  ./build_arm/_deps/xnnpack-build/libXNNPACK.a   ./zlib/build/lib/libz.a  -L/usr/lib/arm-linux-gnueabihf   -lpthread -ldl -lm -lstdc++ > build.log 2>&1
+  142  ls ./build_arm/_deps/cpuinfo-build/
+  143  vim build.log 
+  144  arm-linux-gnueabihf-g++ main.c -o main.arm   -I./ -I./build_arm -I./build_arm/eigen -I./build_arm/abseil-cpp -I./build_arm/flatbuffers/include   -march=armv7-a -mfpu=neon-vfpv4 -mfloat-abi=hard   ./build_arm/libtensorflow-lite.a   ./build_arm/_deps/flatbuffers-build/libflatbuffers.a   ./build_arm/_deps/ruy-build/ruy/*.a   ./build_arm/pthreadpool/libpthreadpool.a  ./build/_deps/fft2d-build/*.a   ./build_arm/_deps/cpuinfo-build/*.a   ./build_arm/_deps/farmhash-build/libfarmhash.a   ./build_arm/_deps/ruy-build/ruy/libruy_blocking_counter.a   ./build_arm/_deps/ruy-build/ruy/libruy_block_map.a  ./build_arm/_deps/xnnpack-build/libXNNPACK.a   ./zlib/build/lib/libz.a  -L/usr/lib/arm-linux-gnueabihf   -lpthread -ldl -lm -lstdc++ 
+  145  arm-linux-gnueabihf-g++ main.c -o main.arm   -I./ -I./build_arm -I./build_arm/eigen -I./build_arm/abseil-cpp -I./build_arm/flatbuffers/include   -march=armv7-a -mfpu=neon-vfpv4 -mfloat-abi=hard   ./build_arm/libtensorflow-lite.a   ./build_arm/_deps/flatbuffers-build/libflatbuffers.a   ./build_arm/_deps/ruy-build/ruy/*.a   ./build_arm/pthreadpool/libpthreadpool.a  ./build/_deps/fft2d-build/*.a   ./build_arm/_deps/cpuinfo-build/*.a   ./build_arm/_deps/farmhash-build/libfarmhash.a   ./build_arm/_deps/ruy-build/ruy/libruy_blocking_counter.a   ./build_arm/_deps/ruy-build/ruy/libruy_block_map.a  ./build_arm/_deps/xnnpack-build/libXNNPACK.a   ./zlib/build/lib/libz.a  -L/usr/lib/arm-linux-gnueabihf   -lpthread -ldl -lm -lstdc++  > build.log  2>&1
+  146  vim build.log 
+  147  arm-linux-gnueabihf-g++ main.c -o main.arm   -I./ -I./build_arm -I./build_arm/eigen -I./build_arm/abseil-cpp -I./build_arm/flatbuffers/include   -march=armv7-a -mfpu=neon-vfpv4 -mfloat-abi=hard   ./build_arm/libtensorflow-lite.a   ./build_arm/_deps/flatbuffers-build/libflatbuffers.a   ./build_arm/_deps/ruy-build/ruy/*.a   ./build_arm/pthreadpool/libpthreadpool.a   ./build_arm/_deps/cpuinfo-build/*.a   ./build_arm/_deps/farmhash-build/libfarmhash.a   ./build_arm/_deps/ruy-build/ruy/libruy_blocking_counter.a   ./build_arm/_deps/ruy-build/ruy/libruy_block_map.a   ./build_arm/_deps/fft2d-build/*.a  ./build_arm/_deps/xnnpack-build/libXNNPACK.a   ./zlib/build/lib/libz.a  -L/usr/lib/arm-linux-gnueabihf   -lpthread -ldl -lm -lstdc++ > build.log 2>&1
+  148  arm-linux-gnueabihf-g++ main.c -o main.arm   -I./ -I./build_arm -I./build_arm/eigen -I./build_arm/abseil-cpp -I./build_arm/flatbuffers/include   -march=armv7-a -mfpu=neon-vfpv4 -mfloat-abi=hard   ./build_arm/libtensorflow-lite.a   ./build_arm/_deps/flatbuffers-build/libflatbuffers.a   ./build_arm/_deps/ruy-build/ruy/*.a   ./build_arm/pthreadpool/libpthreadpool.a   ./build_arm/_deps/cpuinfo-build/*.a   ./build_arm/_deps/farmhash-build/libfarmhash.a   ./build_arm/_deps/ruy-build/ruy/libruy_blocking_counter.a   ./build_arm/_deps/ruy-build/ruy/libruy_block_map.a   ./build_arm/_deps/fft2d-build/*.a  ./build_arm/_deps/xnnpack-build/libXNNPACK.a   -L./zlib/build/lib/libz.a  -lz   -L/usr/lib/arm-linux-gnueabihf   -lpthread -ldl -lm -lstdc++ > build.log 2>&1
+  149  vim build.log 
+  150  :
+  151  arm-linux-gnueabihf-g++ main.c -o main.arm   -I./ -I./build_arm -I./build_arm/eigen -I./build_arm/abseil-cpp -I./build_arm/flatbuffers/include   -march=armv7-a -mfpu=neon-vfpv4 -mfloat-abi=hard   ./build_arm/libtensorflow-lite.a   ./build_arm/_deps/flatbuffers-build/libflatbuffers.a   ./build_arm/_deps/ruy-build/ruy/*.a   ./build_arm/pthreadpool/libpthreadpool.a   ./build_arm/_deps/cpuinfo-build/*.a   ./build_arm/_deps/farmhash-build/libfarmhash.a   ./build_arm/_deps/ruy-build/ruy/libruy_blocking_counter.a   ./build_arm/_deps/ruy-build/ruy/libruy_block_map.a   ./build_arm/_deps/fft2d-build/*.a  ./build_arm/_deps/xnnpack-build/libXNNPACK.a   -L./zlib/build/lib/  -lz   -L/usr/lib/arm-linux-gnueabihf   -lpthread -ldl -lm -lstdc++ > build.log 2>&1
+  152  vim build.log 
+  153  git remote -v
+  154  git remote remove origin
+  155  git remote add origin  https://github.com/174high/classification_stain.git
+  156  git push  -u origin master
+  157  cd ..
+  158  ls
+  159  mkdir test 
+  160  cd bu
+  161  cd te
+  162  cd test/
+  163  ls
+  164  git ini 
+  165  git init 
+  166  vim test.log
+  167  git add test.log 
+  168  git commit -m "fist commit "
+  169  git branch -M main
+  170  git remote add origin https://github.com/174high/classification_stain.git
+  171  git push -u origin main
+  172  cp ../tensorflow/ . -r
+  173  ls
+  174  rm -rf tensorflow/.git
+  175  git add -u
+  176  git commit -m  "adding tensorflow "
+  177  git statuis
+  178  git status
+  179  git add tensorflow/
+  180  git commit -m "init"
+  181  git push origin
+  182  git push origin main 
+  183  arm-linux-gnueabihf-g++ main.c -o main.arm   -I./ -I./build_arm -I./build_arm/eigen -I./build_arm/abseil-cpp -I./build_arm/flatbuffers/include   -march=armv7-a -mfpu=neon-vfpv4 -mfloat-abi=hard   ./build_arm/libtensorflow-lite.a   ./build_arm/_deps/flatbuffers-build/libflatbuffers.a   ./build_arm/_deps/ruy-build/ruy/*.a   ./build_arm/pthreadpool/libpthreadpool.a   ./build_arm/_deps/cpuinfo-build/*.a   ./build_arm/_deps/farmhash-build/libfarmhash.a   ./build_arm/_deps/ruy-build/ruy/libruy_blocking_counter.a   ./build_arm/_deps/ruy-build/ruy/libruy_block_map.a   ./build_arm/_deps/fft2d-build/*.a  ./build_arm/_deps/xnnpack-build/libXNNPACK.a   -L./zlib/build/lib/  -lz   -L/usr/lib/arm-linux-gnueabihf   -lpthread -ldl -lm -lstdc++ > build.log 2>&1
+  184  shitory | tail
+  185  history | tail
+  186  history 183 >> saved_cmds.txt
+    7  ls
+    8  git clone  https://gitee.com/johnnyshi174/classification_stain.git
+    9  ls
+   10  git clone  https://gitee.com/johnnyshi174/classification_stain.git
+   11  wget https://codeload.github.com/tensorflow/tensorflow/tar.gz/refs/tags/v2.13.0
+   12  ls
+   13  c
+   14  ls
+   15  ls -all
+   16  chmod 777 v2.13.0 
+   17  ls
+   18  file v2.13.0 
+   19  gzip v2.13.0 
+   20  file v2.13.0.gz 
+   21  ls
+   22  gunzip v2.13.0.gz 
+   23  ls
+   24  file v2.13.0.gz 
+   25  file v2.13.0
+   26  ls
+   27  rm -rf v2.13.0 
+   28  ls
+   29  git clone https://github.com/tensorflow/tensorflow/tree/r2.13
+   30  git clone https://github.com/tensorflow/tensorflow
+   31  ls
+   32  cd tensorflow/
+   33  ls
+   34  git branch -a
+   35  q
+   36  ls
+   37  sudo apt install -y gcc-arm-linux-gnueabihf g++-arm-linux-gnueabihf
+   38  ls
+   39  mkdir build
+   40  cd build/
+   41  ls
+   42  cmake ../tensorflow/lite/   -DCMAKE_SYSTEM_NAME=Linux   -DCMAKE_SYSTEM_PROCESSOR=arm   -DCMAKE_C_COMPILER=arm-linux-gnueabihf-gcc   -DCMAKE_CXX_COMPILER=arm-linux-gnueabihf-g++
+   43  cd ..
+   44  git branch -a 
+   45  git checkout v2.13.0
+   46  LS
+   47  ls
+   48  cd build/
+   49  cmake ../tensorflow/lite/   -DCMAKE_SYSTEM_NAME=Linux   -DCMAKE_SYSTEM_PROCESSOR=arm   -DCMAKE_C_COMPILER=arm-linux-gnueabihf-gcc   -DCMAKE_CXX_COMPILER=arm-linux-gnueabihf-g++
+   50  make -j8
+   51  ls
+   52  cd ..
+   53  ls
+   54  vi main.c
+   55  vim main.c
+   56  ls
+   57  arm-linux-gnueabihf-g++ main.c -o main   -I./ -I./build_arm -I./build_arm/eigen -I./build_arm/abseil-cpp -I./build_arm/flatbuffers/include   -march=armv7-a -mfpu=neon-vfpv4 -mfloat-abi=hard   ./build_arm/libtensorflow-lite.a   ./build_arm/_deps/flatbuffers-build/libflatbuffers.a   ./build_arm/_deps/ruy-build/ruy/*.a   ./build_arm/pthreadpool/libpthreadpool.a   cpuinfo_full/build/libcpuinfo.a   ./build_arm/_deps/farmhash-build/libfarmhash.a   ./build_arm/_deps/ruy-build/ruy/libruy_blocking_counter.a   ./build_arm/_deps/ruy-build/ruy/libruy_block_map.a   ./build_arm/_deps/fft2d-build/libfft2d_fftsg.a   ./build_arm/_deps/xnnpack-build/libXNNPACK.a   -L/usr/lib/arm-linux-gnueabihf   -lpthread -ldl -lm -lstdc++
+   58  mv build/ build_arm
+   59  arm-linux-gnueabihf-g++ main.c -o main   -I./ -I./build_arm -I./build_arm/eigen -I./build_arm/abseil-cpp -I./build_arm/flatbuffers/include   -march=armv7-a -mfpu=neon-vfpv4 -mfloat-abi=hard   ./build_arm/libtensorflow-lite.a   ./build_arm/_deps/flatbuffers-build/libflatbuffers.a   ./build_arm/_deps/ruy-build/ruy/*.a   ./build_arm/pthreadpool/libpthreadpool.a   cpuinfo_full/build/libcpuinfo.a   ./build_arm/_deps/farmhash-build/libfarmhash.a   ./build_arm/_deps/ruy-build/ruy/libruy_blocking_counter.a   ./build_arm/_deps/ruy-build/ruy/libruy_block_map.a   ./build_arm/_deps/fft2d-build/libfft2d_fftsg.a   ./build_arm/_deps/xnnpack-build/libXNNPACK.a   -L/usr/lib/arm-linux-gnueabihf   -lpthread -ldl -lm -lstdc++
+   60  arm-linux-gnueabihf-g++ main.c -o main.arm   -I./ -I./build_arm -I./build_arm/eigen -I./build_arm/abseil-cpp -I./build_arm/flatbuffers/include   -march=armv7-a -mfpu=neon-vfpv4 -mfloat-abi=hard   ./build_arm/libtensorflow-lite.a   ./build_arm/_deps/flatbuffers-build/libflatbuffers.a   ./build_arm/_deps/ruy-build/ruy/*.a   ./build_arm/pthreadpool/libpthreadpool.a   ./build_arm/_deps/cpuinfo-build/libcpuinfo.a   ./build_arm/_deps/farmhash-build/libfarmhash.a   ./build_arm/_deps/ruy-build/ruy/libruy_blocking_counter.a   ./build_arm/_deps/ruy-build/ruy/libruy_block_map.a   ./build_arm/_deps/fft2d-build/libfft2d_fftsg.a   ./build_arm/_deps/xnnpack-build/libXNNPACK.a   -L/usr/lib/arm-linux-gnueabihf   -lpthread -ldl -lm -lstdc++
+   61  arm-linux-gnueabihf-g++ main.c -o main.arm   -I./ -I./build_arm -I./build_arm/eigen -I./build_arm/abseil-cpp -I./build_arm/flatbuffers/include   -march=armv7-a -mfpu=neon-vfpv4 -mfloat-abi=hard   ./build_arm/libtensorflow-lite.a   ./build_arm/_deps/flatbuffers-build/libflatbuffers.a   ./build_arm/_deps/ruy-build/ruy/*.a   ./build_arm/pthreadpool/libpthreadpool.a   ./build_arm/_deps/cpuinfo-build/libcpuinfo.a   ./build_arm/_deps/farmhash-build/libfarmhash.a   ./build_arm/_deps/ruy-build/ruy/libruy_blocking_counter.a   ./build_arm/_deps/ruy-build/ruy/libruy_block_map.a   ./build_arm/_deps/fft2d-build/libfft2d_fftsg.a   ./build_arm/_deps/xnnpack-build/libXNNPACK.a   -L/usr/lib/arm-linux-gnueabihf   -lpthread -ldl -lm -lstdc++ > log
+   62  vim log 
+   63  arm-linux-gnueabihf-g++ main.c -o main.arm   -I./ -I./build_arm -I./build_arm/eigen -I./build_arm/abseil-cpp -I./build_arm/flatbuffers/include   -march=armv7-a -mfpu=neon-vfpv4 -mfloat-abi=hard   ./build_arm/libtensorflow-lite.a   ./build_arm/_deps/flatbuffers-build/libflatbuffers.a   ./build_arm/_deps/ruy-build/ruy/*.a   ./build_arm/pthreadpool/libpthreadpool.a   ./build_arm/_deps/cpuinfo-build/libcpuinfo.a   ./build_arm/_deps/farmhash-build/libfarmhash.a   ./build_arm/_deps/ruy-build/ruy/libruy_blocking_counter.a   ./build_arm/_deps/ruy-build/ruy/libruy_block_map.a   ./build_arm/_deps/fft2d-build/libfft2d_fftsg.a   ./build_arm/_deps/xnnpack-build/libXNNPACK.a   -L/usr/lib/arm-linux-gnueabihf   -lpthread -ldl -lm -lstdc++ > build.log  2>&1
+   64  vim build.log 
+   65  g++ main.c -o main   -I./ -I./build -I./build/eigen -I./build/abseil-cpp -I./build/flatbuffers/include   ./build/libtensorflow-lite.a   ./build/_deps/flatbuffers-build/libflatbuffers.a   ./build/_deps/ruy-build/ruy/*.a g a.r/mb-uliilndu/xp-tghnrueeaadbpiohofl-/gl+i+b pmtahirne.acd p-ooo lm.aai n  . / b-uIi.l/d /-_Id.e/pbsu/iclpdu i-nIf.o/-bbuuiilldd//e*i.gae n  .-/Ib.u/ibludi/l_dd/eapbss/efialr-mchpaps h--Ib.u/ibludi/lldi/bfflaartmbhuafsfhe.ras /.i/nbculiuldde/ _ d e.p/sb/uriulyd-/bluiibltde/nrsuoyr/flliobwr-ulyi_tbel.oac k i n.g/_bcuoiulndt/e_rd.eap s /.f/lbautibludf/f_edresp-sb/uriulyd-/bluiiblfdl/artubyu/flfiebrrsu.ya_ b l o.c/kb_umialpd./a_ d e.p/sb/uriulyd-/b_udielpds//rfufyt/2*d.-ab u i.l/db/u*i.lad /-pltphtrheraedapdo o-ll/dlli b-pltmh r-elazd p-oloslt.dac + +.
+   66  /build/_deps/cpuinfo-build/*.a  ./build/_deps/farmhash-build/libfarmhash.a ./build/_deps/ruy-build/ruy/libruy_blocking_counter.a  .g/+b+u imladi/n_.dce p-so/ rmuayi-nb u i l-dI/.r/u y-/Il.i/bbruuiyl_db l-oIc.k/_bmuaipl.da/ e i.g/ebnu i-lId.//_bdueiplsd//fafbts2edi-lb-uciplpd /-*I..a/ b-ulipltdh/rfelaadt b-ulfdfle r-sl/mi n-cllzu d-el s t d.c/+b+u
+   67  ha
+   68  sh
+   69  arm-linux-gnueabihf-g++ main.c -o main  -I./ -I./build -I./build/eigen -I./build/abseil-cpp -I./build/flatbuffers/include   ./build/libtensorflow-lite.a   ./build/_deps/flatbuffers-build/libflatbuffers.a   ./build/_deps/ruy-build/ruy/*.a  ./build/pthreadpool/libpthreadpool.a  ./build/_deps/cpuinfo-build/*.a  ./build/_deps/farmhash-build/libfarmhash.a ./build/_deps/ruy-build/ruy/libruy_blocking_counter.a  ./build/_deps/ruy-build/ruy/libruy_block_map.a  ./build/_deps/fft2d-build/*.a -lpthread -ldl -lm -lz -lstdc++
+   70  cp build_arm/ build -r
+   71  arm-linux-gnueabihf-g++ main.c -o main  -I./ -I./build -I./build/eigen -I./build/abseil-cpp -I./build/flatbuffers/include   ./build/libtensorflow-lite.a   ./build/_deps/flatbuffers-build/libflatbuffers.a   ./build/_deps/ruy-build/ruy/*.a  ./build/pthreadpool/libpthreadpool.a  ./build/_deps/cpuinfo-build/*.a  ./build/_deps/farmhash-build/libfarmhash.a ./build/_deps/ruy-build/ruy/libruy_blocking_counter.a  ./build/_deps/ruy-build/ruy/libruy_block_map.a  ./build/_deps/fft2d-build/*.a -lpthread -ldl -lm -lz -lstdc++
+   72  arm-linux-gnueabihf-g++ main.c -o main  -I./ -I./build -I./build/eigen -I./build/abseil-cpp -I./build/flatbuffers/include   ./build/libtensorflow-lite.a   ./build/_deps/flatbuffers-build/libflatbuffers.a   ./build/_deps/ruy-build/ruy/*.a  ./build/pthreadpool/libpthreadpool.a  ./build/_deps/cpuinfo-build/*.a  ./build/_deps/farmhash-build/libfarmhash.a ./build/_deps/ruy-build/ruy/libruy_blocking_counter.a  ./build/_deps/ruy-build/ruy/libruy_block_map.a  ./build/_deps/fft2d-build/*.a -lpthread -ldl -lm - -lstdc++
+   73  arm-linux-gnueabihf-g++ main.c -o main  -I./ -I./build -I./build/eigen -I./build/abseil-cpp -I./build/flatbuffers/include   ./build/libtensorflow-lite.a   ./build/_deps/flatbuffers-build/libflatbuffers.a   ./build/_deps/ruy-build/ruy/*.a  ./build/pthreadpool/libpthreadpool.a  ./build/_deps/cpuinfo-build/*.a  ./build/_deps/farmhash-build/libfarmhash.a ./build/_deps/ruy-build/ruy/libruy_blocking_counter.a  ./build/_deps/ruy-build/ruy/libruy_block_map.a  ./build/_deps/fft2d-build/*.a -lpthread -ldl -lm  -lstdc++
+   74  arm-linux-gnueabihf-g++ main.c -o main  -I./ -I./build -I./build/eigen -I./build/abseil-cpp -I./build/flatbuffers/include   ./build/libtensorflow-lite.a   ./build/_deps/flatbuffers-build/libflatbuffers.a   ./build/_deps/ruy-build/ruy/*.a  ./build/pthreadpool/libpthreadpool.a  ./build/_deps/cpuinfo-build/*.a  ./build/_deps/farmhash-build/libfarmhash.a ./build/_deps/ruy-build/ruy/libruy_blocking_counter.a  ./build/_deps/ruy-build/ruy/libruy_block_map.a  ./build/_deps/fft2d-build/*.a -lpthread -ldl -lm  -lstdc++ > build.log  2>&1
+   75  vim build.log 
+   76  :q!
+   77  arm-linux-gnueabihf-g++ main.c -o main  -I./ -I./build -I./build/eigen -I./build/abseil-cpp -I./build/flatbuffers/include   ./build/libtensorflow-lite.a   ./build/_deps/flatbuffers-build/libflatbuffers.a   ./build/_deps/ruy-build/ruy/*.a  ./build/pthreadpool/libpthreadpool.a  ./build/_deps/cpuinfo-build/*.a  ./build/_deps/farmhash-build/libfarmhash.a ./build/_deps/ruy-build/ruy/libruy_blocking_counter.a  ./build/_deps/ruy-build/ruy/libruy_block_map.a  ./build/_deps/fft2d-build/*.a -lpthread -ldl -lm -lz -lstdc++
+   78  cp ./build/_deps/fft2d-build/libfft2d_fftsg.a  .
+   79  rm -rf ./build/_deps/fft2d-build/libfft2d_fftsg.a 
+   80  arm-linux-gnueabihf-g++ main.c -o main  -I./ -I./build -I./build/eigen -I./build/abseil-cpp -I./build/flatbuffers/include   ./build/libtensorflow-lite.a   ./build/_deps/flatbuffers-build/libflatbuffers.a   ./build/_deps/ruy-build/ruy/*.a  ./build/pthreadpool/libpthreadpool.a  ./build/_deps/cpuinfo-build/*.a  ./build/_deps/farmhash-build/libfarmhash.a ./build/_deps/ruy-build/ruy/libruy_blocking_counter.a  ./build/_deps/ruy-build/ruy/libruy_block_map.a  ./build/_deps/fft2d-build/*.a -lpthread -ldl -lm -lz -lstdc++
+   81  sudo apt-get install zlib1g-dev:armhf
+   82  wget https://zlib.net/zlib-1.2.13.tar.gz
+   83  sudo apt-get install zlib1g-dev:armhf
+   84  wget https://zlib.net/zlib-1.2.13.tar.gz
+   85  git clone https://github.com/madler/zlib.git
+   86  cd zlib/
+   87  ls
+   88  export CC=arm-linux-gnueabihf-gcc
+   89  ls
+   90  export AR=arm-linux-gnueabihf-ar
+   91  export RANLIB=arm-linux-gnueabihf-ranlib
+   92  ls
+   93  git checkout v1.2.13
+   94  ./configure --prefix=$PWD/build --static
+   95  make
+   96  make install 
+   97  cd ..
+   98  arm-linux-gnueabihf-g++ main.cpp -o main   -I./ -I./build -I./build/eigen -I./build/abseil-cpp -I./build/flatbuffers/include   -I/path/to/zlib/build/include   ./build/libtensorflow-lite.a   ./build/_deps/ruy-build/ruy/*.a   ./build/pthreadpool/libpthreadpool.a   ./build/_deps/cpuinfo-build/*.a   ./build/_deps/farmhash-build/libfarmhash.a   ./build/_deps/flatbuffers-build/libflatbuffers.a   ./build/_deps/fft2d-build/*.a   -L./zlib/build/lib -lz   -lpthread -ldl -lm -lstdc++   -march=armv7-a -mfpu=neon -mfloat-abi=hard
+   99  ls
+  100  arm-linux-gnueabihf-g++ main.c -o main   -I./ -I./build -I./build/eigen -I./build/abseil-cpp -I./build/flatbuffers/include   -I/path/to/zlib/build/include   ./build/libtensorflow-lite.a   ./build/_deps/ruy-build/ruy/*.a   ./build/pthreadpool/libpthreadpool.a   ./build/_deps/cpuinfo-build/*.a   ./build/_deps/farmhash-build/libfarmhash.a   ./build/_deps/flatbuffers-build/libflatbuffers.a   ./build/_deps/fft2d-build/*.a   -L./zlib/build/lib -lz   -lpthread -ldl -lm -lstdc++   -march=armv7-a -mfpu=neon -mfloat-abi=hard
+  101  arm-linux-gnueabihf-g++ main.c -o main   -I./ -I./build -I./build/eigen -I./build/abseil-cpp -I./build/flatbuffers/include   -I/path/to/zlib/build/include   ./build/libtensorflow-lite.a   ./build/_deps/ruy-build/ruy/*.a   ./build/pthreadpool/libpthreadpool.a   ./build/_deps/cpuinfo-build/*.a   ./build/_deps/farmhash-build/libfarmhash.a   ./build/_deps/flatbuffers-build/libflatbuffers.a   ./build/_deps/fft2d-build/*.a   -L./zlib/build/lib -lz   -lpthread -ldl -lm -lstdc++   -march=armv7-a -mfpu=neon -mfloat-abi=hard >  build.log  2>&1 
+  102  vim main.c n
+  103  vim build.log 
+  104  reboot
+  105  ls
+  106  cd tensorflow/
+  107  ls
+  108  arm-linux-gnueabihf-g++ main.c -o main.arm   -I./ -I./build_arm -I./build_arm/eigen -I./build_arm/abseil-cpp -I./build_arm/flatbuffers/include   -march=armv7-a -mfpu=neon-vfpv4 -mfloat-abi=hard   ./build_arm/libtensorflow-lite.a   ./build_arm/_deps/flatbuffers-build/libflatbuffers.a   ./build_arm/_deps/ruy-build/ruy/*.a   ./build_arm/pthreadpool/libpthreadpool.a   cpuinfo_full/build/libcpuinfo.a   ./build_arm/_deps/farmhash-build/libfarmhash.a   ./build_arm/_deps/ruy-build/ruy/libruy_blocking_counter.a   ./build_arm/_deps/ruy-build/ruy/libruy_block_map.a   ./build_arm/_deps/fft2d-build/libfft2d_fftsg.a   ./build_arm/_deps/xnnpack-build/libXNNPACK.a   -L/usr/lib/arm-linux-gnueabihf   -lpthread -ldl -lm -lstdc++
+  109  cp build build_arm -r 
+  110  ls
+  111  arm-linux-gnueabihf-g++ main.c -o main.arm   -I./ -I./build_arm -I./build_arm/eigen -I./build_arm/abseil-cpp -I./build_arm/flatbuffers/include   -march=armv7-a -mfpu=neon-vfpv4 -mfloat-abi=hard   ./build_arm/libtensorflow-lite.a   ./build_arm/_deps/flatbuffers-build/libflatbuffers.a   ./build_arm/_deps/ruy-build/ruy/*.a   ./build_arm/pthreadpool/libpthreadpool.a   cpuinfo_full/build/libcpuinfo.a   ./build_arm/_deps/farmhash-build/libfarmhash.a   ./build_arm/_deps/ruy-build/ruy/libruy_blocking_counter.a   ./build_arm/_deps/ruy-build/ruy/libruy_block_map.a   ./build_arm/_deps/fft2d-build/libfft2d_fftsg.a   ./build_arm/_deps/xnnpack-build/libXNNPACK.a   -L/usr/lib/arm-linux-gnueabihf   -lpthread -ldl -lm -lstdc++
+  112  arm-linux-gnueabihf-g++ main.c -o main.arm   -I./ -I./build_arm -I./build_arm/eigen -I./build_arm/abseil-cpp -I./build_arm/flatbuffers/include   -march=armv7-a -mfpu=neon-vfpv4 -mfloat-abi=hard   ./build_arm/libtensorflow-lite.a   ./build_arm/_deps/flatbuffers-build/libflatbuffers.a   ./build_arm/_deps/ruy-build/ruy/*.a   ./build_arm/pthreadpool/libpthreadpool.a   cpuinfo_full/build/libcpuinfo.a   ./build_arm/_deps/farmhash-build/libfarmhash.a   ./build_arm/_deps/ruy-build/ruy/libruy_blocking_counter.a   ./build_arm/_deps/ruy-build/ruy/libruy_block_map.a   ./build_arm/_deps/fft2d-build/libfft2d_fftsg.a   ./build_arm/_deps/xnnpack-build/libXNNPACK.a   -L./zlib/build/lib -lz  -L/usr/lib/arm-linux-gnueabihf   -lpthread -ldl -lm -lstdc++
+  113  arm-linux-gnueabihf-g++ main.c -o main.arm   -I./ -I./build_arm -I./build_arm/eigen -I./build_arm/abseil-cpp -I./build_arm/flatbuffers/include   -march=armv7-a -mfpu=neon-vfpv4 -mfloat-abi=hard   ./build_arm/libtensorflow-lite.a   ./build_arm/_deps/flatbuffers-build/libflatbuffers.a   ./build_arm/_deps/ruy-build/ruy/*.a   ./build_arm/pthreadpool/libpthreadpool.a   ./build_arm/_deps/cpuinfo-build/libcpuinfo.a   ./build_arm/_deps/farmhash-build/libfarmhash.a   ./build_arm/_deps/ruy-build/ruy/libruy_blocking_counter.a   ./build_arm/_deps/ruy-build/ruy/libruy_block_map.a   ./build_arm/_deps/fft2d-build/libfft2d_fftsg.a   ./build_arm/_deps/xnnpack-build/libXNNPACK.a   ./zlib/build/lib -lz   -L/usr/lib/arm-linux-gnueabihf   -lpthread -ldl -lm -lstdc++
+  114  ls zlib/build/lib/
+  115  arm-linux-gnueabihf-g++ main.c -o main.arm   -I./ -I./build_arm -I./build_arm/eigen -I./build_arm/abseil-cpp -I./build_arm/flatbuffers/include   -march=armv7-a -mfpu=neon-vfpv4 -mfloat-abi=hard   ./build_arm/libtensorflow-lite.a   ./build_arm/_deps/flatbuffers-build/libflatbuffers.a   ./build_arm/_deps/ruy-build/ruy/*.a   ./build_arm/pthreadpool/libpthreadpool.a   ./build_arm/_deps/cpuinfo-build/libcpuinfo.a   ./build_arm/_deps/farmhash-build/libfarmhash.a   ./build_arm/_deps/ruy-build/ruy/libruy_blocking_counter.a   ./build_arm/_deps/ruy-build/ruy/libruy_block_map.a   ./build_arm/_deps/fft2d-build/libfft2d_fftsg.a   ./build_arm/_deps/xnnpack-build/libXNNPACK.a   ./zlib/build/lib/libz.a  -L/usr/lib/arm-linux-gnueabihf   -lpthread -ldl -lm -lstdc++
+  116  arm-linux-gnueabihf-g++ main.c -o main.arm   -I./ -I./build_arm -I./build_arm/eigen -I./build_arm/abseil-cpp -I./build_arm/flatbuffers/include   -march=armv7-a -mfpu=neon-vfpv4 -mfloat-abi=hard   ./build_arm/libtensorflow-lite.a   ./build_arm/_deps/flatbuffers-build/libflatbuffers.a   ./build_arm/_deps/ruy-build/ruy/*.a   ./build_arm/pthreadpool/libpthreadpool.a   ./build_arm/_deps/cpuinfo-build/libcpuinfo.a   ./build_arm/_deps/farmhash-build/libfarmhash.a   ./build_arm/_deps/ruy-build/ruy/libruy_blocking_counter.a   ./build_arm/_deps/ruy-build/ruy/libruy_block_map.a   ./build_arm/_deps/fft2d-build/libfft2d_fftsg.a   ./build_arm/_deps/xnnpack-build/libXNNPACK.a   ./zlib/build/lib/libz.a  -L/usr/lib/arm-linux-gnueabihf   -lpthread -ldl -lm -lstdc++ > build.log
+  117  vim build.log 
+  118  arm-linux-gnueabihf-g++ main.c -o main.arm   -I./ -I./build_arm -I./build_arm/eigen -I./build_arm/abseil-cpp -I./build_arm/flatbuffers/include   -march=armv7-a -mfpu=neon-vfpv4 -mfloat-abi=hard   ./build_arm/libtensorflow-lite.a   ./build_arm/_deps/flatbuffers-build/libflatbuffers.a   ./build_arm/_deps/ruy-build/ruy/*.a   ./build_arm/pthreadpool/libpthreadpool.a   ./build_arm/_deps/cpuinfo-build/libcpuinfo.a   ./build_arm/_deps/farmhash-build/libfarmhash.a   ./build_arm/_deps/ruy-build/ruy/libruy_blocking_counter.a   ./build_arm/_deps/ruy-build/ruy/libruy_block_map.a   ./build_arm/_deps/fft2d-build/libfft2d_fftsg.a   ./build_arm/_deps/xnnpack-build/libXNNPACK.a   ./zlib/build/lib/libz.a  -L/usr/lib/arm-linux-gnueabihf   -lpthread -ldl -lm -lstdc++ > build.log 2>&1
+  119  vim build.log 
+  120  arm-linux-gnueabihf-g++ main.c -o main.arm   -I./ -I./build_arm -I./build_arm/eigen -I./build_arm/abseil-cpp -I./build_arm/flatbuffers/include   -march=armv7-a -mfpu=neon-vfpv4 -mfloat-abi=hard   ./build_arm/libtensorflow-lite.a   ./build_arm/_deps/flatbuffers-build/libflatbuffers.a   ./build_arm/_deps/ruy-build/ruy/*.a   ./build_arm/pthreadpool/libpthreadpool.a   ./build_arm/_deps/cpuinfo-build/libcpuinfo.a   ./build_arm/_deps/farmhash-build/libfarmhash.a   ./build_arm/_deps/ruy-build/ruy/libruy_blocking_counter.a   ./build_arm/_deps/ruy-build/ruy/libruy_block_map.a   ./build_arm/_deps/fft2d-build/libfft2d_fftsg.a   ./build_arm/_deps/xnnpack-build/libXNNPACK.a   ./zlib/build/lib/libz.a  -L/usr/lib/arm-linux-gnueabihf   -lpthread -ldl -lm -lstdc++ > build.log 2>&1
+  121  vim build.log 
+  122  :q!
+  123  arm-linux-gnueabihf-g++ main.c -o main.arm   -I./ -I./build_arm -I./build_arm/eigen -I./build_arm/abseil-cpp -I./build_arm/flatbuffers/include   -march=armv7-a -mfpu=neon-vfpv4 -mfloat-abi=hard   ./build_arm/libtensorflow-lite.a   ./build_arm/_deps/flatbuffers-build/libflatbuffers.a   ./build_arm/_deps/ruy-build/ruy/*.a   ./build_arm/pthreadpool/libpthreadpool.a   ./build_arm/_deps/cpuinfo-build/libcpuinfo.a   ./build_arm/_deps/farmhash-build/libfarmhash.a   ./build_arm/_deps/ruy-build/ruy/libruy_blocking_counter.a   ./build_arm/_deps/ruy-build/ruy/libruy_block_map.a   ./build_arm/_deps/fft2d-build/*.a  ./build_arm/_deps/xnnpack-build/libXNNPACK.a   ./zlib/build/lib/libz.a  -L/usr/lib/arm-linux-gnueabihf   -lpthread -ldl -lm -lstdc++ > build.log 2>&1
+  124  arm-linux-gnueabihf-g++ main.c -o main.arm   -I./ -I./build_arm -I./build_arm/eigen -I./build_arm/abseil-cpp -I./build_arm/flatbuffers/include   -march=armv7-a -mfpu=neon-vfpv4 -mfloat-abi=hard   ./build_arm/libtensorflow-lite.a   ./build_arm/_deps/flatbuffers-build/libflatbuffers.a   ./build_arm/_deps/ruy-build/ruy/*.a   ./build_arm/pthreadpool/libpthreadpool.a   ./build_arm/_deps/cpuinfo-build/libcpuinfo.a   ./build_arm/_deps/farmhash-build/libfarmhash.a   ./build_arm/_deps/ruy-build/ruy/libruy_blocking_counter.a   ./build_arm/_deps/ruy-build/ruy/libruy_block_map.a   ./build_arm/_deps/fft2d-build/*.a  ./build_arm/_deps/xnnpack-build/libXNNPACK.a   ./zlib/build/lib/libz.a  -L/usr/lib/arm-linux-gnueabihf   -lpthread -ldl -lm -lstdc++ 
+  125  vim build.log 
+  126  ls build_arm/_deps/fft2d-build/
+  127  ls
+  128  cd  build_arm/_deps/fft2d-build/
+  129  rm -r
+  130  ls
+  131  rm -rf libfft2d_fft4f2d.a 
+  132  cd -
+  133* arm-linux-gnueabihf-g++ main.c -o main.arm   -I./ -I./build_arm -I./build_arm/eigen -I./build_arm/abseil-cpp -I./build_arm/flatbuffers/include   -march=armv7-a -mfpu=neon-vfpv4 -mfloat-abi=hard   ./build_arm/libtensorflow-lite.a   ./build_arm/_deps/flatbuffers-build/libflatbuffers.a   ./build_arm/_deps/ruy-build/ruy/*.a   ./build_arm/pthreadpool/libpthreadpool.a   ./build_arm/_deps/cpuinfo-build/libcpuinfo.a   ./build_arm/_deps/farmhash-build/libfarmhash.a   ./build_arm/_deps/ruy-build/ruy/libruy_blocking_counter.a   ./build_arm/_deps/ruy-build/ruy/libruy_block_map.a   ./build_arm/_deps/fft2d-build/*.a  ./build_arm/_deps/xnnpack-build/libXNNPACK.a   ./zlib/build/lib/libz.a  -L/usr/lib/arm-linux-gnueabihf   -lpthread -ldl -lm -lstdc++  >
+  134  arm-linux-gnueabihf-g++ main.c -o main.arm   -I./ -I./build_arm -I./build_arm/eigen -I./build_arm/abseil-cpp -I./build_arm/flatbuffers/include   -march=armv7-a -mfpu=neon-vfpv4 -mfloat-abi=hard   ./build_arm/libtensorflow-lite.a   ./build_arm/_deps/flatbuffers-build/libflatbuffers.a   ./build_arm/_deps/ruy-build/ruy/*.a   ./build_arm/pthreadpool/libpthreadpool.a   ./build_arm/_deps/cpuinfo-build/libcpuinfo.a   ./build_arm/_deps/farmhash-build/libfarmhash.a   ./build_arm/_deps/ruy-build/ruy/libruy_blocking_counter.a   ./build_arm/_deps/ruy-build/ruy/libruy_block_map.a   ./build_arm/_deps/fft2d-build/*.a  ./build_arm/_deps/xnnpack-build/libXNNPACK.a   ./zlib/build/lib/libz.a  -L/usr/lib/arm-linux-gnueabihf   -lpthread -ldl -lm -lstdc++ > build.log 2>&1
+  135  vim build.log 
+  136  arm-linux-gnueabihf-g++ main.c -o main.arm   -I./ -I./build_arm -I./build_arm/eigen -I./build_arm/abseil-cpp -I./build_arm/flatbuffers/include   -march=armv7-a -mfpu=neon-vfpv4 -mfloat-abi=hard   ./build_arm/libtensorflow-lite.a   ./build_arm/_deps/flatbuffers-build/libflatbuffers.a   ./build_arm/_deps/ruy-build/ruy/*.a   ./build_arm/pthreadpool/libpthreadpool.a   ./build_arm/_deps/cpuinfo-build/libcpuinfo.a   ./build_arm/_deps/farmhash-build/libfarmhash.a   ./build_arm/_deps/ruy-build/ruy/libruy_blocking_counter.a   ./build_arm/_deps/ruy-build/ruy/libruy_block_map.a   ./build_arm/_deps/fft2d-build/*.a  ./build_arm/_deps/xnnpack-build/libXNNPACK.a   ./zlib/build/lib/libz.a  -L/usr/lib/arm-linux-gnueabihf   -lpthread -ldl -lm -lstdc++ > build.log 2>&1
+  137  ls build_arm/_deps/cpuinfo-build/
+  138  arm-linux-gnueabihf-g++ main.c -o main.arm   -I./ -I./build_arm -I./build_arm/eigen -I./build_arm/abseil-cpp -I./build_arm/flatbuffers/include   -march=armv7-a -mfpu=neon-vfpv4 -mfloat-abi=hard   ./build_arm/libtensorflow-lite.a   ./build_arm/_deps/flatbuffers-build/libflatbuffers.a   ./build_arm/_deps/ruy-build/ruy/*.a   ./build_arm/pthreadpool/libpthreadpool.a   ./build_arm/_deps/cpuinfo-build/*.a   ./build_arm/_deps/farmhash-build/libfarmhash.a   ./build_arm/_deps/ruy-build/ruy/libruy_blocking_counter.a   ./build_arm/_deps/ruy-build/ruy/libruy_block_map.a   ./build_arm/_deps/fft2d-build/*.a  ./build_arm/_deps/xnnpack-build/libXNNPACK.a   ./zlib/build/lib/libz.a  -L/usr/lib/arm-linux-gnueabihf   -lpthread -ldl -lm -lstdc++ > build.log 2>&1
+  139  vim build.log 
+  140  arm-linux-gnueabihf-g++ main.c -o main.arm   -I./ -I./build_arm -I./build_arm/eigen -I./build_arm/abseil-cpp -I./build_arm/flatbuffers/include   -march=armv7-a -mfpu=neon-vfpv4 -mfloat-abi=hard   ./build_arm/libtensorflow-lite.a   ./build_arm/_deps/flatbuffers-build/libflatbuffers.a   ./build_arm/_deps/ruy-build/ruy/*.a   ./build_arm/pthreadpool/libpthreadpool.a   ./build_arm/_deps/cpuinfo-build/*.a   ./build_arm/_deps/farmhash-build/libfarmhash.a   ./build_arm/_deps/ruy-build/ruy/libruy_blocking_counter.a   ./build_arm/_deps/ruy-build/ruy/libruy_block_map.a   ./build_arm/_deps/fft2d-build/*.a  ./build_arm/_deps/xnnpack-build/libXNNPACK.a   ./zlib/build/lib/libz.a  -L/usr/lib/arm-linux-gnueabihf   -lpthread -ldl -lm -lstdc++ 
+  141  arm-linux-gnueabihf-g++ main.c -o main.arm   -I./ -I./build_arm -I./build_arm/eigen -I./build_arm/abseil-cpp -I./build_arm/flatbuffers/include   -march=armv7-a -mfpu=neon-vfpv4 -mfloat-abi=hard   ./build_arm/libtensorflow-lite.a   ./build_arm/_deps/flatbuffers-build/libflatbuffers.a   ./build_arm/_deps/ruy-build/ruy/*.a   ./build_arm/pthreadpool/libpthreadpool.a   ./build_arm/_deps/cpuinfo-build/*.a   ./build_arm/_deps/farmhash-build/libfarmhash.a   ./build_arm/_deps/ruy-build/ruy/libruy_blocking_counter.a   ./build_arm/_deps/ruy-build/ruy/libruy_block_map.a   ./build_arm/_deps/fft2d-build/*.a  ./build_arm/_deps/xnnpack-build/libXNNPACK.a   ./zlib/build/lib/libz.a  -L/usr/lib/arm-linux-gnueabihf   -lpthread -ldl -lm -lstdc++ > build.log 2>&1
+  142  ls ./build_arm/_deps/cpuinfo-build/
+  143  vim build.log 
+  144  arm-linux-gnueabihf-g++ main.c -o main.arm   -I./ -I./build_arm -I./build_arm/eigen -I./build_arm/abseil-cpp -I./build_arm/flatbuffers/include   -march=armv7-a -mfpu=neon-vfpv4 -mfloat-abi=hard   ./build_arm/libtensorflow-lite.a   ./build_arm/_deps/flatbuffers-build/libflatbuffers.a   ./build_arm/_deps/ruy-build/ruy/*.a   ./build_arm/pthreadpool/libpthreadpool.a  ./build/_deps/fft2d-build/*.a   ./build_arm/_deps/cpuinfo-build/*.a   ./build_arm/_deps/farmhash-build/libfarmhash.a   ./build_arm/_deps/ruy-build/ruy/libruy_blocking_counter.a   ./build_arm/_deps/ruy-build/ruy/libruy_block_map.a  ./build_arm/_deps/xnnpack-build/libXNNPACK.a   ./zlib/build/lib/libz.a  -L/usr/lib/arm-linux-gnueabihf   -lpthread -ldl -lm -lstdc++ 
+  145  arm-linux-gnueabihf-g++ main.c -o main.arm   -I./ -I./build_arm -I./build_arm/eigen -I./build_arm/abseil-cpp -I./build_arm/flatbuffers/include   -march=armv7-a -mfpu=neon-vfpv4 -mfloat-abi=hard   ./build_arm/libtensorflow-lite.a   ./build_arm/_deps/flatbuffers-build/libflatbuffers.a   ./build_arm/_deps/ruy-build/ruy/*.a   ./build_arm/pthreadpool/libpthreadpool.a  ./build/_deps/fft2d-build/*.a   ./build_arm/_deps/cpuinfo-build/*.a   ./build_arm/_deps/farmhash-build/libfarmhash.a   ./build_arm/_deps/ruy-build/ruy/libruy_blocking_counter.a   ./build_arm/_deps/ruy-build/ruy/libruy_block_map.a  ./build_arm/_deps/xnnpack-build/libXNNPACK.a   ./zlib/build/lib/libz.a  -L/usr/lib/arm-linux-gnueabihf   -lpthread -ldl -lm -lstdc++  > build.log  2>&1
+  146  vim build.log 
+  147  arm-linux-gnueabihf-g++ main.c -o main.arm   -I./ -I./build_arm -I./build_arm/eigen -I./build_arm/abseil-cpp -I./build_arm/flatbuffers/include   -march=armv7-a -mfpu=neon-vfpv4 -mfloat-abi=hard   ./build_arm/libtensorflow-lite.a   ./build_arm/_deps/flatbuffers-build/libflatbuffers.a   ./build_arm/_deps/ruy-build/ruy/*.a   ./build_arm/pthreadpool/libpthreadpool.a   ./build_arm/_deps/cpuinfo-build/*.a   ./build_arm/_deps/farmhash-build/libfarmhash.a   ./build_arm/_deps/ruy-build/ruy/libruy_blocking_counter.a   ./build_arm/_deps/ruy-build/ruy/libruy_block_map.a   ./build_arm/_deps/fft2d-build/*.a  ./build_arm/_deps/xnnpack-build/libXNNPACK.a   ./zlib/build/lib/libz.a  -L/usr/lib/arm-linux-gnueabihf   -lpthread -ldl -lm -lstdc++ > build.log 2>&1
+  148  arm-linux-gnueabihf-g++ main.c -o main.arm   -I./ -I./build_arm -I./build_arm/eigen -I./build_arm/abseil-cpp -I./build_arm/flatbuffers/include   -march=armv7-a -mfpu=neon-vfpv4 -mfloat-abi=hard   ./build_arm/libtensorflow-lite.a   ./build_arm/_deps/flatbuffers-build/libflatbuffers.a   ./build_arm/_deps/ruy-build/ruy/*.a   ./build_arm/pthreadpool/libpthreadpool.a   ./build_arm/_deps/cpuinfo-build/*.a   ./build_arm/_deps/farmhash-build/libfarmhash.a   ./build_arm/_deps/ruy-build/ruy/libruy_blocking_counter.a   ./build_arm/_deps/ruy-build/ruy/libruy_block_map.a   ./build_arm/_deps/fft2d-build/*.a  ./build_arm/_deps/xnnpack-build/libXNNPACK.a   -L./zlib/build/lib/libz.a  -lz   -L/usr/lib/arm-linux-gnueabihf   -lpthread -ldl -lm -lstdc++ > build.log 2>&1
+  149  vim build.log 
+  150  :
+  151  arm-linux-gnueabihf-g++ main.c -o main.arm   -I./ -I./build_arm -I./build_arm/eigen -I./build_arm/abseil-cpp -I./build_arm/flatbuffers/include   -march=armv7-a -mfpu=neon-vfpv4 -mfloat-abi=hard   ./build_arm/libtensorflow-lite.a   ./build_arm/_deps/flatbuffers-build/libflatbuffers.a   ./build_arm/_deps/ruy-build/ruy/*.a   ./build_arm/pthreadpool/libpthreadpool.a   ./build_arm/_deps/cpuinfo-build/*.a   ./build_arm/_deps/farmhash-build/libfarmhash.a   ./build_arm/_deps/ruy-build/ruy/libruy_blocking_counter.a   ./build_arm/_deps/ruy-build/ruy/libruy_block_map.a   ./build_arm/_deps/fft2d-build/*.a  ./build_arm/_deps/xnnpack-build/libXNNPACK.a   -L./zlib/build/lib/  -lz   -L/usr/lib/arm-linux-gnueabihf   -lpthread -ldl -lm -lstdc++ > build.log 2>&1
+  152  vim build.log 
+  153  git remote -v
+  154  git remote remove origin
+  155  git remote add origin  https://github.com/174high/classification_stain.git
+  156  git push  -u origin master
+  157  cd ..
+  158  ls
+  159  mkdir test 
+  160  cd bu
+  161  cd te
+  162  cd test/
+  163  ls
+  164  git ini 
+  165  git init 
+  166  vim test.log
+  167  git add test.log 
+  168  git commit -m "fist commit "
+  169  git branch -M main
+  170  git remote add origin https://github.com/174high/classification_stain.git
+  171  git push -u origin main
+  172  cp ../tensorflow/ . -r
+  173  ls
+  174  rm -rf tensorflow/.git
+  175  git add -u
+  176  git commit -m  "adding tensorflow "
+  177  git statuis
+  178  git status
+  179  git add tensorflow/
+  180  git commit -m "init"
+  181  git push origin
+  182  git push origin main 
+  183  arm-linux-gnueabihf-g++ main.c -o main.arm   -I./ -I./build_arm -I./build_arm/eigen -I./build_arm/abseil-cpp -I./build_arm/flatbuffers/include   -march=armv7-a -mfpu=neon-vfpv4 -mfloat-abi=hard   ./build_arm/libtensorflow-lite.a   ./build_arm/_deps/flatbuffers-build/libflatbuffers.a   ./build_arm/_deps/ruy-build/ruy/*.a   ./build_arm/pthreadpool/libpthreadpool.a   ./build_arm/_deps/cpuinfo-build/*.a   ./build_arm/_deps/farmhash-build/libfarmhash.a   ./build_arm/_deps/ruy-build/ruy/libruy_blocking_counter.a   ./build_arm/_deps/ruy-build/ruy/libruy_block_map.a   ./build_arm/_deps/fft2d-build/*.a  ./build_arm/_deps/xnnpack-build/libXNNPACK.a   -L./zlib/build/lib/  -lz   -L/usr/lib/arm-linux-gnueabihf   -lpthread -ldl -lm -lstdc++ > build.log 2>&1
+  184  shitory | tail
+  185  history | tail
+  186  history 183 >> saved_cmds.txt
+  187  vim saved_cmds.txt 
+  188  history | tail
+  189  history 183 >> saved_cmds.txt
